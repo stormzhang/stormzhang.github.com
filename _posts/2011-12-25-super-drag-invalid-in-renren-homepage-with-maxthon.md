@@ -1,6 +1,6 @@
 ---
 layout: post
-category : Web/Javascript
+categories : [Web, Javascript]
 tags : [Javascript]
 ---
 {% include JB/setup %}
