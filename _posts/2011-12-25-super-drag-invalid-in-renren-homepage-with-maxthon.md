@@ -1,8 +1,10 @@
 ---
 layout: post
 title: 人人网主页内遨游浏览器超级拖放功能失效
-categories : [Web, Javascript]
-tags : [Javascript]
+description: archive
+categories: [Web, Javascript]
+tags: [Javascript]
+group: archive
 ---
 {% include JB/setup %}
 

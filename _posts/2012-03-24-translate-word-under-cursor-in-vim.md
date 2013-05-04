@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "vim中添加快速单词查询功能"
-description: ""
+title: vim中添加快速单词查询功能
+description: archive
 categories: [Vim, Vimscript]
 tags: [Vim, Vimscript, Translate]
+group: archive
 ---
 {% include JB/setup %}
 

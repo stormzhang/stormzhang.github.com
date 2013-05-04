@@ -1,0 +1,16 @@
+/* 
+    Document   : codepiano
+    Created on : 2012-3-31, 0:12:19
+    Author     : Administrator
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.center{
+	text-align: center;
+}
+
+.fade {
+	font-size: 0.8em; 
+	color: #888;
+}
