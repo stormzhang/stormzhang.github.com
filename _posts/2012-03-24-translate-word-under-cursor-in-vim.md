@@ -43,13 +43,13 @@ sudo apt-get install sdcv stardict stardict-tools
 >
 >【经】 终站, 终点, 定期
 
-下面就是给vim添加命令，让vim调用shell命令去查询单词，把结果显示到vim中，在vimrc中添加下面的函数，需要查词的时候把光标移动到要查的词内，默认使用F进行查询，在左侧会打开一个窗口，显示查询结果。快捷键和窗口的设置都可以通过修改下面的函数来进行自定义。网上提供的函数代码，打开查询结果的窗口后光标也会跟随到新窗口去，还需要再通过命令跳转回文本窗口，不是很方便。我在函数后面加了一行命令 "wincmd p"，来跳转回刚才的窗口，这样查词就方便多了。
+下面就是给vim添加命令，让vim调用shell命令去查询单词，把结果显示到vim中，在vimrc中添加下面的函数，需要查词的时候把光标移动到要查的词内，默认使用<leader>F进行查询，在左侧会打开一个窗口，显示查询结果。快捷键和窗口的设置都可以通过修改下面的函数来进行自定义。网上提供的函数代码，打开查询结果的窗口后光标也会跟随到新窗口去，还需要再通过命令跳转回文本窗口，不是很方便。我在函数后面加了一行命令 "wincmd p"，来跳转回刚才的窗口，这样查词就方便多了。
 
 {% highlight vim script %}
 
 function! Mydict()
 	"执行sdcv命令查询单词的含义,返回的值保存在expl变量中
-	let expl=system('sdcv -n ' . expand(""))
+	let expl=system('sdcv -n ' . expand("<cword>"))
 	"在每个窗口中执行后面的命令，判断窗口中打开的文件名是否是dict-tmp，如果是，则强制关闭该窗口
 	windo if expand("%")=="dict-tmp" |q!|endif	
 	"纵向分割窗口，宽度为25，新窗口的内容为dict-tmp文件的内容
@@ -57,13 +57,12 @@ function! Mydict()
 	"设置查询结果窗口的属性，不缓存，不保留交换文件
 	setlocal buftype=nofile bufhidden=hide noswapfile
 	"将expl的内容显示到查询结果窗口
-	1s/^/=expl/
-	1
+	1s/^/\=expl/
 	"跳转回文本窗口
 	wincmd p
 endfunction
 "按键绑定，将调用函数并执行
-nmap F :call Mydict()
+nmap <leader>F :call Mydict()
 
 {% endhighlight %}
 

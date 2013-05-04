@@ -7,8 +7,8 @@ tagline: Supporting tagline
 
 <h2>All Pages</h2>
 <ul>
-{% assign pages_list = site.pages %}
-{% include JB/pages_list %}
+{% assign posts_collate = site.posts %}
+{% include JB/posts_collate %}
 </ul>
 
 
