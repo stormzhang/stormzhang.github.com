@@ -5,12 +5,13 @@ permalink: /:categories/:year/:month/:day/:title
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 auto: true
 pygments: true
+paginate: 5
 
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : codepiano - 隐匿于黑夜中的星
-tagline: 时间和知识交织的回响
+title : 时间和知识交织的回响
+tagline: 隐匿于黑夜中的星
 author :
   name : codepiano
   email : anyexingchen999@qq.com
