@@ -1,16 +1,34 @@
-/* 
-    Document   : codepiano
-    Created on : 2012-3-31, 0:12:19
-    Author     : Administrator
-    Description:
-        Purpose of the stylesheet follows.
-*/
-
-.center{
-	text-align: center;
+/* =============================================================================
+#     FileName: codepiano.css
+#         Desc: stylesheet for blog
+#       Author: codepiano
+#        Email: anyexingchen999@qq.com
+#     HomePage: http://www.weibo.com/anyexingchen
+#      Version: 0.0.1
+#   LastChange: 2013-05-07 22:31:21
+#      History:
+============================================================================= */
+a {
+  text-decoration: none;
 }
 
-.fade {
-	font-size: 0.8em; 
-	color: #888;
+a:link {
+  color: #1077bc;
+}
+
+a:hover {
+  color: #138aeb;
+  text-decoration: none;
+}
+
+a:active {
+  color: #3199ef;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #51a9f1;
+}
+
+.paragraph {
 }

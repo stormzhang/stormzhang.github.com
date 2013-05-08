@@ -4,68 +4,75 @@ title: codepiao
 tagline: Supporting tagline
 ---
 {% include JB/setup %}
-
-<!-- 按照分页插入博客文章 -->
-{% for post in paginator.posts %}
-  <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-  <p class="author">
-    <span class="date"><i class="icon-time"></i>{{ post.date | date: " %Y 年 %m 月 %d 日" }}</span>
-  </p>
-  <div class="content">
-    {{ post.content }}
+<div class="container-fluid">
+  <div class="span2">
   </div>
-{% endfor %}
+  <div class="span8">
+    <!-- 按照分页插入博客文章 -->
+    {% for post in paginator.posts %}
+    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+    <p class="author">
+    <span class="date"><i class="icon-time"></i>{{ post.date | date: " %Y 年 %m 月 %d 日" }}</span>
+    </p>
+    <div class="content">
+      {{ post.content }}
+    </div>
+    {% endfor %}
 
-<!-- 分页页码展示 -->
-<div id="post-pagination" class="pagination pagination-centered">
-  <ul>
-    <!-- 上一页按钮 -->
-    {% if paginator.previous_page %}
-      <li>
+    <!-- 分页页码展示 -->
+    <div id="post-pagination" class="pagination pagination-centered">
+      <ul>
+        <!-- 上一页按钮 -->
+        {% if paginator.previous_page %}
+        <li>
         {% if paginator.previous_page == 1 %}
-          <a href="/"><i class="icon-chevron-left"></i></a>
+        <a href="/"><i class="icon-chevron-left"></i></a>
         {% else %}
-          <a href="{{ paginator.previous_page_path }}"><i class="icon-chevron-left"></i></a>
+        <a href="{{ paginator.previous_page_path }}"><i class="icon-chevron-left"></i></a>
         {% endif %}
-      </li>
-    {% else %}
-      <li class="disabled">
+        </li>
+        {% else %}
+        <li class="disabled">
         <span><i class="icon-chevron-left"></i></span>
-      </li>
-    {% endif %}
+        </li>
+        {% endif %}
 
-    <!-- 第一页,访问根目录 -->
-    {% if paginator.page == 1 %}
-    <li class="active">
-      <a href="#">1</a>
-    </li>
-    {% else %}
-    <li>
-      <a href="/">1</a>
-    </li>
-    {% endif %}
-
-    {% for count in (2..paginator.total_pages) %}
-        {% if count == paginator.page %}
+        <!-- 第一页,访问根目录 -->
+        {% if paginator.page == 1 %}
         <li class="active">
-          <a href="#">{{ count }}</a>
+        <a href="#">1</a>
         </li>
         {% else %}
         <li>
-          <a href="/page{{ count }}">{{ count }}</a>
+        <a href="/">1</a>
         </li>
         {% endif %}
-    {% endfor %}
 
-  {% if paginator.next_page %}
-    <li>
-      <a href="{{ paginator.next_page_path }}"><i class="icon-chevron-right"></i></a>
-    </li>
-  {% else %}
-    <li class="disabled">
-      <a href="#"><i class="icon-chevron-right"></i></a>
-    </li>
-  {% endif %}
-  </ul>
+        {% for count in (2..paginator.total_pages) %}
+        {% if count == paginator.page %}
+        <li class="active">
+        <a href="#">{{ count }}</a>
+        </li>
+        {% else %}
+        <li>
+        <a href="/page{{ count }}">{{ count }}</a>
+        </li>
+        {% endif %}
+        {% endfor %}
 
+        {% if paginator.next_page %}
+        <li>
+        <a href="{{ paginator.next_page_path }}"><i class="icon-chevron-right"></i></a>
+        </li>
+        {% else %}
+        <li class="disabled">
+        <a href="#"><i class="icon-chevron-right"></i></a>
+        </li>
+        {% endif %}
+      </ul>
+
+    </div>
+  </div>
+  <div class="span2">
+  </div>
 </div>
