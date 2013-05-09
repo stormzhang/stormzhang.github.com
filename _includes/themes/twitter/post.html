@@ -1,9 +1,10 @@
-<div class="page-header">
-  <h1>{{ page.title }} {% if page.tagline %}<small>{{page.tagline}}</small>{% endif %}</h1>
-</div>
 
 <div class="row-fluid post-full">
-  <div class="span12">
+  <div class="span2"></div>
+  <div class="page-header">
+    <h1>{{ page.title }} {% if page.tagline %}<small>{{page.tagline}}</small>{% endif %}</h1>
+  </div>
+  <div class="span8">
     <div class="date">
       <span>{{ page.date | date_to_long_string }}</span>
     </div>
@@ -11,39 +12,40 @@
       {{ content }}
     </div>
 
-  {% unless page.categories == empty %}
+    {% unless page.categories == empty %}
     <ul class="tag_box inline">
       <li><i class="icon-folder-open"></i></li>
       {% assign categories_list = page.categories %}
       {% include JB/categories_list %}
     </ul>
-  {% endunless %}  
+    {% endunless %}  
 
-  {% unless page.tags == empty %}
+    {% unless page.tags == empty %}
     <ul class="tag_box inline">
       <li><i class="icon-tags"></i></li>
       {% assign tags_list = page.tags %}
       {% include JB/tags_list %}
     </ul>
-  {% endunless %}  
+    {% endunless %}  
 
     <hr>
     <div class="pagination">
       <ul>
-      {% if page.previous %}
+        {% if page.previous %}
         <li class="prev"><a href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}">&larr; Previous</a></li>
-      {% else %}
+        {% else %}
         <li class="prev disabled"><a>&larr; Previous</a></li>
-      {% endif %}
+        {% endif %}
         <li><a href="{{ BASE_PATH }}{{ site.JB.archive_path }}">Archive</a></li>
-      {% if page.next %}
+        {% if page.next %}
         <li class="next"><a href="{{ BASE_PATH }}{{ page.next.url }}" title="{{ page.next.title }}">Next &rarr;</a></li>
-      {% else %}
+        {% else %}
         <li class="next disabled"><a>Next &rarr;</a>
-      {% endif %}
+        {% endif %}
       </ul>
     </div>
     <hr>
     {% include JB/comments %}
   </div>
+  <div class="span2"></div>
 </div>

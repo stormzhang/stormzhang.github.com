@@ -8,6 +8,10 @@
 #   LastChange: 2013-05-07 22:31:21
 #      History:
 ============================================================================= */
+
+@charset "utf-8";
+
+/* a标签样式 */
 a {
   text-decoration: none;
 }
@@ -30,5 +34,29 @@ a:visited {
   color: #51a9f1;
 }
 
+/* 主页中央区域 */
+body,html {
+  background-color: #F2F2F2;
+}
+
+/* 段落样式 */
 .paragraph {
+  font-size: 15px;
+}
+
+/* font-awesome 时间按钮样式 */
+.icon-calendar {
+  color:#9fc16d;
+}
+
+/* 自定义高亮样式 */
+.highlight pre,code {
+  font-size: 15px;
+  background-color: #002B36;
+  color:#93A1A1;
+}
+
+/* bootstrap导航条居中 */
+a.brand {
+  line-height: 1.0;
 }
