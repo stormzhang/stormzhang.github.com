@@ -1,24 +1,21 @@
-
 <div class="row-fluid post-full">
   <div class="span2"></div>
-  <div class="page-header">
-    <h1>{{ page.title }} {% if page.tagline %}<small>{{page.tagline}}</small>{% endif %}</h1>
-  </div>
-  <div class="span8">
-    <div class="date">
-      <span>{{ page.date | date_to_long_string }}</span>
+  <div class="span8 typo">
+    <h2>{{ page.title }} {% if page.tagline %}<small>{{page.tagline}}</small>{% endif %}</h2>
+    <div class="post_info">
+      {% unless page.categories == empty %}
+      <ul class="tag_box inline">
+        <li><i class="icon-calendar"></i></li>
+        <li>{{ page.date | date: " %Y 年 %m 月 %d 日" }}</li>
+        <li><i class="icon-folder-open"></i></li>
+        {% assign categories_list = page.categories %}
+        {% include JB/categories_list %}
+      </ul>
+      {% endunless %}  
     </div>
     <div class="content">
       {{ content }}
     </div>
-
-    {% unless page.categories == empty %}
-    <ul class="tag_box inline">
-      <li><i class="icon-folder-open"></i></li>
-      {% assign categories_list = page.categories %}
-      {% include JB/categories_list %}
-    </ul>
-    {% endunless %}  
 
     {% unless page.tags == empty %}
     <ul class="tag_box inline">

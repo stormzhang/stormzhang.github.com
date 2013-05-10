@@ -10,13 +10,13 @@ paginate: 4
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : 时间和知识交织的回响
-tagline: 隐匿于黑夜中的星
+title : 隐匿于黑夜中的星
+tagline: 时间的回响，思维的残影
 author :
   name : codepiano
   email : anyexingchen999@qq.com
-  github : codepiano
-  twitter : codepiano
+  github : https://github.com/codepiano
+  twitter : http://twitter.com/anyexingchen
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 

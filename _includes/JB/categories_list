@@ -22,15 +22,29 @@ Usage:
 {% else %}
   {% if categories_list.first[0] == null %}
     {% for category in categories_list %} 
-    	<li><a href="{{ BASE_PATH }}{{ site.JB.categories_path }}#{{ category }}-ref">
-    		{{ category | join: "/" }} <span>{{ site.categories[category].size }}</span>
-    	</a></li>
+    	<li>
+        <a href="{{ BASE_PATH }}{{ site.JB.categories_path }}#{{ category }}-ref">
+          {{ category | join: "/" }} 
+        </a>
+      </li>
+      <li>
+        {% unless forloop.last %}
+        <i class="icon-double-angle-right"></i>
+        {% endunless %}
+      </li>
     {% endfor %}
   {% else %}
     {% for category in categories_list %} 
-    	<li><a href="{{ BASE_PATH }}{{ site.JB.categories_path }}#{{ category[0] }}-ref">
-    		{{ category[0] | join: "/" }} <span>{{ category[1].size }}</span>
-    	</a></li>
+    	<li>
+        <a href="{{ BASE_PATH }}{{ site.JB.categories_path }}#{{ category[0] }}-ref">
+    		{{ category[0] | join: "/" }}
+        </a>
+      </li>
+      <li>
+        {% unless forloop.last %}
+        <i class="icon-double-angle-right"></i>
+        {% endunless %}
+      </li>
     {% endfor %}
   {% endif %}
 {% endif %}

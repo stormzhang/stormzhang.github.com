@@ -17,36 +17,41 @@ a {
 }
 
 a:link {
-  color: #1077bc;
+  color: #1077BC;
 }
 
 a:hover {
-  color: #138aeb;
+  color: #FF9900;
   text-decoration: none;
 }
 
 a:active {
-  color: #3199ef;
+  color: #FF6699;
   text-decoration: none;
 }
 
 a:visited {
-  color: #51a9f1;
+  color: #FF6699;
 }
 
 /* 主页中央区域 */
-body,html {
+html, body {
   background-color: #F2F2F2;
 }
 
 /* 段落样式 */
 .paragraph {
   font-size: 15px;
+  text-indent: 2em;
 }
 
-/* font-awesome 时间按钮样式 */
-.icon-calendar {
-  color:#9fc16d;
+/* font-awesome post信息按钮样式 */
+.icon-folder-open, .icon-tags, .icon-calendar {
+  color:#A84365;
+}
+
+.icon-double-angle-right {
+  color: #FF6699;
 }
 
 /* 自定义高亮样式 */
@@ -56,7 +61,32 @@ body,html {
   color:#93A1A1;
 }
 
-/* bootstrap导航条居中 */
+/* 覆盖bootstrap导航条设置 */
 a.brand {
-  line-height: 1.0;
+  height: auto;
+}
+
+.navbar ul.nav {
+  padding: 15px 20px 15px;
+  height:auto;
+}
+
+/* 覆盖typo.css中ul的margin-left属性 */
+ul.tag_box {
+  margin-left: 0;
+}
+
+ul.tag_box > li:first-child {
+  padding-left: 0px;
+}
+
+/* 标题栏样式 */
+.site-title {
+  font-size: 14px;
+  color: #1B813F;
+}
+
+.site-author {
+  font-size: 28px;
+  color: #169FDE;
 }
