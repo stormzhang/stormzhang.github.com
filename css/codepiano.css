@@ -5,7 +5,7 @@
 #        Email: anyexingchen999@qq.com
 #     HomePage: http://www.weibo.com/anyexingchen
 #      Version: 0.0.1
-#   LastChange: 2013-05-07 22:31:21
+#   LastChange: 2013-05-12 01:39:46
 #      History:
 ============================================================================= */
 
@@ -35,8 +35,9 @@ a:visited {
 }
 
 /* 主页中央区域 */
-html, body {
-  background-color: #F2F2F2;
+html, body, div.wrapper {
+  height: 100%;
+  background-color: #F3F3F3;
 }
 
 /* 段落样式 */
@@ -71,7 +72,17 @@ a.brand {
   height:auto;
 }
 
-/* 覆盖typo.css中ul的margin-left属性 */
+/* 覆盖导航条激活菜单的背景色设置 */
+.navbar .nav>.active>a, .navbar .nav>.active>a:hover, .navbar .nav>.active>a:focus {
+  background-color: transparent;
+  box-shadow:none;
+}
+
+.navbar .nav>.active>a {
+  color:#EC6197; 
+}
+
+/* 覆盖typo.css中ul默认的margin-left属性 */
 ul.tag_box {
   margin-left: 0;
 }
@@ -80,7 +91,7 @@ ul.tag_box > li:first-child {
   padding-left: 0px;
 }
 
-/* 标题栏样式 */
+/* 标题栏文字样式 */
 .site-title {
   font-size: 14px;
   color: #1B813F;
@@ -89,4 +100,57 @@ ul.tag_box > li:first-child {
 .site-author {
   font-size: 28px;
   color: #169FDE;
+}
+
+/* 底部div定位 */
+div.wrapper>div.typo{
+  padding-bottom: 60px;
+}
+
+/* 底栏div样式 */
+div.bottom {
+  position: relative;
+  margin-top: -60px;
+  height: 60px;
+  clear: both;
+}
+
+/* 底栏声明链接样式 */
+a.license {
+  color:#5E6087;
+}
+
+/* 解决typo.css覆盖bootstrap的li.list-style */
+ul.nav.nav-tabs {
+  list-style: none;
+}
+
+/* 技术支持列表样式 */
+ul#support {
+  margin-top: 10px;
+}
+
+ul#support>li {
+  display:none;
+}
+
+ul#support>li:first-child {
+  display:block;
+}
+
+ul#support>li>a {
+  border-color: #F3F3F3;
+}
+
+ul#support>li>a:hover {
+  background-color: transparent;
+}
+
+
+ul#support>li:first-child>a:hover {
+  color:#BF008F;
+}
+
+ul#support a:active, ul#support a:visited, ul#support a:link{
+  color:#F3F3F3;
 }

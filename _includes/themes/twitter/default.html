@@ -15,12 +15,17 @@
     <![endif]-->
 
     <!-- Le styles -->
-    <link href="{{ ASSET_PATH }}/bootstrap/css/bootstrap.2.2.2.min.css" rel="stylesheet">
+    <link href="{{ ASSET_PATH }}/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="{{ ASSET_PATH }}/css/style.css?body=1" rel="stylesheet" type="text/css" media="all">
     <link href="/css/solarized.css" rel="stylesheet" type="text/css" media="all">
     <link href="/css/font-awesome.min.css" rel="stylesheet">
     <link href="/css/typo.css" rel="stylesheet">
     <link href="/css/codepiano.css" rel="stylesheet">
+
+    <!-- javascript files -->
+    <script type="text/javascript" src="http://code.jquery.com/jquery-2.0.0.min.js"></script>
+    <script type="text/javascript" src="{{ ASSET_PATH }}/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/js/codepiano.js"></script>
 
     <!-- Le fav and touch icons -->
     <!-- Update these with your own images
@@ -33,32 +38,46 @@
     <!-- atom & rss feed -->
     <link href="{{ BASE_PATH }}{{ site.JB.atom_path }}" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
     <link href="{{ BASE_PATH }}{{ site.JB.rss_path }}" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
-
   </head>
 
   <body>
-    <div class="navbar">
-      <div class="navbar-inner">
-        <div class="span2">
-        </div>
-        <div class="span8">
-          <a class="brand" href="{{ HOME_PATH }}">
-            <span class="site-author"> {{ site.author.name }} </span>
-            <span class="site-title"> /* {{ site.title }} */ </span>
-          </a>
-          <ul class="nav">
-            {% assign pages_list = site.pages %}
-            {% assign group = 'navigation' %}
-            {% include JB/pages_list %}
-          </ul>
-        </div>
-        <div class="span2">
+    <div class="wrapper">
+      <!-- 导航条 -->
+      <div class="navbar">
+        <div class="navbar-inner row-fluid">
+          <div class="span2">
+          </div>
+          <div class="span8">
+            <a class="brand" href="{{ HOME_PATH }}">
+              <span class="site-author"> {{ site.author.name }} </span>
+              <span class="site-title"> /* {{ site.title }} */ </span>
+            </a>
+            <ul class="nav">
+              {% assign pages_list = site.pages %}
+              {% assign group = 'navigation' %}
+              {% include JB/pages_list %}
+            </ul>
+          </div>
+          <div class="span2">
+          </div>
         </div>
       </div>
-    </div>
-  </div>
-  {{ content }}
 
-  {% include JB/analytics %}
-</body>
+      <!-- 正文 -->
+      {{ content }}
+
+    </div>
+    <!-- 底部声明 -->
+    <div class="row-fluid bottom">
+      <div class="span2">
+      </div>
+      <div class="span8 text-center">
+        &mdash;&nbsp;&nbsp;<a href="http://creativecommons.org/licenses/by-nc-nd/3.0/deed.zh" class="license">原创作品许可 &mdash; 署名-非商业性使用-禁止演绎 3.0 未本地化版本 &mdash; CC BY-NC-ND 3.0 </a>&nbsp;&nbsp;&mdash;
+      </div>
+      <div class="span2">
+      </div>
+    </div>
+
+    {% include JB/analytics %}
+  </body>
 </html>
