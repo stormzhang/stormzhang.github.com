@@ -9,12 +9,8 @@
 #      History:
 ============================================================================= */
 
-function showSupport(){
-  $('#support li').map(function(index,element){
-    var wrapObj = $(element);
-    wrapObj.css('display','block');
-    $('a', wrapObj).css('border-color','#DDDDDD').css('color','#BF008F');
-    ;
-  });
+/* 切换技术支持列表的样式 */
+function toggleSupport(){
+  $('#support').toggleClass('dispear').toggleClass('show');
   return false;
 }

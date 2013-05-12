@@ -72,6 +72,10 @@ a.brand {
   height:auto;
 }
 
+.navbar>.navbar-inner{
+  padding-left: 0px;
+}
+
 /* 覆盖导航条激活菜单的背景色设置 */
 .navbar .nav>.active>a, .navbar .nav>.active>a:hover, .navbar .nav>.active>a:focus {
   background-color: transparent;
@@ -130,27 +134,57 @@ ul#support {
   margin-top: 10px;
 }
 
-ul#support>li {
-  display:none;
-}
-
-ul#support>li:first-child {
-  display:block;
-}
-
-ul#support>li>a {
+.dispear {
   border-color: #F3F3F3;
 }
 
-ul#support>li>a:hover {
+ul#support.dispear>li {
+  display:none;
+}
+
+ul#support.dispear>li:first-child {
+  display:block;
+}
+
+ul#support.dispear>li>a {
+  border-color: #F3F3F3;
+  color: #F3F3F3;
+}
+
+ul#support.dispear>li>a:hover {
   background-color: transparent;
 }
 
 
-ul#support>li:first-child>a:hover {
-  color:#BF008F;
+ul#support.dispear>li:first-child>a:hover {
+  color: #CC527A;
 }
 
-ul#support a:active, ul#support a:visited, ul#support a:link{
-  color:#F3F3F3;
+ul#support.dispear>li:first-child>a>i.icon-star-empty {
+  color: #F3F3F3;
+}
+
+ul#support.dispear>li:first-child>a:hover>i.icon-star-empty {
+  color: #E8175D;
+}
+
+#support.show a:visited,ul#support.show a:link,ul#support.show a:active,ul#support.show a:hover {
+  color: #CC527A;
+}
+
+.icon-ok, .icon-star-empty {
+  color: #E8175D;
+}
+
+ul#support.show {
+  border-color: #F3F3F3;
+}
+
+ul#support.show li {
+  display:block;
+}
+
+ul#support.show a {
+  border-color: #DDDDDD;
+  color:#CC527A;
 }
