@@ -17,39 +17,25 @@ Usage:
         
 -->{% endcomment %}
 
+<table class="table table-striped table-bordered" id="post-data">
+  <thead>
+    <th>时间</th>
+    <th>标题</th>
+    <th>标签</th>
+  </thead>
 {% if site.JB.posts_collate.provider == "custom" %}
   {% include custom/posts_collate %}
 {% else %}
   {% for post in posts_collate  %}
-    {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
-    {% capture this_month %}{{ post.date | date: "%B" }}{% endcapture %}
-    {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
-    {% capture next_month %}{{ post.previous.date | date: "%B" }}{% endcapture %}
-  
-    {% if forloop.first %}
-      <h2>{{this_year}}</h2>
-      <h3>{{this_month}}</h3>
-      <ul>
-    {% endif %}
-  
-    <li><span>{{ post.date | date: "%B %e, %Y" }}</span>  <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
-  
-    {% if forloop.last %}
-      </ul>
-    {% else %}
-      {% if this_year != next_year %}
-        </ul>
-        <h2>{{next_year}}</h2>
-        <h3>{{next_month}}</h3>
-        <ul>
-      {% else %}    
-        {% if this_month != next_month %}
-          </ul>
-          <h3>{{next_month}}</h3>
-          <ul>
-        {% endif %}
-      {% endif %}
-    {% endif %}
+  <tr>  
+    <td>{{ post.date | date: "%Y 年 %m 月 %d 日" }}</td>
+    <td>
+      <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
+    </td>
+    <td>{{ post.tags | join:',' }}</td>
+  </tr>
   {% endfor %}
+</table>
 {% endif %}
+  
 {% assign posts_collate = nil %}

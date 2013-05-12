@@ -188,3 +188,22 @@ ul#support.show a {
   border-color: #DDDDDD;
   color:#CC527A;
 }
+
+/* 文章日期样式 */
+.post-date {
+  color: #1077BC;
+}
+
+/* Datatable设置,应用bootstrap样式 */
+table#post-data {
+  border-spacing:0;
+  border-collapse:collapse;
+}
+
+div.row {
+  margin-left: 0px;
+}
+
+
+
+

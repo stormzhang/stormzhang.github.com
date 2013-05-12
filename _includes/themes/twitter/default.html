@@ -20,12 +20,15 @@
     <link href="/css/solarized.css" rel="stylesheet" type="text/css" media="all">
     <link href="/css/font-awesome.min.css" rel="stylesheet">
     <link href="/css/typo.css" rel="stylesheet">
+    <link href="/css/datatables-bootstrap.css" rel="stylesheet">
     <link href="/css/codepiano.css" rel="stylesheet">
 
     <!-- javascript files -->
     <script type="text/javascript" src="http://code.jquery.com/jquery-2.0.0.min.js"></script>
     <script type="text/javascript" src="{{ ASSET_PATH }}/bootstrap/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="/js/codepiano.js"></script>
+    <script type="text/javascript" src="/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="/js/datatables-bootstrap.js"></script>
 
     <!-- Le fav and touch icons -->
     <!-- Update these with your own images
@@ -38,6 +41,38 @@
     <!-- atom & rss feed -->
     <link href="{{ BASE_PATH }}{{ site.JB.atom_path }}" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
     <link href="{{ BASE_PATH }}{{ site.JB.rss_path }}" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
+
+    <script type="text/javascript">
+      $(function(){
+        $('#post-data').dataTable({
+          "aaSorting": [[ 0, "desc" ],[ 1, "asc" ],[ 2, "asc" ]],
+          "sDom": "<'row'<'span6'l><'span6'f>r>t<'row'<'span6'i><'span6'p>>",
+          "sWrapper": "dataTables_wrapper form-inline",
+          "sPaginationType": "bootstrap",
+          "oLanguage":{
+            "sProcessing":   "处理中...",
+            "sLengthMenu":   "显示 _MENU_ 项结果",
+            "sZeroRecords":  "没有匹配结果",
+            "sInfo":         "显示第 _START_ 至 _END_ 项结果，共 _TOTAL_ 项",
+            "sInfoEmpty":    "显示第 0 至 0 项结果，共 0 项",
+            "sInfoFiltered": "(由 _MAX_ 项结果过滤)",
+            "sInfoPostFix":  "",
+            "sSearch":       "搜索:",
+            "sUrl":          "",
+            "oPaginate": {
+                "sFirst":    "首页",
+                "sPrevious": "上页",
+                "sNext":     "下页",
+                "sLast":     "末页"
+            }
+          }
+        });
+
+        $.extend($.fn.dataTableExt.oStdClasses, {
+            "sWrapper": "dataTables_wrapper form-inline"
+        });
+      });
+    </script>
 
   </head>
 
@@ -56,7 +91,7 @@
             <ul class="nav">
               {% assign pages_list = site.pages %}
               {% assign group = 'navigation' %}
-              {% include JB/pages_list %}
+              {% include JB/navigation_list %}
             </ul>
           </div>
           <div class="span2">
