@@ -5,7 +5,7 @@
 #        Email: anyexingchen999@qq.com
 #     HomePage: http://www.weibo.com/anyexingchen
 #      Version: 0.0.1
-#   LastChange: 2013-05-12 01:39:46
+#   LastChange: 2013-05-13 08:00:34
 #      History:
 ============================================================================= */
 
@@ -131,7 +131,7 @@ ul.nav.nav-tabs {
 
 /* 技术支持列表样式 */
 ul#support {
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 .dispear {
@@ -168,7 +168,7 @@ ul#support.dispear>li:first-child>a:hover>i.icon-star-empty {
   color: #E8175D;
 }
 
-#support.show a:visited,ul#support.show a:link,ul#support.show a:active,ul#support.show a:hover {
+#support.show a {
   color: #CC527A;
 }
 
@@ -200,10 +200,70 @@ table#post-data {
   border-collapse:collapse;
 }
 
+table#post-data td, table#post-data th {
+  color: #1077BC;
+}
+
+table#post-data .icon-calendar, table#post-data .icon-bookmark, table#post-data .icon-tags {
+  color: #1077BC;
+}
+
+table#post-data a:hover {
+  color: #FF6699;
+}
+
 div.row {
   margin-left: 0px;
 }
 
+/* 覆盖bootstrap默认的tooltip设置 */
+div.tooltip.right .tooltip-arrow {
+  border-right-color: #1693A7;
+}
 
+div.tooltip-inner {
+  font-size: 14px;
+  color: #F3F3F3;
+  background-color: #1693A7;
+}
 
+a.timeline-url {
+  font-size: 16px;
+  margin-left: 2px;
+}
 
+span.timeline-categories {
+  font-size: 16px;
+  color: #BBBBBB;
+}
+
+/* 归档页面列表样式 */
+ul.timeline-posts-list {
+  list-style: none;
+}
+
+ul.timeline-posts-list li{
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: #D9D7D4;
+  margin-top: 9px;
+  padding-bottom: 5px;
+  font-size: 14px;
+}
+
+ul.time-list {
+  margin-top: 10px;
+}
+
+ul.time-list a {
+  font-size: 14px;
+  color: #FF6699;
+}
+
+ul.time-list a>i.icon-chevron-right{
+  color: #F3F3F3;
+}
+
+ul.time-list>li.active>a>i.icon-chevron-right{
+  color: #333333;
+}

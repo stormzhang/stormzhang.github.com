@@ -67,6 +67,7 @@ task :post do
     post.puts "categories: []"
     post.puts "tags: []"
     post.puts 'group: "archive"'
+    post.puts 'icon: "file-alt"'
     post.puts "---"
     post.puts "{% include JB/setup %}"
   end

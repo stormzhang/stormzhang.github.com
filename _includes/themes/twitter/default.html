@@ -15,20 +15,20 @@
     <![endif]-->
 
     <!-- Le styles -->
-    <link href="{{ ASSET_PATH }}/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="{{ ASSET_PATH }}/css/style.css?body=1" rel="stylesheet" type="text/css" media="all">
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css" rel="stylesheet">
+    <link href="/css/style.css?body=1" rel="stylesheet" type="text/css" media="all">
     <link href="/css/solarized.css" rel="stylesheet" type="text/css" media="all">
-    <link href="/css/font-awesome.min.css" rel="stylesheet">
     <link href="/css/typo.css" rel="stylesheet">
     <link href="/css/datatables-bootstrap.css" rel="stylesheet">
     <link href="/css/codepiano.css" rel="stylesheet">
 
     <!-- javascript files -->
-    <script type="text/javascript" src="http://code.jquery.com/jquery-2.0.0.min.js"></script>
-    <script type="text/javascript" src="{{ ASSET_PATH }}/bootstrap/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="/js/codepiano.js"></script>
+    <script type="text/javascript" src="/js/jquery-2.0.0.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="/js/jquery.dataTables.min.js"></script>
     <script type="text/javascript" src="/js/datatables-bootstrap.js"></script>
+    <script type="text/javascript" src="/js/codepiano.js"></script>
 
     <!-- Le fav and touch icons -->
     <!-- Update these with your own images
@@ -44,39 +44,21 @@
 
     <script type="text/javascript">
       $(function(){
-        $('#post-data').dataTable({
-          "aaSorting": [[ 0, "desc" ],[ 1, "asc" ],[ 2, "asc" ]],
-          "sDom": "<'row'<'span6'l><'span6'f>r>t<'row'<'span6'i><'span6'p>>",
-          "sWrapper": "dataTables_wrapper form-inline",
-          "sPaginationType": "bootstrap",
-          "oLanguage":{
-            "sProcessing":   "处理中...",
-            "sLengthMenu":   "显示 _MENU_ 项结果",
-            "sZeroRecords":  "没有匹配结果",
-            "sInfo":         "显示第 _START_ 至 _END_ 项结果，共 _TOTAL_ 项",
-            "sInfoEmpty":    "显示第 0 至 0 项结果，共 0 项",
-            "sInfoFiltered": "(由 _MAX_ 项结果过滤)",
-            "sInfoPostFix":  "",
-            "sSearch":       "搜索:",
-            "sUrl":          "",
-            "oPaginate": {
-                "sFirst":    "首页",
-                "sPrevious": "上页",
-                "sNext":     "下页",
-                "sLast":     "末页"
-            }
-          }
-        });
+        <!-- 初始化dataTable -->
+        if($('#post-data')[0]) {
+          $('#post-data').dataTable(datatablesConfig);
+        }
+        <!-- 初始化tooltip -->
+        if($('#support a')[0]){
+          $('#support a').tooltip(tooltipConfig);
+        }
 
-        $.extend($.fn.dataTableExt.oStdClasses, {
-            "sWrapper": "dataTables_wrapper form-inline"
-        });
       });
     </script>
 
   </head>
 
-  <body>
+  <body id="scroll-pane" data-spy="scroll" data-target="#time-list-nav">
     <div class="wrapper">
       <!-- 导航条 -->
       <div class="navbar">

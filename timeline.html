@@ -1,0 +1,22 @@
+---
+layout: page
+title: 归档
+header: Posts By Time
+group: navigation
+index: 2
+---
+{% include JB/setup %}
+
+<div class="row-fluid typo">
+  <div class="span9" >
+    {% assign posts_list = site.posts %}  
+    {% include JB/timeline %}
+  </div>
+  <div id="time-list-nav" class="span3">
+    {% include JB/time_list %}
+    {% assign posts_list = nil %}
+  </div>
+</div>
+
+
+

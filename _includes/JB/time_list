@@ -1,0 +1,22 @@
+{% if site.JB.timeline.provider == "custom" %}
+  {% include custom/timeline %}
+{% else %}
+  {% for post in posts_list %}
+    {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
+    {% capture this_month %}{{ post.date | date: "%m" }}{% endcapture %}
+    {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
+    {% capture next_month %}{{ post.previous.date | date: "%m" }}{% endcapture %}
+  
+    {% if forloop.first %}
+      <ul id="time-list-ul" class="nav nav-tabs nav-stacked time-list affix">
+    {% endif %}
+  
+    {% if this_year != next_year or this_month != next_month %}
+        <li><a href="#{{ this_year }}-{{ this_month }}"><i class="icon-chevron-right"></i>&nbsp;&nbsp;{{ this_year }} 年 {{ this_month }} 月</a></li>
+    {% endif %}
+
+    {% if forloop.last %}
+      </ul>
+    {% endif %}
+  {% endfor %}
+{% endif %}
