@@ -1,0 +1,11 @@
+{% comment %} categories.html页面中的锚点列表 {% endcomment %}
+
+{% for category in site_categories %} 
+  <li>
+    <a href="#{{ category[0]}}-ref" data-toggle="tab">
+      {{ category[0] | join: "/" }} 
+    </a>
+  </li>
+{% endfor %}
+
+{% assign site_categories = nil %}

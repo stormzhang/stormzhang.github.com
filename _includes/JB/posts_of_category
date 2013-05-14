@@ -1,0 +1,15 @@
+{% comment %} categories.html页面中的div内容 {% endcomment %}
+
+{% for post in posts_list %}
+  {% if post.title != null %}
+  <li>
+    <span class="category-archive">
+      <i class="icon-{{ post.icon }} icon-border"></i> <a href="{{ BASE_PATH }}{{ post.url }}" class="post-url">{{ post.title }}</a>
+    </span>
+    <span class="post-right-info pull-right">
+      {{ post.date | date: " %Y 年 %m 月 %d 日" }}
+    </span>
+  </li>
+  {% endif %}
+{% endfor %}
+{% assign posts_list = nil %}

@@ -13,8 +13,10 @@ index: 2
     {% include JB/timeline %}
   </div>
   <div id="time-list-nav" class="span3">
-    {% include JB/time_list %}
-    {% assign posts_list = nil %}
+    <ul id="time-list-ul" class="nav nav-tabs nav-stacked time-list affix">
+      {% include JB/time_list %}
+      {% assign posts_list = nil %}
+    </ul>
   </div>
 </div>
 

@@ -5,7 +5,7 @@
 #        Email: anyexingchen999@qq.com
 #     HomePage: http://www.weibo.com/anyexingchen
 #      Version: 0.0.1
-#   LastChange: 2013-05-13 08:00:34
+#   LastChange: 2013-05-14 14:13:41
 #      History:
 ============================================================================= */
 
@@ -227,22 +227,12 @@ div.tooltip-inner {
   background-color: #1693A7;
 }
 
-a.timeline-url {
-  font-size: 16px;
-  margin-left: 2px;
-}
-
-span.timeline-categories {
-  font-size: 16px;
-  color: #BBBBBB;
-}
-
-/* 归档页面列表样式 */
-ul.timeline-posts-list {
+/* 归档和时间线页面列表样式 */
+ul.posts-list {
   list-style: none;
 }
 
-ul.timeline-posts-list li{
+ul.posts-list li{
   border-bottom-style: solid;
   border-bottom-width: 1px;
   border-bottom-color: #D9D7D4;
@@ -251,6 +241,18 @@ ul.timeline-posts-list li{
   font-size: 14px;
 }
 
+a.post-url {
+  font-size: 16px;
+  margin-left: 2px;
+}
+
+span.post-right-info {
+  font-size: 16px;
+  color: #BBBBBB;
+}
+
+
+/* 时间锚点的样式 */
 ul.time-list {
   margin-top: 10px;
 }
@@ -264,6 +266,7 @@ ul.time-list a>i.icon-chevron-right{
   color: #F3F3F3;
 }
 
-ul.time-list>li.active>a>i.icon-chevron-right{
+ul.time-list>li.active>a>i.icon-chevron-right {
   color: #333333;
 }
+

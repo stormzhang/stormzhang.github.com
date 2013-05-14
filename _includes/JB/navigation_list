@@ -1,6 +1,5 @@
-{% if site.JB.pages_list.provider == "custom" %}
-  {% include custom/pages_list %}
-{% else %}
+{% comment %} index.html页面中的导航 {% endcomment %}
+
 {% capture pages_number %} {{pages_list | size}} {% endcapture %}
   {% for index in (1..pages_number) %}
     {% for node in pages_list %}
@@ -15,6 +14,5 @@
       {% endif %}
     {% endfor %}
   {% endfor %}
-{% endif %}
 {% assign pages_list = nil %}
 {% assign group = nil %}

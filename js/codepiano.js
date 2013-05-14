@@ -8,6 +8,35 @@
 #   LastChange: 2013-05-12 01:39:30
 #      History:
 ============================================================================= */
+/* 页面加载后执行 */
+!function ($) {
+  $(function(){
+    /* 初始化dataTable */
+    if($('#post-data')[0]){
+      $('#post-data').dataTable(datatablesConfig);
+    }
+    /* 初始化tooltip */
+    if($('#support a')[0]){
+      $('#support a').tooltip(tooltipConfig);
+    }
+
+    /* 目录页导航 */
+    var url = window.location.href;
+    if(url.indexOf('categories.html') > -1){
+      $('#categories-nav a').click(function (e){
+        $(this).tab('show');
+      })
+
+      /* 自动打开链接中的锚点 */
+      var matches = url.match(/categories\.html(#.*)/);
+      if(matches){
+        $('#categories-nav a[href="' + matches[1] + '"]').tab('show');
+      }else{
+        $('#categories-nav a:first').tab('show');
+      }
+    } 
+  });
+}(window.jQuery);
 
 /* 切换技术支持列表的样式 */
 function toggleSupport(){
@@ -32,10 +61,10 @@ datatablesConfig = {
     "sSearch":       "检索:",
     "sUrl":          "",
     "oPaginate": {
-        "sFirst":    "首页",
-        "sPrevious": "上页",
-        "sNext":     "下页",
-        "sLast":     "末页"
+      "sFirst":    "首页",
+      "sPrevious": "上页",
+      "sNext":     "下页",
+      "sLast":     "末页"
     }
   }
 }

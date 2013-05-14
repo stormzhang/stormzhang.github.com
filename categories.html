@@ -6,18 +6,21 @@ group: navigation
 index: 3
 ---
 {% include JB/setup %}
-
-<ul class="tag_box inline">
-  {% assign categories_list = site.categories %}
-  {% include JB/categories_list %}
-</ul>
-
-
-{% for category in site.categories %} 
-  <h2 id="{{ category[0] }}-ref">{{ category[0] | join: "/" }}</h2>
-  <ul>
-    {% assign pages_list = category[1] %}  
-    {% include JB/pages_list %}
+<div class="tabbable tabs-right row-fluid">
+  <ul class="nav nav-tabs" id="categories-nav">
+    {% assign site_categories = site.categories %}
+    {% include JB/anchor_of_categories %}
   </ul>
-{% endfor %}
+
+  <div class="tab-content">
+    {% for category in site.categories %} 
+    <div class="tab-pane" id="{{ category[0] }}-ref">
+      <ul class="posts-list">
+        {% assign posts_list = category[1] %}  
+        {% include JB/posts_of_category %}
+      </ul>
+    </div>
+    {% endfor %}
+  </div>
+</div>
 

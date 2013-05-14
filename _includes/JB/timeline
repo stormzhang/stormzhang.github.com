@@ -1,38 +1,36 @@
-{% if site.JB.timeline.provider == "custom" %}
-  {% include custom/timeline %}
-{% else %}
-  {% for post in posts_list %}
-    {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
-    {% capture this_month %}{{ post.date | date: "%m" }}{% endcapture %}
-    {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
-    {% capture next_month %}{{ post.previous.date | date: "%m" }}{% endcapture %}
-  
-    {% if forloop.first %}
-    <section id="{{ this_year }}-{{ this_month }}">
-      <h2>{{ this_year }} 年 {{ this_month }} 月</h2>
-      <ul class="timeline-posts-list">
-    {% endif %}
-  
-    <li>
-      <span class="timeline-archive">
-        <i class="icon-{{ post.icon }} icon-border"></i> <a href="{{ BASE_PATH }}{{ post.url }}" class="timeline-url">{{ post.title }}</a>
-      </span>
-      <span class="timeline-categories pull-right">
-        {{ post.categories | join:' / ' }}
-      </span>
-    </li>
-  
-    {% if forloop.last %}
+{% comment %} timeline.html页面中的文章链接 {% endcomment %}
+
+{% for post in posts_list %}
+  {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
+  {% capture this_month %}{{ post.date | date: "%m" }}{% endcapture %}
+  {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
+  {% capture next_month %}{{ post.previous.date | date: "%m" }}{% endcapture %}
+
+  {% if forloop.first %}
+  <section id="{{ this_year }}-{{ this_month }}">
+    <h2>{{ this_year }} 年 {{ this_month }} 月</h2>
+    <ul class="posts-list">
+  {% endif %}
+
+  <li>
+    <span class="category-archive">
+      <i class="icon-{{ post.icon }} icon-border"></i> <a href="{{ BASE_PATH }}{{ post.url }}" class="post-url">{{ post.title }}</a>
+    </span>
+    <span class="post-right-info pull-right">
+      {{ post.categories | join:' / ' }}
+    </span>
+  </li>
+
+  {% if forloop.last %}
+    </ul>
+  </section>
+  {% else %}
+    {% if this_year != next_year or this_month != next_month %}
       </ul>
-    </section>
-    {% else %}
-      {% if this_year != next_year or this_month != next_month %}
-        </ul>
-        </section>
-        <section id="{{ next_year }}-{{ next_month }}">
-        <h2>{{ next_year }} 年 {{ next_month }} 月</h2>
-        <ul class="timeline-posts-list">
-      {% endif %}
+      </section>
+      <section id="{{ next_year }}-{{ next_month }}">
+      <h2>{{ next_year }} 年 {{ next_month }} 月</h2>
+      <ul class="posts-list">
     {% endif %}
-  {% endfor %}
-{% endif %}
+  {% endif %}
+{% endfor %}

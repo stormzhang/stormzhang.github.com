@@ -12,8 +12,8 @@ title: codepiao
     <li><i class="icon-calendar"></i></li>
     <li id="post-date">{{ post.date | date: " %Y 年 %m 月 %d 日" }}</li>
     <li><i class="icon-folder-open"></i></li>
-    {% assign categories_list = post.categories %}
-    {% include JB/categories_list %}
+    {% assign post_categories = post.categories %}
+    {% include JB/post_categories_info %}
   </ul>
   {% endunless %}  
   <span> 

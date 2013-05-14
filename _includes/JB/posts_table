@@ -1,0 +1,12 @@
+{% comment %} posts.html页面table中的tr {% endcomment %}
+{% for post in posts_list  %}
+<tr>  
+  <td class="post-date">{{ post.date | date: "%Y 年 %m 月 %d 日" }}</td>
+  <td class="post-url">
+    <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
+  </td>
+  <td class="post-tags">{{ post.tags | join:',' }}</td>
+</tr>
+{% endfor %}
+  
+{% assign posts_list = nil %}
