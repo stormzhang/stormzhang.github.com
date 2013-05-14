@@ -1,18 +1,10 @@
 {% comment %} index.html页面中的导航 {% endcomment %}
+{% assign color_hack = 'posts timeline categories about' %}
+{% assign current_nav = page.url | remove:'/' | remove:'.html' %}
+{% assign color_hack = color_hack | replace:{{current_nav}},'active' %}
+{% assign color_hack = color_hack | split:' ' %}
 
-{% capture pages_number %} {{pages_list | size}} {% endcapture %}
-  {% for index in (1..pages_number) %}
-    {% for node in pages_list %}
-      {% if node.title != null and node.index != null and node.index == index %}
-        {% if group == null or group == node.group %}
-          {% if page.url == node.url %}
-          <li class="active"><a href="{{ BASE_PATH }}{{node.url}}" class="active">{{node.title}}</a></li>
-          {% else %}
-          <li><a href="{{ BASE_PATH }}{{node.url}}">{{node.title}}</a></li>
-          {% endif %}
-        {% endif %}
-      {% endif %}
-    {% endfor %}
-  {% endfor %}
-{% assign pages_list = nil %}
-{% assign group = nil %}
+<li class="{{color_hack[0]}}"><a href="/posts.html">文章</a></li>
+<li class="{{color_hack[1]}}"><a href="/timeline.html">归档</a></li>
+<li class="{{color_hack[2]}}"><a href="/categories.html">目录</a></li>
+<li class="{{color_hack[3]}}"><a href="/about.html">关于</a></li>

@@ -82,7 +82,7 @@ a.brand {
   box-shadow:none;
 }
 
-.navbar .nav>.active>a {
+.navbar .nav>li.active>a {
   color:#EC6197; 
 }
 
