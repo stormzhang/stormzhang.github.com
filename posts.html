@@ -5,7 +5,7 @@ header: Post Archive
 group: navigation
 index: 1
 ---
-{% include JB/setup %}
+{% include codepiano/setup %}
 
 <table class="table table-striped table-bordered" id="post-data">
   <thead>
@@ -14,5 +14,5 @@ index: 1
     <th class="post-tags"><i class="icon-tags"></i> 标签</th>
   </thead>
   {% assign posts_list = site.posts %}
-  {% include JB/posts_table %}
+  {% include codepiano/posts_table %}
 </table>

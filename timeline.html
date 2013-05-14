@@ -5,16 +5,16 @@ header: Posts By Time
 group: navigation
 index: 2
 ---
-{% include JB/setup %}
+{% include codepiano/setup %}
 
 <div class="row-fluid typo">
   <div class="span9" >
     {% assign posts_list = site.posts %}  
-    {% include JB/timeline %}
+    {% include codepiano/timeline %}
   </div>
   <div id="time-list-nav" class="span3">
     <ul id="time-list-ul" class="nav nav-tabs nav-stacked time-list affix">
-      {% include JB/time_list %}
+      {% include codepiano/time_list %}
       {% assign posts_list = nil %}
     </ul>
   </div>

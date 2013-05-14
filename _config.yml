@@ -1,5 +1,3 @@
-# This is the default format. 
-# For more see: https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink: /:categories/:year/:month/:day/:title 
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
@@ -7,9 +5,6 @@ auto: true
 pygments: true
 paginate: 4
 
-# Themes are encouraged to use these universal variables 
-# so be sure to set them if your theme uses them.
-#
 title : 隐匿于黑夜中的星
 tagline: 时间的回响，思维的残影
 author :
@@ -30,7 +25,7 @@ production_url : http://codepiano.github.io
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
-JB :
+codepiano :
   version : 0.3.0
 
   # All links will be namespaced by BASE_PATH if defined.
@@ -70,9 +65,9 @@ JB :
   # These paths are to the main pages Jekyll-Bootstrap ships with.
   # Some JB helpers refer to these paths; change them here if needed.
   #
-  archive_path: /archive.html
+  archive_path: /posts.html
   categories_path : /categories.html
-  tags_path : /tags.html
+  tags_path : /timeline.html
   atom_path : /atom.xml
   rss_path : /rss.xml
 
@@ -84,15 +79,6 @@ JB :
     provider : disqus
     disqus :
       short_name : codepiano
-    livefyre :
-      site_id : 123
-    intensedebate :
-      account : 123abc
-    facebook :
-      appid : 123
-      num_posts: 5
-      width: 580
-      colorscheme: light
    
   # Settings for analytics helper
   # Set 'provider' to the analytics provider you want to use.

@@ -8,8 +8,8 @@
         <li><i class="icon-calendar"></i></li>
         <li>{{ page.date | date: " %Y 年 %m 月 %d 日" }}</li>
         <li><i class="icon-folder-open"></i></li>
-        {% assign categories_list = page.categories %}
-        {% include JB/post_categories_info %}
+        {% assign post_categories = page.categories %}
+        {% include codepiano/post_categories_info %}
       </ul>
       {% endunless %}  
     </div>
@@ -21,7 +21,7 @@
     <ul class="tag_box inline">
       <li><i class="icon-tags"></i></li>
       {% assign tags_list = page.tags %}
-      {% include JB/tags_list %}
+      {% include codepiano/tags_list %}
     </ul>
     {% endunless %}  
 
@@ -33,7 +33,7 @@
         {% else %}
         <li class="prev disabled"><a>&larr; Previous</a></li>
         {% endif %}
-        <li><a href="{{ BASE_PATH }}{{ site.JB.archive_path }}">Archive</a></li>
+        <li><a href="{{ BASE_PATH }}{{ site.codepiano.archive_path }}">Archive</a></li>
         {% if page.next %}
         <li class="next"><a href="{{ BASE_PATH }}{{ page.next.url }}" title="{{ page.next.title }}">Next &rarr;</a></li>
         {% else %}
@@ -43,7 +43,7 @@
     </div>
     <hr>
     <div id="comment-hook"></div>
-    {% include JB/comments %}
+    {% include codepiano/comments %}
   </div>
   <div class="span2"></div>
 </div>

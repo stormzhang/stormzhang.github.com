@@ -1,0 +1,8 @@
+{% if site.safe and site.codepiano.sharing.provider and page.codepiano.sharing != false %}
+
+{% case site.codepiano.sharing.provider %}
+{% when "custom" %}
+  {% include custom/sharing %}
+{% endcase %}
+
+{% endif %}

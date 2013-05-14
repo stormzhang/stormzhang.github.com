@@ -5,11 +5,11 @@ header: Posts By Category
 group: navigation
 index: 3
 ---
-{% include JB/setup %}
+{% include codepiano/setup %}
 <div class="tabbable tabs-right row-fluid">
   <ul class="nav nav-tabs" id="categories-nav">
     {% assign site_categories = site.categories %}
-    {% include JB/anchor_of_categories %}
+    {% include codepiano/anchor_of_categories %}
   </ul>
 
   <div class="tab-content">
@@ -17,7 +17,7 @@ index: 3
     <div class="tab-pane" id="{{ category[0] }}-ref">
       <ul class="posts-list">
         {% assign posts_list = category[1] %}  
-        {% include JB/posts_of_category %}
+        {% include codepiano/posts_of_category %}
       </ul>
     </div>
     {% endfor %}

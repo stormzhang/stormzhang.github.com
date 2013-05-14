@@ -1,0 +1,10 @@
+{% if site.codepiano.comments.provider and page.comments != false %}
+
+{% case site.codepiano.comments.provider %}
+{% when "disqus" %}
+  {% include codepiano/comments-providers/disqus %}
+{% when "custom" %}
+  {% include custom/comments %}
+{% endcase %}
+
+{% endif %}

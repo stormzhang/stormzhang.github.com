@@ -1,0 +1,14 @@
+{% if site.safe and site.codepiano.analytics.provider and page.codepiano.analytics != false %}
+
+{% case site.codepiano.analytics.provider %}
+{% when "google" %}
+  {% include codepiano/analytics-providers/google %}
+{% when "getclicky" %}
+  {% include codepiano/analytics-providers/getclicky %}
+{% when "mixpanel" %}
+  {% include codepiano/analytics-providers/mixpanel %}
+{% when "custom" %}
+  {% include custom/analytics %}
+{% endcase %}
+
+{% endif %}
