@@ -62,7 +62,8 @@ task :post do
   open(filename, 'w') do |post|
     post.puts "---"
     post.puts "layout: post"
-    post.puts "description: archive"
+    post.puts "description: blog"
+    post.puts "keywords: blog"
     post.puts "title: \"#{title.gsub(/-/,' ')}\""
     post.puts "categories: [Archive]"
     post.puts "tags: [Archive]"
@@ -91,6 +92,8 @@ task :page do
   open(filename, 'w') do |post|
     post.puts "---"
     post.puts "layout: page"
+    post.puts "keywords: blog"
+    post.puts "description: blog"
     post.puts "title: \"#{title}\""
     post.puts 'group: static'
     post.puts "---"
