@@ -270,3 +270,18 @@ ul.time-list>li.active>a>i.icon-chevron-right {
   color: #333333;
 }
 
+/* about样式 */
+p.about {
+  text-indent: 2em;
+  font-size: 18px;
+}
+
+/* 链接table样式 */
+table.table.table-striped td{
+  font-size: 18px;
+  padding:7px;
+}
+
+table.table.table-striped a{
+  color: #1077BC;
+}

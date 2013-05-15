@@ -5,8 +5,8 @@ title: codepiao
 {% include codepiano/setup %}
 <!-- 按照分页插入博客文章 -->
 {% for post in paginator.posts %}
-<h2 class="title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
-<div class="post_info">
+  <h2 class="title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+  <div class="post_info">
   {% unless post.categories == empty %}
   <ul class="tag_box inline">
     <li><i class="icon-calendar"></i></li>
