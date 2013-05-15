@@ -277,11 +277,11 @@ p.about {
 }
 
 /* 链接table样式 */
-table.table.table-striped td{
+table#about-me td{
   font-size: 18px;
   padding:7px;
 }
 
-table.table.table-striped a{
+table#about-me a{
   color: #1077BC;
 }
