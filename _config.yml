@@ -3,7 +3,7 @@ permalink: /:categories/:year/:month/:day/:title
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 auto: true
 pygments: true
-paginate: 4
+paginate: 3
 
 title : 隐匿于黑夜中的星
 tagline: 时间的回响，思维的残影
@@ -67,7 +67,7 @@ codepiano :
   #
   archive_path: /posts.html
   categories_path : /categories.html
-  tags_path : /timeline.html
+  tags_path : /posts.html
   atom_path : /atom.xml
   rss_path : /rss.xml
 
@@ -87,11 +87,7 @@ codepiano :
   analytics :
     provider : google 
     google : 
-        tracking_id : 'UA-123-12'
-    getclicky :
-      site_id : 
-    mixpanel :
-        token : '_MIXPANEL_TOKEN_'
+        tracking_id : 'UA-40934298-1'
 
   # Settings for sharing helper. 
   # Sharing is for things like tweet, plusone, like, reddit buttons etc.

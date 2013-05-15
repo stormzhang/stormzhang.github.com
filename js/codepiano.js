@@ -11,9 +11,11 @@
 /* 页面加载后执行 */
 !function ($) {
   $(function(){
+
+    var tableReference;
     /* 初始化dataTable */
     if($('#post-data')[0]){
-      $('#post-data').dataTable(datatablesConfig);
+      tableReference = $('#post-data').dataTable(datatablesConfig);
     }
     /* 初始化tooltip */
     if($('#support a')[0]){
@@ -35,7 +37,23 @@
         $('#categories-nav a:first').tab('show');
       }
     } 
+
+    /* 自动根据标签过滤table */
+    if(url.indexOf('posts.html') > -1){
+      var matches = url.match(/posts\.html#(.*)/);
+      if(matches && tableReference){
+        tableReference.fnFilter(matches[1],2);
+      }
+
+      $('#post-data_filter input').val(matches[1])
+
+      $("#post-data_filter input").keyup( function () {
+        tableReference.fnFilter('', 2);
+        tableReference.fnFilter( this.value, 2);
+      } );
+    }
   });
+
 }(window.jQuery);
 
 /* 切换技术支持列表的样式 */

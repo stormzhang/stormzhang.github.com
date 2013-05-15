@@ -26,7 +26,7 @@
     {% endunless %}  
 
     <hr>
-    <div class="pagination">
+    <div class="pagination pull-right">
       <ul>
         {% if page.previous %}
         <li class="prev"><a href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}">&larr; Previous</a></li>
@@ -41,7 +41,7 @@
         {% endif %}
       </ul>
     </div>
-    <hr>
+    <br />
     <div id="comment-hook"></div>
     {% include codepiano/comments %}
   </div>

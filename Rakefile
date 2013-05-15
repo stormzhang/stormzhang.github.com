@@ -9,7 +9,7 @@ CONFIG = {
   'themes' => File.join(SOURCE, "_includes", "themes"),
   'layouts' => File.join(SOURCE, "_layouts"),
   'posts' => File.join(SOURCE, "_posts"),
-  'post_ext' => "md",
+  'post_ext' => "html",
   'theme_package_version' => "0.1.0"
 }
 
@@ -62,14 +62,14 @@ task :post do
   open(filename, 'w') do |post|
     post.puts "---"
     post.puts "layout: post"
+    post.puts "description: archive"
     post.puts "title: \"#{title.gsub(/-/,' ')}\""
-    # post.puts 'description: ""'
-    post.puts "categories: []"
-    post.puts "tags: []"
-    post.puts 'group: "archive"'
-    post.puts 'icon: "file-alt"'
+    post.puts "categories: [Archive]"
+    post.puts "tags: [Archive]"
+    post.puts 'group: archive'
+    post.puts 'icon: file-alt'
     post.puts "---"
-    post.puts "{% include JB/setup %}"
+    post.puts "{% include codepiano/setup %}"
   end
 end # task :post
 
@@ -92,12 +92,9 @@ task :page do
     post.puts "---"
     post.puts "layout: page"
     post.puts "title: \"#{title}\""
-    # post.puts 'description: ""'
-    post.puts "categories: []"
-    post.puts "tags: []"
     post.puts 'group: static'
     post.puts "---"
-    post.puts "{% include JB/setup %}"
+    post.puts "{% include codepiano/setup %}"
   end
 end # task :page
 
@@ -146,7 +143,7 @@ namespace :theme do
           page.puts "layout: default"
           page.puts "---"
         end 
-        page.puts "{% include JB/setup %}"
+        page.puts "{% include codepiano/setup %}"
         page.puts "{% include themes/#{theme_name}/#{File.basename(filename)} %}" 
       end
     end
