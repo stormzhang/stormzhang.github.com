@@ -5,10 +5,10 @@
       {{ category | join: "/" }} 
     </a>
   </li>
+  {% unless forloop.last %}
   <li>
-    {% unless forloop.last %}
     <i class="icon-double-angle-right"></i>
-    {% endunless %}
   </li>
+  {% endunless %}
 {% endfor %}
 {% assign post_categories = nil %}

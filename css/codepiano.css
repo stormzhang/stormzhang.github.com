@@ -62,6 +62,15 @@ html, body, div.wrapper {
   color:#93A1A1;
 }
 
+blockquote {
+  font-size: 15px;
+  background-color: #002B36;
+  color:#93A1A1;
+}
+
+blockquote p {
+  font-size: 15px;
+}
 /* 覆盖bootstrap导航条设置 */
 a.brand {
   height: auto;

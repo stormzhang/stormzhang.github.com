@@ -3,7 +3,7 @@ permalink: /:categories/:year/:month/:day/:title
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 auto: true
 pygments: true
-paginate: 3
+paginate: 4
 
 title : 隐匿于黑夜中的星
 tagline: 时间的回响，思维的残影

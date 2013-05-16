@@ -30,11 +30,11 @@ title: codepiao
       <!-- 上一页按钮 -->
       {% if paginator.previous_page %}
       <li>
-      {% if paginator.previous_page == 1 %}
-      <a href="/"><i class="icon-chevron-left"></i></a>
-      {% else %}
-      <a href="{{ paginator.previous_page_path }}"><i class="icon-chevron-left"></i></a>
-      {% endif %}
+        {% if paginator.previous_page == 1 %}
+        <a href="/"><i class="icon-chevron-left"></i></a>
+        {% else %}
+        <a href="/page{{ paginator.previous_page }}"><i class="icon-chevron-left"></i></a>
+        {% endif %}
       </li>
       {% else %}
       <li class="disabled">
@@ -67,7 +67,7 @@ title: codepiao
 
       {% if paginator.next_page %}
       <li>
-      <a href="{{ paginator.next_page_path }}"><i class="icon-chevron-right"></i></a>
+      <a href="/page{{ paginator.next_page }}"><i class="icon-chevron-right"></i></a>
       </li>
       {% else %}
       <li class="disabled">
