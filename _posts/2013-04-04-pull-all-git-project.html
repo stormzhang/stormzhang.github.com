@@ -11,7 +11,8 @@ icon: code
 {% include codepiano/setup %}
 
 <p class="paragraph">
-在给定目录的所有子文件夹下执行git pull，如果你签出的项目都在一个或几个目录下，例如，你使用git clone命令签出了4个项目到F:\GIT目录下：
+在给定目录的所有子文件夹下执行git pull，如果你签出的项目都在一个或几个目录下，
+例如，你使用git clone命令签出了4个项目到F:\GIT目录下：
 </p>
 
 <div class="highlight">
@@ -29,7 +30,8 @@ F:\GIT
 </div>
 
 <p class="paragraph">
-可以在脚本的配置变量中添加路径：F:\GIT，执行脚本就可以依次在每个目录中进行下列操作，先更新项目，如果项目包含子模块再更新所有子模块。<b>注意:更新默认的分支都是主分支</b>
+可以在脚本的配置变量中添加路径：F:\GIT，执行脚本就可以依次在每个目录中进行下列操作，先更新项目，
+如果项目包含子模块再更新所有子模块。<b>注意:更新默认的分支都是主分支</b>
 </p>
 
 {% highlight bash %}
@@ -41,7 +43,9 @@ git submodule foreach pull git origin master
 {% endhighlight %}
 
 <p class="paragraph">
-脚本提供了Windows版的bat文件和Linux下的Bash文件，两个脚本行为一样，由于脚本语言的差异，配置方式有一些不同，具体请参考README。如果发现子模块无法更新，请手动在项目中执行下面两个命令，然后再进行尝试:
+脚本提供了Windows版的bat文件和Linux下的Bash文件，两个脚本行为一样，由于脚本语言的差异，
+配置方式有一些不同，具体请参考README。如果发现子模块无法更新，请手动在项目中执行下面两个命令，
+然后再进行尝试:
 </p>
 {% highlight bash %}
 
