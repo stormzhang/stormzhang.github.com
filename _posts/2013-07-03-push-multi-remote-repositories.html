@@ -21,10 +21,10 @@ icon: file-alt
 如果已经配置好了ssh验证方式，在开源中国的git托管也可以使用同一个的key，然后打开github项目中中的.git/config文件
 在[remote "origin"]节点下面直接添加开源中国git中对应项目的ssh地址即可
 </p>
-<p class="hightlight">
-[remote "origin"]
-	url = git@github.com:codepiano/pull-all-git-project.git
-	url = git@git.oschina.net:codepiano/pull-all-git-project.git
-	fetch = +refs/heads/*:refs/remotes/origin/*
-</p>
+<div class="highlight">
+<p>[remote "origin"]</p>
+<p>&nbsp;&nbsp;url = git@github.com:codepiano/pull-all-git-project.git</p>
+<p>&nbsp;&nbsp;url = git@git.oschina.net:codepiano/pull-all-git-project.git</p>
+<p>&nbsp;&nbsp;fetch = +refs/heads/*:refs/remotes/origin/*</p>
+</div>
 
