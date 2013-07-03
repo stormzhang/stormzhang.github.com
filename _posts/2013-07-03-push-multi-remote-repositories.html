@@ -22,9 +22,11 @@ icon: file-alt
 在[remote "origin"]节点下面直接添加开源中国git中对应项目的ssh地址即可
 </p>
 <div class="highlight">
-<p>[remote "origin"]</p>
-<p>&nbsp;&nbsp;url = git@github.com:codepiano/pull-all-git-project.git</p>
-<p>&nbsp;&nbsp;url = git@git.oschina.net:codepiano/pull-all-git-project.git</p>
-<p>&nbsp;&nbsp;fetch = +refs/heads/*:refs/remotes/origin/*</p>
+<pre>
+[remote "origin"]
+	url = git@github.com:codepiano/pull-all-git-project.git
+	url = git@git.oschina.net:codepiano/pull-all-git-project.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+</pre>
 </div>
 
