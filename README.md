@@ -30,6 +30,6 @@
 
 归档页面文章前的符号是font-awesome的图表名称，请在post中的yaml指定icon属性
 
-比如想展示class名字为icon-github的图标，指定icon属性值为'github'即可
+比如想展示class名字为icon-github的图标，指定icon属性值为github即可,具体请参考post中的写法
 
 如果使用rake文件生成post，post默认的图标是file-alt
