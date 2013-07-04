@@ -78,7 +78,7 @@ codepiano :
   comments :
     provider : disqus
     disqus :
-      short_name : cnmahj
+      short_name : junsblog
    
   # Settings for analytics helper
   # Set 'provider' to the analytics provider you want to use.
