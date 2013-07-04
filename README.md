@@ -1,6 +1,6 @@
 # 个人博客
 
-[codepiano](http://codepiano.github.io)
+基于[codepiano](http://codepiano.github.io)的个人博客模版创建。
 
 个人博客，转载请注明出处，保留所有权利。
 
