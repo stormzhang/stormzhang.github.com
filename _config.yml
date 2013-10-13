@@ -8,9 +8,9 @@ paginate: 4
 title : 默默前行
 tagline: 他在哪里？
 author :
-  name : cnmahj
-  email : cnmahj@gmail.com
-  github : https://github.com/cnmahj
+  name : storm's blog
+  email : stormzhang.dev@qq.com
+  github : https://github.com/stormzhang
   twitter : http://twitter.com/cnmahj
 
 # The production_url is only used when full-domain names are needed
@@ -78,7 +78,7 @@ codepiano :
   comments :
     provider : disqus
     disqus :
-      short_name : junsblog
+      short_name : stormzhang
    
   # Settings for analytics helper
   # Set 'provider' to the analytics provider you want to use.
