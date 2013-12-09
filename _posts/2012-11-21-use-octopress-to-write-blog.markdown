@@ -23,9 +23,13 @@ rake install     # 安装默认的Octopress主题
 
 值得注意的是这里git的origin已经存在，并且指向octopress的master分支的，这里为了方便进行了更改：
 
-    git remote rm origin
-    git remote add origin git@github.com:stormzhang/stormzhang.github.com.git
-    git remote add octopress git://github.com/imathis/octopress.git  # 为了octopress的升级而添加
+{% highlight ruby %}
+
+git remote rm origin
+git remote add origin git@github.com:stormzhang/stormzhang.github.com.git
+git remote add octopress git://github.com/imathis/octopress.git  # 为了octopress的升级而添加
+
+{% endhighlight %}
 
 ## 3.配置github
 
@@ -33,39 +37,63 @@ rake install     # 安装默认的Octopress主题
 
 设定 GitHub Pages
 
-    rake setup_github_pages
+{% highlight ruby %}
+
+rake setup_github_pages
+
+{% endhighlight %}
 
 以上执行后会要求 read/write url for repository ： 
 
 git@github.com:yourname/yourname.github.com.git 
 
-    rake generate
-    rake deploy
+{% highlight ruby %}
+
+rake generate
+rake deploy
+
+{% endhighlight %}
 
 等待几分钟后，github上会收到一封信：“{yourname.github.com} Page build successful”，第一次发布后等比较久，之后每次都会直接更新。 当你发布之后，你就可以到 http://yourname.github.com 上看到你的博客了.
 
 ## 4.将 source 也加入 git
 
-    git add .
-    git commit -m 'initial source commit'
-    git push origin source
+{% highlight ruby %}
+
+git add .
+git commit -m 'initial source commit'
+git push origin source
+
+{% endhighlight %}
 
 ## 5.更新 Octopress
 
-    git remote add octopress git://github.com/imathis/octopress.git
-    git pull octopress master     # Get the latest Octopress
-    bundle install                # Keep gems updated
-    rake update_source            # update the template's source
-    rake update_style             # update the template's style
+{% highlight ruby %}
+
+git remote add octopress git://github.com/imathis/octopress.git
+git pull octopress master     # Get the latest Octopress
+bundle install                # Keep gems updated
+rake update_source            # update the template's source
+rake update_style             # update the template's style
+
+{% endhighlight %}
 
 ## 6.发表新文章
 
-    rake new_post["新文章名称"]
-    rake preview
+{% highlight ruby %}
+
+rake new_post["新文章名称"]
+rake preview
+
+{% endhighlight %}
 
 用浏览器打开 http://localhost:4000 就可以看到效果了。
 
 ## 7.发布
 
-    rake gen_deploy
-    rake deploy                 #若发布后无效果可试试此命令
+{% highlight ruby %}
+
+rake gen_deploy
+rake deploy                 #若发布后无效果可试试此命令
+
+{% endhighlight %}
