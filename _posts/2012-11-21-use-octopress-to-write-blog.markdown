@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "搭建Octopress"
-comments: true
 tags: [Octopress]
 categories: Blog
 ---
