@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "搭建Octopress"
-date: 2012-11-21 21:18
 comments: true
+tags: [Octopress]
 categories: Blog
 ---
 
@@ -10,10 +10,14 @@ categories: Blog
 
 ## 1.安装Octopress
 
-    git clone git://github.com/imathis/octopress.git octopress
-    cd octopress
-    bundle update    # 安装依赖的组件
-    rake install     # 安装默认的Octopress主题
+{% highlight ruby %}
+
+git clone git://github.com/imathis/octopress.git octopress
+cd octopress
+bundle update    # 安装依赖的组件
+rake install     # 安装默认的Octopress主题
+
+{% endhighlight %}
 
 ## 2.配置Git
 

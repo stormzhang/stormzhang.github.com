@@ -1,0 +1,36 @@
+---
+layout: post
+keywords: jekyll
+title: "迁移到jekyll"
+categories: [Blog]
+tags: [Jekyll]
+group: archive
+---
+{% include codepiano/setup %}
+
+把博客迁移到Jekyll， 换了一个简约的主题。
+
+## Create a Post
+
+{% highlight ruby %}
+
+$ rake post title="Hello World"
+
+{% endhighlight %}
+
+
+## Create a Page
+
+{% highlight ruby %}
+
+$ rake page name="about.md"
+
+{% endhighlight %}
+
+### Create a nested page
+
+{% highlight ruby %}
+
+$ rake page name="pages/about.md"
+
+{% endhighlight %}

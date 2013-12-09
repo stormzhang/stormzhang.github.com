@@ -2,7 +2,7 @@ permalink: /:categories/:year/:month/:day/:title
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 auto: true
-pygments: false
+pygments: true
 paginate: 10
 
 title : 人之所以能，是相信能。
@@ -78,7 +78,8 @@ codepiano :
   # Set 'provider' to false to turn commenting off globally.
   #
   comments :
-    provider : disqus
+    provider : false
+  #  provider : disqus
     disqus :
       short_name : stormsblog
    
