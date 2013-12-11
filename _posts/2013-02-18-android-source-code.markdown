@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "Android Source Code"
-date: 2013-02-18 13:36
-comments: true
+tags: [Source Code]
 categories: Android
 ---
 

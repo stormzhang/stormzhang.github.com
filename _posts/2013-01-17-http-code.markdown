@@ -2,7 +2,7 @@
 layout: post
 title: "HTTP协议之状态码"
 tags: [Http]
-categories: RubyOnRails
+categories: [Ruby On Rails]
 ---
 
 一篇不错的讲解HTTP状态码的Blog，收藏了！

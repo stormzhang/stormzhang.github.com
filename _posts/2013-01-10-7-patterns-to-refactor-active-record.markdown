@@ -2,7 +2,7 @@
 layout: post
 title: "7-patterns-to-refactor-active-record"
 tags: [Refactor]
-categories: RubyOnRails
+categories: [Ruby On Rails]
 ---
 
 Vincent推荐的一篇非常不错的文章，看后非常受益。
