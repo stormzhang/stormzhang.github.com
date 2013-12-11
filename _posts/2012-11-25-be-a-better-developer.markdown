@@ -2,7 +2,7 @@
 layout: post
 title: "Become a Better Developer You Can"
 date: 2012-11-25 14:46
-comments: true
+tags: [RubyConf]
 categories: RubyOnRails
 ---
 
