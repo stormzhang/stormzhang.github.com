@@ -1,9 +1,10 @@
 ---
 layout: post
 title: "Active Record Associations"
-tags: [Rails]
+tags: [Rails, ActiveRecord]
 categories: [Ruby On Rails]
 ---
+{% include codepiano/setup %}
 
 ## 为什么要关联？
 
@@ -29,8 +30,7 @@ end
 
 再考虑在删除一个客户时，确保他的订单也被删除了。
 
-{% highlight ruby %}
-
+{% highlight xml %}
 @orders = Order.find_by_customer_id(@customer.id)
 
 @orders.each do |order|
@@ -38,7 +38,6 @@ end
 end
 
 @customer.destroy
-
 {% endhighlight %}
 
 使用Active Record关联，我们通过声明告诉Rails在这两个model之间存在的关联使这些及其他一些操作流线化，这里是建立customer model和order model的改进代码
