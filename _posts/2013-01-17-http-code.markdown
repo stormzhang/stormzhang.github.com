@@ -1,0 +1,12 @@
+---
+layout: post
+title: "HTTP协议之状态码"
+tags: [Http]
+categories: RubyOnRails
+---
+
+一篇不错的讲解HTTP状态码的Blog，收藏了！
+
+[Http协议之状态码详解](http://www.v5brower.iteye.com/blog/1769789)
+
+
