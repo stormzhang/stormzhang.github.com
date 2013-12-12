@@ -14,7 +14,7 @@ AChartEngine是一个android应用的图表库，他支持一些常见的一些�
 
 下面先看下这次项目中实现的效果吧：
 
-<img src="/images/weight_curve.png">
+<img src="/image/weight_curve.png">
 
 ## 实现
 
