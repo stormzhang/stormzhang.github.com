@@ -27,17 +27,18 @@ categories: [DesignPatterns]
 
 {% highlight ruby %}
 public class Foo {
-	// 在类被加载进入内存的时候就创建单一的Foo对象
-	public static final Foo foo = new Foo();
+    // 在类被加载进入内存的时候就创建单一的Foo对象
+    public static final Foo foo = new Foo();
 
-	// 构造函数私有化
-	private Foo() {
-	}
+    // 构造函数私有化
+    private Foo() {
 
-	// 提供一个全局的静态方法
-	public static Foo getFoo() {
-		return foo;
-	}
+    }
+
+    // 提供一个全局的静态方法
+    public static Foo getFoo() {
+    	return foo;
+    }
 }
 {% endhighlight %}
 
@@ -46,19 +47,20 @@ public class Foo {
 {% highlight ruby %}
 // 这种方式在需要使用的时候才实例化
 public class Foo {
-	private static Foo foo;
+    private static Foo foo;
 
-	// 构造函数私有化
-	private Foo() {
-	}
+    // 构造函数私有化
+    private Foo() {
 
-	// 提供一个全局的静态方法
-	public static Foo getFoo() {
-		if (foo == null) {
-			foo = new Foo();
-		}
-		return foo;
-	}
+    }
+
+    // 提供一个全局的静态方法
+    public static Foo getFoo() {
+    	if (foo == null) {
+    		foo = new Foo();
+    	}
+    	return foo;
+    }
 }
 {% endhighlight %}
 
@@ -66,19 +68,19 @@ public class Foo {
 
 {% highlight ruby %}
 public class Foo {
-	private static Foo foo;
+    private static Foo foo;
 
-	// 构造函数私有化
-	private Foo() {
-	}
+    // 构造函数私有化
+    private Foo() {
+    }
 
-	// 提供一个全局的静态方法，使用同步方法
-	public static synchronized Foo getFoo() {
-		if (foo == null) {
-			foo = new Foo();
-		}
-		return foo;
-	}
+    // 提供一个全局的静态方法，使用同步方法
+    public static synchronized Foo getFoo() {
+    	if (foo == null) {
+    		foo = new Foo();
+    	}
+    	return foo;
+    }
 }
 {% endhighlight %}
 
@@ -86,24 +88,23 @@ public class Foo {
 
 {% highlight ruby %}
 public class Foo {
-	private static Foo foo;
+    private static Foo foo;
 
-	// 构造函数私有化
-	private Foo() {
-	}
+    // 构造函数私有化
+    private Foo() {
+    }
 
-	// 提供一个全局的静态方法
-	public static Foo getFoo() {
-		if (foo == null) {
-			synchronized (Foo.class) {
-				if (foo == null) {
-					foo = new Foo();
-				}
-			}
-		}
-		return foo;
-	}
-
+    // 提供一个全局的静态方法
+    public static Foo getFoo() {
+        if (foo == null) {
+            synchronized (Foo.class) {
+                if (foo == null) {
+            	    foo = new Foo();
+                }
+            }
+        }
+    return foo;
+    }
 }
 {% endhighlight %}
 
