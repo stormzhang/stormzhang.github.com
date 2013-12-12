@@ -2,7 +2,7 @@
 layout: post
 title: "Android全局异常处理"
 tags: [CrashHander]
-categories: Android
+categories: [Android]
 ---
 
 在做android项目开发时，大家都知道如果程序出错了，会弹出来一个强制退出的弹出框，这个本身没什么问题，但是这个UI实在是太丑了，别说用户接受不了，就连我们自己本身可能都接受不了。虽然我们在发布程序时总会经过仔细的测试，但是难免会碰到预料不到的错误。

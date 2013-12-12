@@ -2,7 +2,7 @@
 layout: post
 title: "Rails3 Route常用用法"
 tags: [Rails]
-categories: [Ruby On Rails]
+categories: [RubyOnRails]
 ---
 
 我们都知道在Rails中的config/route.rb文件定义了路由的设定，这次充分学习了Rails3中Route的常用用法，整理并分享在这里。

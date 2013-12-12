@@ -2,7 +2,7 @@
 layout: post
 title: "Ruby闭包: Block, Proc, lambda"
 tags: [Ruby]
-categories: RubyOnRails
+categories: [RubyOnRails]
 ---
 
 Ruby中的闭包非常强大，也非常重要，所以决定系统的学习下。

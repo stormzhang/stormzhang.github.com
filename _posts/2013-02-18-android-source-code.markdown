@@ -2,7 +2,7 @@
 layout: post
 title: "Android Source Code"
 tags: [Source Code]
-categories: Android
+categories: [Android]
 ---
 
 我们知道，源代码是最好的学习资料，所以今天就来记录下android中下载并查看源代码的方法：

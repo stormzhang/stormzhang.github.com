@@ -2,7 +2,7 @@
 layout: post
 title: "设计模式之TemplateMethod"
 tags: [Template]
-categories: [Design Patterns]
+categories: [DesignPatterns]
 ---
 
 最近开始看《Ruby设计模式》一书，结合“追mm与设计模式”，虽然有些YD，不过也有助于帮助理解设计模式 ，边学习边记录一下吧。Template method模式是最简单的一种设计模式了.

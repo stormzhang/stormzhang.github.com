@@ -2,7 +2,7 @@
 layout: post
 title: "Sublime Text 2 Plugin"
 tags: [Sublime]
-categories: Other
+categories: [Other]
 ---
 {% include codepiano/setup %}
 

@@ -2,7 +2,7 @@
 layout: post
 title: "Active Record Associations"
 tags: [Rails, ActiveRecord]
-categories: [Ruby On Rails]
+categories: [RubyOnRails]
 ---
 {% include codepiano/setup %}
 

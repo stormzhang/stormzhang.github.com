@@ -3,7 +3,7 @@ layout: post
 title: "Become a Better Developer You Can"
 date: 2012-11-25 14:46
 tags: [RubyConf]
-categories: RubyOnRails
+categories: [RubyOnRails]
 ---
 
 > 很荣幸参加了RubyConfChina-2012大会，即第四次Ruby中国大会，第一次参加难免有点激动，

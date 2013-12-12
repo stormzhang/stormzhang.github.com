@@ -3,7 +3,7 @@ layout: post
 title: "Android生成唯一标识符UUID"
 date: 2013-10-11 21:13
 tags: [UUID, Java]
-categories: Android
+categories: [Android]
 ---
 {% include codepiano/setup %}
 

@@ -2,7 +2,7 @@
 layout: post
 title: "Ruby Range"
 tags: [Ruby]
-categories: RubyOnRails
+categories: [RubyOnRails]
 ---
 
 最近一直在做“生理周期”，不过不要担心，这里只会探讨技术领域，不会涉及到神圣的MC领域。在做生理周期指数预测、周期日报的时候大量用到了Range对象，所以干脆就把Range对象系统的学习下，在这里记录并分享出来。

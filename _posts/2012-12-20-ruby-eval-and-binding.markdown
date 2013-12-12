@@ -2,7 +2,7 @@
 layout: post
 title: "Ruby: eval && binding"
 tags: [Ruby]
-categories: RubyOnRails
+categories: [RubyOnRails]
 ---
 {% include codepiano/setup %}
 

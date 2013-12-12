@@ -2,7 +2,7 @@
 layout: post
 title: "Rails Cache"
 tags: [Rails, Cache]
-categories: [Ruby On Rails]
+categories: [RubyOnRails]
 ---
 
 这周修改bug的时候有一个是由于缓存机制引起的，遂系统的学习了下rails的缓存，在这里记录下。

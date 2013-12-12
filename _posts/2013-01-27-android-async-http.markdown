@@ -2,7 +2,7 @@
 layout: post
 title: "Android Asynchronous Http Client"
 tags: [Http Library]
-categories: Android
+categories: [Android]
 ---
 
 在Android的SDK中封装一些请求http的包，其中最常用的便是使用HttpClient了，我们一般都是自己定义一个http的工具类，然后把get和post方法封装起来，然后自己手动处理一些http的异常，值得注意的是http请求在android中是阻碍UI主线程的，所以必须开启新的线程在后台请求，所以这一来，发现只是发起一个http的请求就必须要做这么多事，而且自己封装的工具类也不一定是最好用的。

@@ -2,7 +2,7 @@
 layout: post
 title: "迁移到jekyll"
 tags: [Jekyll]
-categories: Other
+categories: [Other]
 ---
 {% include codepiano/setup %}
 
