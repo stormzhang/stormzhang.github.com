@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    {% if page.keywords %}<meta name="keywords" content="{{ page.keywords }}">{% endif %}
+    {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
+    <meta name="author" content="{{ site.author.name }}">
+
+    <!-- Enable responsive viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le styles -->
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css" rel="stylesheet">
+    <link href="/css/typo.css" rel="stylesheet">
+    <link href="/css/style.css?body=1" rel="stylesheet" type="text/css" media="all">
+    <link href="/css/solarized.css" rel="stylesheet" type="text/css" media="all">
+    <link href="/css/datatables-bootstrap.css" rel="stylesheet">
+    <link href="/css/codepiano.css" rel="stylesheet">
+
+    <!-- javascript files -->
+    <script type="text/javascript" src="/js/jquery-2.0.0.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="/js/datatables-bootstrap.js"></script>
+    <script type="text/javascript" src="/js/codepiano.js"></script>
+
+    <!-- Le fav and touch icons -->
+    <!-- Update these with your own images
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+    -->
+
+    <!-- atom & rss feed -->
+    <link href="{{ BASE_PATH }}{{ site.codepiano.atom_path }}" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
+    <link href="{{ BASE_PATH }}{{ site.codepiano.rss_path }}" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
+
+    <script type="text/javascript">
+    </script>
+
+  </head>
+
+  <body id="scroll-pane" data-spy="scroll" data-target="#time-list-nav">
+    <div class="wrapper">
+      <!-- 导航条 -->
+      <div class="navbar">
+        <div class="navbar-inner row-fluid">
+          <div class="span2">
+          </div>
+          <div class="span8">
+            <a class="brand" href="{{ HOME_PATH }}">
+              <span class="site-author"> {{ site.author.name }} </span>
+              <span class="site-title"> /* {{ site.title }} */ </span>
+            </a>
+          </div>
+          <div class="span2">
+          </div>
+        </div>
+      </div>
+
+      <!-- 正文 -->
+      <div class="row-fluid typo">
+      <div class="span2"></div>
+      <div class="span8">
+        <br />
+        {{ content }}
+      </div>
+  <div class="span2"></div>
+</div>
+      
+    {% include codepiano/analytics %}
+  </body>
+</html>
