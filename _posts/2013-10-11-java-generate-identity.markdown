@@ -11,7 +11,7 @@ categories: [Android]
 
 {% highlight ruby %}
 
-    java.util.UUID.randomUUID().toString();
+java.util.UUID.randomUUID().toString();
 
 {% endhighlight %}
 
