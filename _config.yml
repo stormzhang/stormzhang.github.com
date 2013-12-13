@@ -3,7 +3,7 @@ permalink: /:categories/:year/:month/:day/:title
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 auto: true
 pygments: true
-paginate: 8
+paginate: 5
 
 title : 夜空中最亮的星
 tagline: 爱生活，爱技术，爱科技，爱折腾
