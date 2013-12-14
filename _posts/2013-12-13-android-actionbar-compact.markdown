@@ -17,7 +17,7 @@ categories: [Android]
 
 <!-- more -->
 
-首先确认了开发环境中Android SDK已经安装了Support Library r18或以上，目前最新的是19,接下来，开始实际建立一个ActionBar的开发实例。实现一个含有Action Bar Icon, Title, Action Item 以及Action Overflow的ActionBar Hello World应用。效果如下
+首先确认了开发环境中Android SDK已经安装了Support Library r18或以上，目前最新的是19, 接下来，开始实际建立一个ActionBar的开发实例。实现一个含有Action Bar Icon, Title, Action Item 以及Action Overflow的ActionBar Hello World应用。效果如下
 
 <img src="http://bcs.duapp.com/mobiletuts//blog/201310//actionbar_sample.png">
 
@@ -136,7 +136,7 @@ Action Items广泛使用的一些icon，你可以从[Download the Action Bar Ico
 最后，如果需要在程序中对ActionBar进行操作，可以通过getSupportActionBar()来实现。
 
 {% highlight ruby %}
-actionBar=getSupportActionBar();
+actionBar = getSupportActionBar();
 //actionBar operation
 actionBar.setTitle("ActionBar");
 {% endhighlight %}
