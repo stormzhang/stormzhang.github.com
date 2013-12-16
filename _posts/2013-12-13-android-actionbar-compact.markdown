@@ -2,7 +2,7 @@
 layout: post
 keywords: actionbar
 title: "Android ActionBar Compact"
-tags: [ActionBar]
+tags: [ActionBar, IO2013]
 categories: [Android]
 ---
 {% include codepiano/setup %}
