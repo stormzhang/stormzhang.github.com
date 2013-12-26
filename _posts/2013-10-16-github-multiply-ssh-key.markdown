@@ -2,7 +2,7 @@
 layout: post
 title: "多个github帐号的SSH key切换"
 tags: [ssh]
-categories: [Others]
+categories: [Other]
 ---
 {% include codepiano/setup %}
 
