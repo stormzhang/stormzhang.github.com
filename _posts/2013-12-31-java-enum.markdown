@@ -1,0 +1,239 @@
+---
+layout: post
+title: "Java Enum"
+categories: [Java]
+tags: [Enum]
+---
+{% include codepiano/setup %}
+
+## 常量
+
+在JDK1.5 之前，我们定义常量都是： public static fianl .... 。现在好了，有了枚举，可以把相关的常量分组到一个枚举类型里，而且枚举提供了比常量更多的方法。
+
+{% highlight ruby %}
+public enum Color {  
+  RED, GREEN, YELLOW  
+} 
+{% endhighlight %}
+
+## switch
+
+JDK1.6之前的switch语句只支持int,char,enum类型，使用枚举，能让我们的代码可读性更强。
+
+{% highlight ruby %}
+enum Signal {
+    GREEN, YELLOW, RED
+}
+
+public class TrafficLight {
+    Signal color = Signal.RED;
+
+    public void change() {
+        switch (color) {
+        case RED:
+            color = Signal.GREEN;
+            break;
+        case YELLOW:
+            color = Signal.RED;
+            break;
+        case GREEN:
+            color = Signal.YELLOW;
+            break;
+        }
+    }
+}
+{% endhighlight %}
+
+## 向枚举中添加新方法
+
+如果打算自定义自己的方法，那么必须在enum实例序列的最后添加一个分号。而且 Java 要求必须先定义 enum 实例。
+
+{% highlight ruby %}
+public enum Color {
+    RED("红色", 1), GREEN("绿色", 2), BLANK("白色", 3), YELLO("黄色", 4);
+    // 成员变量
+    private String name;
+    private int index;
+
+    // 构造方法
+    private Color(String name, int index) {
+        this.name = name;
+        this.index = index;
+    }
+
+    // 普通方法
+    public static String getName(int index) {
+        for (Color c : Color.values()) {
+            if (c.getIndex() == index) {
+                return c.name;
+            }
+        }
+        return null;
+    }
+
+    // get set 方法
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getIndex() {
+        return index;
+    }
+
+    public void setIndex(int index) {
+        this.index = index;
+    }
+}
+{% endhighlight %}
+
+## 覆盖枚举的方法
+
+下面给出一个toString()方法覆盖的例子。
+
+{% highlight ruby %}
+public class Test {
+    public enum Color {
+        RED("红色", 1), GREEN("绿色", 2), BLANK("白色", 3), YELLO("黄色", 4);
+        // 成员变量
+        private String name;
+        private int index;
+
+        // 构造方法
+        private Color(String name, int index) {
+            this.name = name;
+            this.index = index;
+        }
+
+        // 覆盖方法
+        @Override
+        public String toString() {
+            return this.index + "_" + this.name;
+        }
+    }
+
+    public static void main(String[] args) {
+        System.out.println(Color.RED.toString());
+    }
+}
+{% endhighlight %}
+
+## 实现接口
+
+所有的枚举都继承自java.lang.Enum类。由于Java 不支持多继承，所以枚举对象不能再继承其他类。
+
+{% highlight ruby %}
+public interface Behaviour {
+    void print();
+
+    String getInfo();
+}
+
+public enum Color implements Behaviour {
+    RED("红色", 1), GREEN("绿色", 2), BLANK("白色", 3), YELLO("黄色", 4);
+    // 成员变量
+    private String name;
+    private int index;
+
+    // 构造方法
+    private Color(String name, int index) {
+        this.name = name;
+        this.index = index;
+    }
+
+    // 接口方法
+
+    @Override
+    public String getInfo() {
+        return this.name;
+    }
+
+    // 接口方法
+    @Override
+    public void print() {
+        System.out.println(this.index + ":" + this.name);
+    }
+}
+{% endhighlight %}
+
+## 使用接口组织枚举
+
+{% highlight ruby %}
+public interface Food {
+    enum Coffee implements Food {
+        BLACK_COFFEE, DECAF_COFFEE, LATTE, CAPPUCCINO
+    }
+
+    enum Dessert implements Food {
+        FRUIT, CAKE, GELATO
+    }
+}
+{% endhighlight %}
+
+## 关于枚举集合的使用
+
+java.util.EnumSet和java.util.EnumMap是两个枚举集合。EnumSet保证集合中的元素不重复;EnumMap中的 key是enum类型，而value则可以是任意类型。关于这个两个集合的使用就不在这里赘述，可以参考JDK文档
+
+## 方法介绍
+
+所有枚举类都继承了Enum的方法，下面我们详细介绍这些方法。
+
+1. ordinal()
+
+返回枚举值在枚举类种的顺序。这个顺序根据枚举值声明的顺序而定。
+
+{% highlight ruby %}
+Color.RED.ordinal();  //返回结果：0
+Color.BLUE.ordinal();  //返回结果：1
+{% endhighlight %}
+
+2. compareTo()
+
+Enum实现了java.lang.Comparable接口，因此可以比较象与指定对象的顺序。Enum中的compareTo返回的是两个枚举值的顺序之差。当然，前提是两个枚举值必须属于同一个枚举类，否则会抛出ClassCastException()异常。(具体可见源代码)
+
+{% highlight ruby %}
+Color.RED.compareTo(Color.BLUE);  //返回结果 -1
+{% endhighlight %}
+
+3. values()
+
+静态方法，返回一个包含全部枚举值的数组。
+
+{% highlight ruby %}
+Color[] colors=Color.values();
+for(Color c:colors){
+    System.out.print(c+","); 
+}
+//返回结果：RED,BLUE,BLACK YELLOW,GREEN,
+{% endhighlight %}
+
+4. toString()
+
+返回枚举常量的名称。
+
+{% highlight ruby %}
+Color c=Color.RED;
+System.out.println(c);//返回结果: RED
+{% endhighlight %}
+
+5. valueOf()
+
+这个方法和toString方法是相对应的，返回带指定名称的指定枚举类型的枚举常量。
+
+{% highlight ruby %}
+Color.valueOf("BLUE");   //返回结果: Color.BLUE
+{% endhighlight %}
+
+6. equals()
+
+比较两个枚举类对象的引用。
+
+{% highlight ruby %}
+//JDK源代码：      
+public final boolean equals(Object other) {  
+    return this==other;  
+}  
+{% endhighlight %}
