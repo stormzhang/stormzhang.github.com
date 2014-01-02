@@ -181,7 +181,7 @@ java.util.EnumSet和java.util.EnumMap是两个枚举集合。EnumSet保证集合
 
 所有枚举类都继承了Enum的方法，下面我们详细介绍这些方法。
 
-1. ordinal()
+* ordinal()
 
 返回枚举值在枚举类种的顺序。这个顺序根据枚举值声明的顺序而定。
 
@@ -190,7 +190,7 @@ Color.RED.ordinal();  //返回结果：0
 Color.BLUE.ordinal();  //返回结果：1
 {% endhighlight %}
 
-2. compareTo()
+* compareTo()
 
 Enum实现了java.lang.Comparable接口，因此可以比较象与指定对象的顺序。Enum中的compareTo返回的是两个枚举值的顺序之差。当然，前提是两个枚举值必须属于同一个枚举类，否则会抛出ClassCastException()异常。(具体可见源代码)
 
@@ -198,7 +198,7 @@ Enum实现了java.lang.Comparable接口，因此可以比较象与指定对象�
 Color.RED.compareTo(Color.BLUE);  //返回结果 -1
 {% endhighlight %}
 
-3. values()
+* values()
 
 静态方法，返回一个包含全部枚举值的数组。
 
@@ -210,7 +210,7 @@ for(Color c:colors){
 //返回结果：RED,BLUE,BLACK YELLOW,GREEN,
 {% endhighlight %}
 
-4. toString()
+* toString()
 
 返回枚举常量的名称。
 
@@ -219,7 +219,7 @@ Color c=Color.RED;
 System.out.println(c);//返回结果: RED
 {% endhighlight %}
 
-5. valueOf()
+* valueOf()
 
 这个方法和toString方法是相对应的，返回带指定名称的指定枚举类型的枚举常量。
 
@@ -227,7 +227,7 @@ System.out.println(c);//返回结果: RED
 Color.valueOf("BLUE");   //返回结果: Color.BLUE
 {% endhighlight %}
 
-6. equals()
+* equals()
 
 比较两个枚举类对象的引用。
 
