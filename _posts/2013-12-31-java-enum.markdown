@@ -11,9 +11,9 @@ tags: [Enum]
 在JDK1.5 之前，我们定义常量都是： public static fianl .... 。现在好了，有了枚举，可以把相关的常量分组到一个枚举类型里，而且枚举提供了比常量更多的方法。
 
 {% highlight ruby %}
-public enum Color {  
-  RED, GREEN, YELLOW  
-} 
+public enum Color {
+  RED, GREEN, YELLOW
+}
 {% endhighlight %}
 
 ## switch
