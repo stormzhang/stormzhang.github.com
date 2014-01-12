@@ -182,7 +182,7 @@ public class FancyFragment extends Fragment {
 
 另外 还支持 可选的 View 注入，如果该 View 没有，就没有吧：
 
-{% highlight ruby %}
+{% highlight xml %}
 @Optional @InjectView(R.id.might_not_be_there) TextView mightNotBeThere;
  
 @Optional @OnClick(R.id.maybe_missing) void onMaybeMissingClicked() {
