@@ -9,7 +9,7 @@ Android开发中我们经常会用到各种各样的loading，于是自己总结
 
 完整源码参见：[stormzhang / CustomLoading](https://github.com/stormzhang/CustomLoading)
 
-<img src="https://raw.github.com/stormzhang/CustomLoading/master/snap.png">
+<img src="https://raw.github.com/stormzhang/CustomLoading/master/snap.jpg">
 
 <!-- more -->
 
