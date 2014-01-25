@@ -9,11 +9,11 @@ index: 4
 
 ## 关于我
 
-###### 大众版
+* 大众版
 
 Android开发者 + Ruby语言爱好者 + Google脑残粉 + Apple追随者， 爱技术， 爱开源， 最近开始爱上设计， 其实我最爱的还是赚钱！
 
-###### Ruby版
+* Ruby版
 
 {% highlight ruby %}
 name = 'Storm'
@@ -36,6 +36,3 @@ end
 * Github: [https://github.com/stormzhang](https://github.com/stormzhang)
 
 * Weibo: [http://weibo.com/stormzhang](http://weibo.com/zhangqi8)
-
-
-
