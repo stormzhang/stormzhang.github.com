@@ -10,7 +10,7 @@ tags: [Git]
 ## Git配置
 
 {% highlight ruby %}
-git config --global user.name "storm"   
+git config --global user.name "storm"
 git config --global user.email "stormzhang.dev@gmail.com"
 git config --global color.ui true
 git config --global alias.co checkout  # 别名
@@ -176,3 +176,5 @@ git remote set-head origin master   # 设置远程仓库的HEAD指向master分�
 git branch --set-upstream master origin/master
 git branch --set-upstream develop origin/develop
 {% endhighlight %}
+
+Via [robbinfan](http://robbinfan.com/blog/34/git-common-command)
