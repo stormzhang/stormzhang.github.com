@@ -11,7 +11,7 @@ index: 4
 
 * 大众版
 
-Android开发者 + Ruby语言爱好者 + Google脑残粉 + Apple追随者， 爱技术， 爱开源， 最近开始爱上设计， 其实我最爱的还是赚钱！
+Android开发者 + Ruby语言爱好者 + Google脑残粉 + Apple追随者， 爱技术， 爱开源， 最近开始爱上设计， 其实我还很爱赚钱！
 
 * Ruby版
 
