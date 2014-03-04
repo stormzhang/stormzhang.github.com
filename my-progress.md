@@ -7,7 +7,9 @@ group: static
 ---
 {% include codepiano/setup %}
 
-* 2013年7月，入手iPhone 5S,
+* 2013年9月，入手Nexus 5，其实主要原因是自己已经发展成了G粉，入手Google的手机还可以尝鲜体验最新的Android 4.4 KitKat系统。目前为止，用了Nexus 5，再也不想用其他手机了。
+
+* 2013年7月，入手iPhone 5S,两个原因：一是我女朋友该换手机了，之前的oppo用了4、5年了，二是体验下iPhone上的app，和Android平台上的app总结下优劣。
 
 * 2013年6月，薄荷推出商店模块，加入电商功能。
 
@@ -37,7 +39,7 @@ group: static
 
 * 2012年12月，在Github上搭建了自己的个人博客，基于Octopress主题，计划坚持记录下自己在技术方面的学习总结。
 
-* 2012年11月，自认为这段时间是我的人生低谷，没有什么开发基础入手学习Ruby，学习Rails，第一次接触Linux系统，熟悉Linux命令，学习各种从没接触过的概念：RVM,，Bundle，Git，MySql，Nginx，Passenger，Rspec。承受着巨大的压力，这段时间几乎每天都是做最后一班车回去，到家的时候基本是12点...但庆幸的是我熬过来了。
+* 2012年11月，自认为这段时间是我的人生低谷，没有什么开发基础入手学习Ruby，学习Rails，第一次接触Linux系统，熟悉Linux命令，学习各种从没接触过的概念：RVM，Bundle，Git，MySql，Nginx，Passenger，Rspec。承受着巨大的压力，这段时间几乎每天都是做最后一班车回去，到家的时候基本是12点...但庆幸的是我熬过来了。
 
 * 2012年9月2日，注册了Github账号，第一次接触到了开源世界，虽然那时候根本不知Github为何物。
 
