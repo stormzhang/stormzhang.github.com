@@ -11,7 +11,7 @@ index: 4
 
 * 大众版
 
-Android开发者 + Ruby语言爱好者 + Google脑残粉 + Apple追随者 + 微博控，爱技术， 爱开源， 爱设计， 爱赚钱！热爱并沉溺于移动互联网不能自拔，I just want to make a good app!
+Android开发者 + Ruby语言爱好者 + Google脑残粉 + Apple追随者 + 微博控，爱技术， 爱开源， 爱设计， 爱赚钱！热爱并沉溺于移动互联网，I just want to make a good app!
 
 * Ruby版
 
