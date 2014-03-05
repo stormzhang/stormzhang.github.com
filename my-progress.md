@@ -10,7 +10,7 @@ group: static
 我的大事记
 ===
 
-* 2013年1月，在Github上开源了另一个小Demo--[AndroidVolley](https://github.com/stormzhang/AndroidVolley),开源这个项目的最初目的只是学习下Google官方推出的网络通信库Volley。
+* 2013年1月，在Github上开源了另一个小Demo--[AndroidVolley](https://github.com/stormzhang/AndroidVolley),开源这个项目的最初目的是为了学习下Google官方推出的网络通信库Volley。
 
 * 2013年12月，薄荷app功能上基本成型，涉及社交、工具、服务、电商、个人中心五大模块，算是一个大中型的项目了。
 
