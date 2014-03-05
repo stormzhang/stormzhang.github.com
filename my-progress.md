@@ -7,6 +7,17 @@ group: static
 ---
 {% include codepiano/setup %}
 
+我的大事记
+===
+
+* 2013年1月，在Github上开源了另一个小Demo--[AndroidVolley](https://github.com/stormzhang/AndroidVolley),开源这个项目的最初目的只是学习下Google官方推出的网络通信库Volley。
+
+* 2013年12月，薄荷app功能上基本成型，涉及社交、工具、服务、电商、个人中心五大模块，算是一个大中型的项目了。
+
+* 2013年10月，自此便深深的爱上了开源世界，会经常关注一些开源项目，尤其在Android方面。
+
+* 2013年10月，在Github上开源了自己的一个小项目--[CustomLoading](https://github.com/stormzhang/CustomLoading), 荣幸被收录在了23code的网站和app上，最初的原因是自己在新手的时候完全不懂如何做Loading，索性就做了这个小Demo，希望能给新手们一些思路。
+
 * 2013年9月，入手Nexus 5，其实主要原因是自己已经发展成了G粉，入手Google的手机还可以尝鲜体验最新的Android 4.4 KitKat系统。目前为止，用了Nexus 5，再也不想用其他手机了。
 
 * 2013年7月，入手iPhone 5S,两个原因：一是我女朋友该换手机了，之前的oppo用了4、5年了，二是体验下iPhone上的app，和Android平台上的app总结下优劣。
