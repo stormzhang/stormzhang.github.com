@@ -36,7 +36,7 @@ Android Studio绝对是Android开发的未来，各种功能都很棒，可能�
 
 * Sublime Text
 
-除了IDE之外这个算是最常用的编辑器了，很棒！
+除了IDE之外这个算是最常用的编辑器了，很棒！当然你可能是vim粉，那就略过此条吧！
 
 * iTerm
 
