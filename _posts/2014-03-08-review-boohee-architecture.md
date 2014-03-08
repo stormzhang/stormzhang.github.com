@@ -38,7 +38,7 @@ Google在4.0之后便有了自己的一套Android设计准则推出，到今天�
 
 整个App的架构会是这样的：
 
-<img src="image/architecture.png" />
+<img src="/image/architecture.png">
 
 以上便是现在比较流行的REST客户端的应用架构，由于整个App基本都是会和服务端进行数据交互的，依然会秉承着重服务端轻客户端的原则，客户端主要注重体验与交互，复杂的业务逻辑最好不要或者涉及的越少越好。
 
