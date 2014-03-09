@@ -11,7 +11,7 @@ index: 4
 
 * 大众版
 
-Android开发者 + Ruby语言爱好者 + Google脑残粉 + Apple追随者 + 微博控，爱技术， 爱开源， 爱设计， 爱赚钱！热爱并沉溺于移动互联网，Want to make a good app!
+Android开发者 + Ruby语言爱好者 + Google脑残粉，爱技术，爱尝鲜，爱开源，爱设计，也爱赚钱！ 热爱并沉溺于移动互联网，Want to make a good app!
 
 如果想更多的了解我，看这里[我的大事记](http://stormzhang.github.io/my-progress)
 
