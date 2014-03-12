@@ -56,10 +56,10 @@ public class Foo {
 
     // 提供一个全局的静态方法
     public static Foo getFoo() {
-    	if (foo == null) {
-    		foo = new Foo();
-    	}
-    	return foo;
+        if (foo == null) {
+            foo = new Foo();
+        }
+        return foo;
     }
 }
 {% endhighlight %}
@@ -76,10 +76,10 @@ public class Foo {
 
     // 提供一个全局的静态方法，使用同步方法
     public static synchronized Foo getFoo() {
-    	if (foo == null) {
-    		foo = new Foo();
-    	}
-    	return foo;
+        if (foo == null) {
+            foo = new Foo();
+        }
+        return foo;
     }
 }
 {% endhighlight %}
@@ -103,7 +103,7 @@ public class Foo {
                 }
             }
         }
-    return foo;
+        return foo;
     }
 }
 {% endhighlight %}
