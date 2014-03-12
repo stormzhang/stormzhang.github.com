@@ -37,7 +37,7 @@ public class Foo {
 
     // 提供一个全局的静态方法
     public static Foo getFoo() {
-    	return foo;
+        return foo;
     }
 }
 {% endhighlight %}
