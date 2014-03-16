@@ -10,6 +10,8 @@ group: static
 我的大事记
 ===
 
+* 2014年3月8日，对薄荷App整体的设计以及架构进行了思考与建议，并写了一篇博客，地址在这里：[http://stormzhang.github.io/android/2014/03/08/review-boohee-architecture/](http://stormzhang.github.io/android/2014/03/08/review-boohee-architecture/)。
+
 * 2014年2月，薄荷app功能上基本成型，涉及社交、工具、服务、电商、个人中心五大模块，算是一个大中型的项目了。
 
 * 2014年1月，在Github上开源了另一个小Demo--[AndroidVolley](https://github.com/stormzhang/AndroidVolley),开源这个项目的最初目的是为了学习下Google官方推出的网络通信库Volley。
