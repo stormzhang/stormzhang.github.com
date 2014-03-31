@@ -79,6 +79,10 @@ public void onRefresh() {
 
 上面的代码很简单，只需要给SwipeRefreshLayout添加一个listener，值得说明的是setColorScheme方法是设置刷新进度条的颜色，最多只能设置4种循环显示，默认第一个是随用户手势加载的颜色进度条。
 
+## 源码
+
+写了的小demo在github上，地址在：[SwipeRefreshLayoutDemo](https://github.com/stormzhang/SwipeRefreshLayoutDemo)
+
 ## 总结
 
 google在不断完善自己的sdk，推出越来越多的组件，其目的是让开发更简单，设计上更统一，这可能是google未来的方向，不管怎样，这对开发者来说无疑是非常好的消息。
