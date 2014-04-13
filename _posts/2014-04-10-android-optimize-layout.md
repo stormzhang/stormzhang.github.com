@@ -124,7 +124,7 @@ tags: [Layout]
 
 ## < include />的使用
 
-在实际开发中，我们经常会遇到一些共用的UI组件，比如带返回按钮的导航栏，如果为每一个xml文件都设置这部分布局，一是重复的工作量大，二是如果有变更，那么每一个xml文件都得修改。还好，Android为我们提供了< include />标签，顾名思义，通过它，我们可以将这些共用的组件抽取出来单独放到一个xml文件中，然后使用< include />标签导入共用布局，这样，前面提到的两个问题都解决了。下面以在一个布局main.xml中用include引入另一个布局header.xml为例。
+在实际开发中，我们经常会遇到一些共用的UI组件，比如带返回按钮的导航栏，如果为每一个xml文件都设置这部分布局，一是重复的工作量大，二是如果有变更，那么每一个xml文件都得修改。还好，Android为我们提供了include标签，顾名思义，通过它，我们可以将这些共用的组件抽取出来单独放到一个xml文件中，然后使用include标签导入共用布局，这样，前面提到的两个问题都解决了。下面以在一个布局main.xml中用include引入另一个布局header.xml为例。
 
 header.xml文件
 
@@ -150,7 +150,7 @@ header.xml文件
 </RelativeLayout>
 {% endhighlight %}
 
-然后我们在需要引入footer的布局xml中通过< include />导入这个共用布局。
+然后我们在需要引入footer的布局xml中通过include导入这个共用布局。
 
 main.xml文件
 
@@ -239,7 +239,7 @@ merge标签的作用是合并UI布局，使用该标签能降低UI布局的嵌�
 
 这样就不会有多余的FrameLayout和RelativeLayout节点了。
 
-## <viewstub>标签
+## ViewStub标签
 
 viewstub标签同include标签一样可以用来引入一个外部布局，不同的是，viewstub引入的布局默认不会扩张，即既不会占用显示也不会占用位置，从而在解析layout时节省cpu和内存。
 viewstub常用来引入那些默认不会显示，只在特殊情况下显示的布局，如进度布局、网络失败显示的刷新布局、信息出错出现的提示布局等。
