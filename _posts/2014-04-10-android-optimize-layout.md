@@ -26,7 +26,7 @@ tags: [Layout]
 
 第一条原则说了布局层次一样的情况下LinearLayout比RelativeLayout要好， 但往往RelativeLayout可以简单实现LinearLayout嵌套才能实现的布局。假如需要实现如下布局：
 
-<img src="http://progx.org/users/Gfx/android/relativelayout_wire_1.png" />
+<img src="/image/layout_demo.png" />
 
 用LinearLayout来实现xml代码如下：
 
@@ -118,7 +118,7 @@ tags: [Layout]
 如何查看布局层次呢？有两种办法：一是通过手机的开发者选项，4.0及以上Android版本可通过设置->开发者选项->显示布局边界打开页面布局显示，看看是否有不必要的节点和嵌套。第二种就是利用SDK自带的UI性能检测工具HierarchyViewer。
 进入sdk目录下的tools文件夹下，找到HierarchyViewer并运行（此时保持你的模拟器或真机正在运行需要进行分析的App），双击我们正在显示的这个App所代表的进程。接下来便会进入hierarchyviewer的界面，我们可以在这里很清晰看到正在运行的UI的布局层次结构以及它们之间的关系。大概的显示如下图：
 
-<img src="http://ryantang.me/images/2014/01/android_optimise_layout/4.png" />
+<img src="/image/HierarchyViewer.png" />
 
 通过布局图我们可以看到根节点DecorView下包含一个LinearLayout， 这个LinearLayout就是包含Activity布局和状态栏的整个屏幕显示的布局父节点，这个LinearLayout有两个子节点， 一个是FrameLayout, FrameLayout就是Activity布局中默认的父布局节点, 这个节点下面就包含了我们自己写的xml布局， 还有一个子节点就是ViewStub，关于这个节点我们在后面会详细介绍。
 
@@ -126,7 +126,9 @@ tags: [Layout]
 
 在实际开发中，我们经常会遇到一些共用的UI组件，比如带返回按钮的导航栏，如果为每一个xml文件都设置这部分布局，一是重复的工作量大，二是如果有变更，那么每一个xml文件都得修改。还好，Android为我们提供了< include />标签，顾名思义，通过它，我们可以将这些共用的组件抽取出来单独放到一个xml文件中，然后使用< include />标签导入共用布局，这样，前面提到的两个问题都解决了。下面以在一个布局main.xml中用include引入另一个布局header.xml为例。
 
-{% highlight xml header.xml %}
+header.xml文件
+
+{% highlight xml %}
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
@@ -150,7 +152,9 @@ tags: [Layout]
 
 然后我们在需要引入footer的布局xml中通过< include />导入这个共用布局。
 
-{% highlight xml main.xml %}
+main.xml文件
+
+{% highlight xml %}
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
