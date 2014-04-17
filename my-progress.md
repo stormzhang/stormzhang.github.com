@@ -10,6 +10,8 @@ group: static
 我的大事记
 ===
 
+* 2014年4月16日，开源[9GAG](https://github.com/stormzhang/9GAG)Android客户端，亲自实践了下真正的REST Client，并利用最新的IDE，最新的技术，最新的特性以及一些最流行的开源库来Make A Good App! 后续有时间会持续增加一些新的特性。
+
 * 2014年3月20日，薄荷Android版App累计用户突破200w。
 
 * 2014年3月8日，对薄荷App整体的设计以及架构进行了思考与建议，并写了一篇博客，地址在这里：[再看薄荷](http://stormzhang.github.io/android/2014/03/08/review-boohee-architecture/)。
