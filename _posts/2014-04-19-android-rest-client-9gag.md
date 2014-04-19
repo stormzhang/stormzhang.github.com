@@ -10,7 +10,7 @@ tags: [9gag]
 
 ## What is a good app
 
-作为一名Android Developer，一直都想Make A Good App。很多次的我都在反问自己，我心中的Good App应该是什么样的呢？为了寻找答案，自己一直在产品、设计以及技术上都花了不少时间探索与研究。如今可能点雏形，我心中的Good App可能需要满足以下几个方面：
+作为一名Android Developer，一直都想Make A Good App。很多次的我都在反问自己，我心中的Good App应该是什么样的呢？为了寻找答案，自己一直在产品、设计以及技术上都花了不少时间探索与研究。如今可能有点雏形，我心中的Good App可能需要满足以下几个方面：
 
 * 产品上要追求功能简洁至上，坚持认为Simple is beautiful!
 
