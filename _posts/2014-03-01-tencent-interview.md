@@ -3,8 +3,8 @@ layout: post
 keywords: blog
 description: blog
 title: "Tencent Interview"
-categories: [Tencent]
-tags: [Interview]
+categories: [Android, Others]
+tags: [Tencent]
 ---
 {% include codepiano/setup %}
 
