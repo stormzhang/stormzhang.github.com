@@ -3,7 +3,7 @@ layout: post
 keywords: blog
 description: blog
 title: "我心中的Android REST Client--9gag"
-categories: [Android]
+categories: [Android, OpenAndroid]
 tags: [9gag]
 ---
 {% include codepiano/setup %}
