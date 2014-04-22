@@ -3,7 +3,7 @@ layout: post
 keywords: blog
 description: blog
 title: "我理想的工作环境"
-categories: [Others]
+categories: [Other]
 tags: [DevEnvironment]
 ---
 {% include codepiano/setup %}
