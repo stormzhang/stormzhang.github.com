@@ -10,6 +10,8 @@ group: static
 我的大事记
 ===
 
+* 2014年5月13日，注册成为Google Play开发者，花了我25$，为此专门去办了一张Visa信用卡，自此算是成为了一名真正的Android开发者。
+
 * 2014年4月22日，9GAG开源不到一周的时间，被eoe官方微博推荐并邀请希望成为eoe社区的版主，上了github trending榜，同时被9Gag官方Android开发人员在Facebook上分享，一时间微博、github粉丝涨了不少，同时收到各种私信、邮件的工作邀请，从没有过这种成就感，真心有点心花怒放, 飘飘然的感觉！
 
 * 2014年4月16日，开源[9GAG](https://github.com/stormzhang/9GAG)Android客户端，亲自实践了下真正的REST Client，并利用最新的IDE，最新的技术，最新的特性以及一些最流行的开源库来Make A Good App! 后续有时间会持续增加一些新的特性。
