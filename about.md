@@ -23,6 +23,7 @@ real_name = '张奇'
 description = 'Android Developer, Google Fans, Love Open Source'
 
 qq = '814156147'
+sina_weibo = 'googdev'
 email = 'zhangqi.dev$#qq.com'.gsub('$#', '@')
 blog = 'http://stormzhang.github.io'
 github = 'https://github.com/stormzhang'
