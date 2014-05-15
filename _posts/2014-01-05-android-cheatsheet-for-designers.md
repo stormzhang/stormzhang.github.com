@@ -2,8 +2,8 @@
 layout: post
 keywords: Android Design
 title: "Android Cheatsheet For Designers"
-categories: [AndroidDesign]
-tags: [Design]
+categories: [Design]
+tags: [AndroidDesign]
 ---
 {% include codepiano/setup %}
 
