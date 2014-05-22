@@ -78,10 +78,9 @@ codepiano :
   # Set 'provider' to false to turn commenting off globally.
   #
   comments :
-    provider : false
-  #  provider : disqus
+    provider : disqus
     disqus :
-      short_name : stormsblog
+      short_name : stormzhang
    
   # Settings for analytics helper
   # Set 'provider' to the analytics provider you want to use.
