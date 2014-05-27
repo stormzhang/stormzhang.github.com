@@ -4,7 +4,7 @@ keywords: blog
 description: blog
 title: "认识一下Sketch"
 categories: [Design]
-tags: [sketch]
+tags: [Sketch]
 ---
 {% include codepiano/setup %}
 

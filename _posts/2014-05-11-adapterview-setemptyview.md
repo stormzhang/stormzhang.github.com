@@ -4,7 +4,7 @@ keywords: blog
 description: blog
 title: "Android AdapterView setEmptyView"
 categories: [Android]
-tags: [adapterview]
+tags: [AdapterView]
 ---
 {% include codepiano/setup %}
 
