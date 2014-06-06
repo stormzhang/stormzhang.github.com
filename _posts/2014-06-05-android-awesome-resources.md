@@ -32,7 +32,7 @@ Android官网博客, 在上面可以关注Android最新的进展与最权威的�
 
 * [Android Views](http://www.androidviews.net/)
 
-专注Android UI与效果的网站
+专注Android UI与效果的网站（不过目前貌似已经关站了...）
 
 * [Appance Android](http://www.appance.com/category/android/)
 
