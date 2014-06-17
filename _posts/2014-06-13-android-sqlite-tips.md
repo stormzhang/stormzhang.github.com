@@ -3,7 +3,7 @@ layout: post
 keywords: blog
 description: blog
 title: "Android Sqlite Tips"
-categories: [Android]
+categories: [Android, SQLite]
 tags: [SQLite]
 ---
 {% include codepiano/setup %}
