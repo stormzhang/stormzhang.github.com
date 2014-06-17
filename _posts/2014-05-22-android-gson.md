@@ -56,7 +56,7 @@ public static final String JSON_DATA = "...";
 GsonBuilder gsonBuilder = new GsonBuilder();
 gsonBuilder.setDateFormat("yyyy-MM-dd HH:mm:ss");
 Gson gson = gsonBuilder.create();
-Foo foo = gson.fromJson(JSON, Foo.class);
+Foo foo = gson.fromJson(JSON_DATA, Foo.class);
 {% endhighlight %}
 
 有人说created_at不是java风格，java编程规范是驼峰结构，那么ok，Gson很人性化的也提供注解的方式，只需要把Foo对象改成这样就ok了：
