@@ -12,7 +12,7 @@ tags: [Design]
 
 ## 英文
 
-Google官网：[http://www.google.com/design/](http://www.google.com/design/)
+Google官网(须翻墙)：[http://www.google.com/design/](http://www.google.com/design/)
 
 ## 中文
 
