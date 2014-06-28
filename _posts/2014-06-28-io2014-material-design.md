@@ -16,7 +16,7 @@ Google官网：[http://www.google.com/design/](http://www.google.com/design/)
 
 ## 中文
 
-[《Material Design》简介](http://www.ui.cn/project.php?id=18839)
+[简介](http://www.ui.cn/project.php?id=18839)
 
 [动效](http://www.ui.cn/project.php?id=18846)
 
