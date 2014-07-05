@@ -16,6 +16,10 @@ Google官网(须翻墙)：[http://www.google.com/design/](http://www.google.com/
 
 ## 中文
 
+[Material Design 中文版](http://design.1sters.com/)
+
+## UI中国
+
 [简介](http://www.ui.cn/project.php?id=18839)
 
 [动效](http://www.ui.cn/project.php?id=18846)
