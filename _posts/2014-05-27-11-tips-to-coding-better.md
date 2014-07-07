@@ -3,7 +3,7 @@ layout: post
 keywords: blog
 description: blog
 title: "如何编写更棒的代码：11个核心要点"
-categories: [Others]
+categories: [Other]
 tags: [CodeBetter]
 ---
 {% include codepiano/setup %}
