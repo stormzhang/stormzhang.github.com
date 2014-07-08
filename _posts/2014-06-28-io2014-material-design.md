@@ -16,18 +16,8 @@ Google官网(须翻墙)：[http://www.google.com/design/](http://www.google.com/
 
 ## 中文
 
-[Material Design 中文版](http://design.1sters.com/)
+目前已经两个团队做了不错的翻译
 
-## UI中国
+[http://design.1sters.com/](http://design.1sters.com/)
 
-[简介](http://www.ui.cn/project.php?id=18839)
-
-[动效](http://www.ui.cn/project.php?id=18846)
-
-[样式/色彩](http://www.ui.cn/project.php?id=18875)
-
-[样式/字体](http://www.ui.cn/project.php?id=18877)
-
-[样式/图标](http://www.ui.cn/project.php?id=18894)
-
-[样式/图像](http://www.ui.cn/project.php?id=18898)
+[http://www.ui.cn/Material/](http://www.ui.cn/Material/)
