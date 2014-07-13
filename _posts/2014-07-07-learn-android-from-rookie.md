@@ -2,7 +2,7 @@
 layout: post
 keywords: blog
 description: blog
-title: "Android新手学习之路"
+title: "Android学习之路"
 categories: [Android]
 tags: [Android]
 ---
