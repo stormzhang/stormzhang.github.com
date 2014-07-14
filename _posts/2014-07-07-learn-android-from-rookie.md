@@ -16,9 +16,9 @@ tags: [Android]
 
 首先声明我不是果粉，个人Windows，Linux，Mac OX系统均用过， 只能说Windows上面的开发工具简直难以恭维，尤其命令行超级难用，而Linux自己必须得花不少时间在折腾中，更是不适合新手了，Max OS是我认为迄今为止最好用的系统，没有之一， 所以如果你不差钱的话，强烈建议入手一台Mac，推荐Pro系列， 当然它的价格确实比较昂贵，如果暂时入手有困难，推荐以后手头宽裕的时候再入手吧，会带给你质的体验。(Google的工程师们都在用Mac，应该比较有说服力吧)
 
-* 手机--推荐Nexus，小米，魅族等
+* 手机--推荐Nexus 5
 
-做Android开发最难以忍受的就是那龟速的模拟器，所以有条件的推荐入手我Google的Nexus5，没条件的国内小米、魅族等均可，总之你需要有台Android手机。推荐魅族是因为魅族手机有个SmartBar的东东，虽然我认为确实很SB。最后你实在还是要用模拟器的话，那么姑且就给你推荐一款比较快速的模拟器吧----Genymotion, 具体的见我这篇博客[一个强大的Android模拟器Genymotion](http://stormzhang.github.io/android/2013/12/04/android-genymotion/)
+做Android开发最难以忍受的就是那龟速的模拟器，强烈推荐入手我Google的Nexus系列，原生rom，性价比超高，有条件的推荐再入手一台小米或三星之类的，不是因为他们有多好用，而是因为目前市场上这两个品牌的手机份额最大，实际开发中可能需要进行适配与测试，总之你需要有台Android手机。你可能还需要知道魅族手机有个SmartBar的东东，虽然我认为确实很SB。最后你实在还是要用模拟器的话，那么姑且就给你推荐一款比较快速的模拟器吧----Genymotion, 具体的见我这篇博客[一个强大的Android模拟器Genymotion](http://stormzhang.github.io/android/2013/12/04/android-genymotion/)
 
 ## 开发环境
 
@@ -70,13 +70,17 @@ Android中的SQLite需要掌握，这篇博客很适合新手
 
 * [Android Fragment完全解析](http://blog.csdn.net/guolin_blog/article/details/8881711)
 
-Fragment是Android 3.0新加的，目前使用的场景也越来越普遍
+3.0之后新加的Fragment，必须要掌握，目前使用的场景也是越来越普遍了
 
 ## Android中级
 
 * [Android应用程序的生命周期](http://blog.csdn.net/android_tutor/article/details/4952960)
 
 Android的应用程序的生命周期需要理解，面试也是经常会被问的
+
+* [Android Service完全解析](http://blog.csdn.net/guolin_blog/article/details/11952435)
+
+Service作为Android四大组件之一，在每一个应用程序中都扮演着非常重要的角色
 
 * [Android Gson](http://stormzhang.github.io/android/2014/05/22/android-gson/)
 
@@ -86,10 +90,42 @@ Android的应用程序的生命周期需要理解，面试也是经常会被问�
 
 Android开发中经常会用到xml布局，那么布局优化方面的知识更是需要掌握的了
 
+* [Android中Intent传递对象的两种方法(Serializable,Parcelable)](http://blog.csdn.net/android_tutor/article/details/5740845)
+
+详细讲解了Android中Intent中如何传递对象
+
+* [Android异步消息处理机制完全解析](http://blog.csdn.net/guolin_blog/article/details/9991569)
+
+Android开发中异步操作是经常使用的，必须理解掌握
+
+* [Android AsyncTask完全解析](http://blog.csdn.net/guolin_blog/article/details/11711405)
+
+Android异步操作的另一种方法
+
 * [Android Custom Loading](http://stormzhang.github.io/openandroid/2013/11/15/android-custom-loading/)
 
 很早的一个小demo，教你如果做一个App的Loading动画
 
+## Android进阶
+
+* [Android 性能优化](http://www.trinea.cn/android/android-performance-demo/)
+
+一系列的性能调优教程，让你的代码以及App更畅通！
+
+* [一个完整的开源项目--9GAG](https://github.com/stormzhang/9GAG)
+
+一个开源客户端，教你使用Studio、Gradle以及一些流行的开源库快速开发一个不错的Android客户端
+
+* [整理的Android开发资源](http://stormzhang.github.io/android/2014/06/05/android-awesome-resources/)
+
+自己整理的一些Android开发资源，包括开发、工具、设计等，相信会对你有用的
+
+## Android设计
+
+在开发一款Android App之前，你需要了解下Android平台的设计规范，这里有一系列关于Android Design的讲解以及Google最新推出的Material Design中文翻译版
+
+* [Android Design](http://www.geekpark.net/tag/Android%20Design)
+
+* [Material Design](http://design.1sters.com/)
+
 // TODO: 未完待续...
-
-
