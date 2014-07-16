@@ -36,6 +36,10 @@ Google帮你集成了一个完整的Android开发环境，包含一个定制的E
 
 [云梯VPN](http://refyt.com/?r=a9b90a505050781a)
 
+如果无论如何你都不想翻墙的话，这里github上可以直接下载以上Android开发工具
+
+[AndroidDevTools](https://github.com/inferjay/AndroidDevTools/)
+
 ## Google Android官方教程
 
 [Android Training Course in Chinese](http://hukai.me/android-training-course-in-chinese/index.html)
