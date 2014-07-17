@@ -116,6 +116,10 @@ Android异步操作的另一种方法
 
 ## Android进阶
 
+* [Android Gradle](http://stormzhang.github.io/android/2014/02/28/android-gradle/)
+
+Google官方Android新的构建系统，可以很方便的管理依赖、编译打包等
+
 * [Android 性能优化](http://www.trinea.cn/android/android-performance-demo/)
 
 一系列的性能调优教程，让你的代码以及App更畅通！
@@ -136,4 +140,41 @@ Android异步操作的另一种方法
 
 * [Material Design](http://design.1sters.com/)
 
-// TODO: 未完待续...
+## Android开发必知的一些开源库
+
+说到开源库就不得不提[GitHub](https://github.com/)，只能说是目前最活跃的开源社区，不知道的赶紧去注册个账号使用起来，绝对是你快速提升技术的利器。
+
+#### [Volley](https://android.googlesource.com/platform/frameworks/volley)
+
+App开发中免不了要和服务端进行交互，而volley是Google官方推出的一个开源的网络通信库，它能使网络通信更简单，更快速。
+
+
+* [Volley完全解析](http://blog.csdn.net/guolin_blog/article/details/17482095)
+
+* [Android volley sample](https://github.com/stormzhang/AndroidVolley)
+
+#### [ActiveAndroid](http://github.com/pardom/ActiveAndroid)
+
+ActiveAndroid算是一个轻量级的ORM(对象关系映射(Object Relation Mapping))框架，简单地通过如save()和delete()等方法来做到增删改查等操作。
+
+* [ActiveAndroid--Android轻量级ORM框架](http://stormzhang.github.io/openandroid/android/sqlite/2013/12/20/android-orm-tools-activeandroid/)
+
+#### [Retrofit](http://square.github.io/retrofit/)
+
+Retrofit和Java领域的ORM概念类似， ORM把结构化数据转换为Java对象，而Retrofit 把REST API返回的数据转化为Java对象方便操作。同时还封装了网络代码的调用。
+
+* [Retrofit – Java(Android) 的REST 接口封装类库](http://blog.chengyunfeng.com/?p=491)
+
+#### [Android-Universal-Image-Loader](https://github.com/nostra13/Android-Universal-Image-Loader)
+
+Android-Universal-Image-Loader是一个强大的开源图片异步加载库，该项目的目的是提供一个可重复使用的仪器为异步图像加载，缓存和显示。
+
+* [Android-Universal-Image-Loader](http://stormzhang.github.io/android/openandroid/2013/12/01/android-universal-image-loader/)
+
+## 关于我
+
+非科班转投编程，Android开发者，Google脑残粉，热爱开源，分享Android方面的知识、技术、见闻
+
+* Weibo: [googdev](http://weibo.com/zhangqi8)
+
+* GitHub: [stormzhang](https://github.com/stormzhang)
