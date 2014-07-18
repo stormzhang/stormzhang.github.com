@@ -171,6 +171,10 @@ Android-Universal-Image-Loader是一个强大的开源图片异步加载库，�
 
 * [Android-Universal-Image-Loader](http://stormzhang.github.io/android/openandroid/2013/12/01/android-universal-image-loader/)
 
+#### [Android开源项目分类汇总](https://github.com/Trinea/android-open-project)
+
+非常全面的GitHub开源项目汇总，不需要重复发明轮子，尽情遨游在开源世界里吧
+
 ## 关于我
 
 非科班转投编程，Android开发者，Google脑残粉，热爱开源，分享Android方面的知识、技术、见闻
