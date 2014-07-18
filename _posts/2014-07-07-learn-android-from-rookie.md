@@ -26,9 +26,13 @@ tags: [Android]
 
 Google帮你集成了一个完整的Android开发环境，包含一个定制的Eclipse + ADT plugin，以及最新的SDK及源码
 
+* [IntelliJ IDEA](http://www.jetbrains.com/idea/)
+
+相比与Eclipse更推荐使用IDEA，以后可以无缝过渡到Android Studio
+
 * [Android Studio](http://developer.android.com/sdk/installing/studio.html)
 
-首先说明这个不适合新手们使用，但是你必须知道这是Google最新推出的Android开发工具，编译依赖Gradle，目前还没有推出1.0的正式版，但是你依然可以业余项目熟悉了解下，因为这也许是Android开发工具的未来
+首先说明这个不适合新手们使用，但是你必须知道这是Google最新推出的Android开发工具，基于IDEA，编译依赖[Gradle](http://www.gradle.org/)，目前还没有推出1.0的正式版，但是你依然可以业余项目熟悉了解下，因为这也许是Android开发工具的未来
 
 ## 翻墙
 
