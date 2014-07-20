@@ -10,6 +10,8 @@ group: static
 我的大事记
 ===
 
+* 2014年7月18日，写了篇[Android学习之路](http://stormzhang.github.io/android/2014/07/07/learn-android-from-rookie/),在微博上引起非常大的反响，先后被各种IT界公众账号、BAT的工程师们、甚至一些CEO、创始人、投资人等等大V转发，也上了码农周刊、伯乐在线、CDSN、SegmentFault等，非常惊讶，仿佛刮起了一阵全民学Android的风...
+
 * 2014年6月10日，由于觉得没有充足的时间，拒绝了慕课网讲师的签约邀请。
 
 * 2014年5月27日，薄荷Android客户端360手机助手单渠道突破200w。
