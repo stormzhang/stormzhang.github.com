@@ -186,3 +186,7 @@ Android-Universal-Image-Loader是一个强大的开源图片异步加载库，�
 * Weibo: [googdev](http://weibo.com/zhangqi8)
 
 * GitHub: [stormzhang](https://github.com/stormzhang)
+
+* Company: [上海薄荷科技](http://www.boohee.com/)
+
+* App: [薄荷](http://zhushou.360.cn/detail/index/soft_id/348432?recrefer=SE_D_bohe)
