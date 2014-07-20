@@ -8,6 +8,8 @@ tags: [Android]
 ---
 {% include codepiano/setup %}
 
+    欢迎转载，但请务必在明确位置注明出处！http://stormzhang.github.io/android/2014/07/07/learn-android-from-rookie/
+
 收到一些朋友的微博私信，说能不能给Android新手们一些指导，我只能说指导谈不上，毕竟我也很多东西正在学习中，与此同时一大学同学准备转行Android，可以说是从头开始，那么我就姑且以一个过来人的身份给一些建议吧，只希望在学习的过程中能够少走写弯路吧。
 
 ## 硬件
