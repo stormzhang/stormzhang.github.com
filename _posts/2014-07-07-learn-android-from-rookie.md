@@ -146,6 +146,40 @@ Google官方Android新的构建系统，可以很方便的管理依赖、编译�
 
 * [Material Design](http://design.1sters.com/)
 
+## Android兼容库
+
+在了解了设计规范准备着手开发你的App时，你还需要考虑你的App支持的版本，如果是全新的App，从目前的市场份额来看，建议直接支持4.0+，虽然2.3的份额仍然有一部分，但是这部分真正用来使用App的人又能有多少呢。当然如果你的公司必须要求支持2.x的版本，那么也不用担心，下面整理了几个满足你适配的一些兼容库:
+
+* [ActionBarSherlock](https://github.com/JakeWharton/ActionBarSherlock)
+
+大神JakeWharton的一个ActionBar的兼容库，支持在2.x版本使用ActionBar
+
+* [ActionBar Compact](http://stormzhang.github.io/android/2013/12/13/android-actionbar-compact/)
+
+在这之前使用ActionBar基本都会使用上述JakeWharton的兼容库，但是目前Google有了自己的一套ActionBar兼容库，推荐使用ActionBar Compact，具体介绍及使用方法详见我的这篇博客
+
+* [NineOldAndroids](http://nineoldandroids.com/)
+
+Android 3.0之前开放的一些新的动画api--Property Animation，大神JakeWharton的又一大作，可以让你在2.x版本的sdk可以使用属性动画.
+
+* [Android Support V4](http://developer.android.com/reference/android/support/v4/app/package-summary.html)
+
+如果需要兼容2.x的版本，在使用如下类的时候你需要使用v4包下的，如Fragment, FragmentManager, FragmentActivity, FragmentPagerAdapter, CursorLoader, LoaderManager, AsyncTaskLoader
+
+当然v4包下面除了以上还有一些新的控件你必须知道
+
+[Navigation Drawer(导航抽屉)](http://blog.chengyunfeng.com/?p=493)
+
+在这之前在Android上实现一个抽屉导航你可能会用到[SlidingMenu](https://github.com/jfeinstein10/SlidingMenu)开源库，如今你可以使用官方的DrawerLayout控件很容易实现
+
+[SlidingPaneLayout](http://my.oschina.net/summerpxy/blog/211835)
+
+SlidingPaneLayout是V4包中新添加的组件，可以实现两列面板的切换, 具体使用与效果见博客链接
+
+[SwipeRefreshLayout](https://github.com/stormzhang/SwipeRefreshLayoutDemo)
+
+SwipeRefreshLayout是Google在support v4 19.1版本的library更新的一个下拉刷新组件,使用起来很方便,可以很方便的实现Google Now的效果
+
 ## Android开发必知的一些开源库
 
 说到开源库就不得不提[GitHub](https://github.com/)，只能说是目前最活跃的开源社区，不知道的赶紧去注册个账号使用起来，绝对是你快速提升技术的利器。
@@ -191,7 +225,7 @@ Android-Universal-Image-Loader是一个强大的开源图片异步加载库，�
 
 * Company & App: [薄荷](http://www.boohee.com/app/)
 
-## 捐助
+## Donate
 
 如果觉得这篇博客对您有很大帮助，拿起您的手机，打开支付宝扫描如下二维码，buy me a coffee! 感谢您的慷慨捐赠，这将是我持续更新并维护本博客的动力。
 
