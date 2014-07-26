@@ -39,7 +39,7 @@ public class Foo {
 使用起来只需如下几行代码就行了：
 {% highlight ruby %}
 public static final String JSON_DATA = "...";
-Foo foo = new Gson().fromJson(JSON, Foo.class);
+Foo foo = new Gson().fromJson(JSON_DATA, Foo.class);
 {% endhighlight %}
 
 这里是最简单的用法，created_at直接定义了String类型，如果你想要Date类型的也可以，就变成下面的例子：
