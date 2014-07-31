@@ -18,6 +18,7 @@ git config --global alias.ci commit
 git config --global alias.st status
 git config --global alias.br branch
 git config --global core.editor "vim"  # 设置Editor使用vim
+git config --global core.quotepath false # 设置显示中文文件名
 {% endhighlight %}
 
 用户的git配置文件~/.gitconfig
