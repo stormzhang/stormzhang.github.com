@@ -116,7 +116,6 @@ public static void saveImageToGallery(Context context, Bitmap bmp) {
     }
     // 最后通知图库更新
     context.sendBroadcast(new Intent(Intent.ACTION_MEDIA_SCANNER_SCAN_FILE, Uri.parse("file://" + path)));
-    return path;
 }
 {% endhighlight %}
 
