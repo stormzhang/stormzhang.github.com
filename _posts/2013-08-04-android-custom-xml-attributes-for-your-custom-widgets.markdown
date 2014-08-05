@@ -37,7 +37,7 @@ Android 自定义View 己经不是什么新鲜话题，Android Api提供了一�
 
 </resources>
 {% endhighlight %}
-上面attrs.xml文件中定义了两个属性，关于自定义属性格式，见这篇blog[Android中自定义属性格式详解](/blog/2013/07/30/android-custome-attribute-format/)
+上面attrs.xml文件中定义了两个属性，关于自定义属性格式，见这篇blog[Android中自定义属性格式详解](/android/2013/07/30/android-custome-attribute-format/)
 
 ## 自定义View的初始化下添加代码
 
