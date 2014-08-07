@@ -227,8 +227,3 @@ Android-Universal-Image-Loader是一个强大的开源图片异步加载库，�
 
 * Company & App: [薄荷](http://www.boohee.com/app/)
 
-## Donate
-
-如果觉得这篇博客对您有很大帮助，拿起您的手机，打开支付宝扫描如下二维码，buy me a coffee! 感谢您的慷慨捐赠，这将是我持续更新并维护本博客的动力。
-
-<img src="/image/zhifubao.jpg" />
