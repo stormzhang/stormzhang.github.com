@@ -3,8 +3,8 @@ layout: post
 keywords: blog
 description: blog
 title: "Android Activity/Fragment Lifecycle"
-categories: [Archive]
-tags: [Archive]
+categories: [Android]
+tags: [Lifecycle]
 ---
 {% include codepiano/setup %}
 
