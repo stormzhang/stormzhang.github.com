@@ -10,13 +10,13 @@ group: static
 我的大事记
 ===
 
+* 2014年8月13日，收到了一封来自Facebook Android Team的邮件邀请，邮件内容见[这篇微博](http://weibo.com/2942550243/BihHsgkkm?mod=weibotime)突然觉得人生真是充满了惊喜，每一天的坚持努力付出总能有所收获。还有什么比被这种世界顶级互联网公司认可你的能力更重要的么？
+
 * 2014年7月18日，写了篇[Android学习之路](http://stormzhang.github.io/android/2014/07/07/learn-android-from-rookie/),在微博上引起非常大的反响，先后被各种IT界公众账号、BAT的工程师们、甚至一些CEO、创始人、投资人等等大V转发，也上了码农周刊、伯乐在线、CDSN、SegmentFault等，非常惊讶，仿佛刮起了一阵全民学Android的风...
 
 * 2014年6月10日，由于觉得没有充足的时间，拒绝了慕课网讲师的签约邀请。
 
 * 2014年5月27日，薄荷Android客户端360手机助手单渠道突破200w。
-
-<img src="/image/boohee_360_20140527.png" />
 
 * 2014年5月13日，注册成为Google Play开发者，花了我25$，为此专门去办了一张Visa信用卡，自此算是成为了一名真正的Android开发者。
 
