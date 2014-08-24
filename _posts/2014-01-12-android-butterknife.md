@@ -8,6 +8,8 @@ tags: [ButterKnife]
 
 俗话说：“不会偷懒的程序员不是好的程序员！”。作为一名Android开发，是不是经常厌烦了大量的findViewById以及setOnClickListener代码，而[ButterKnife](https://github.com/JakeWharton/butterknife)是一个专注于Android系统的View注入框架，让你从此从这些烦人臃肿的代码中解脱出来。先来看一段代码示例说明下ButterKnife是如何简化代码的：
 
+注意：如果你是使用的Eclipse引用该library，你需要参考这里[Eclipse Configuration](http://jakewharton.github.io/butterknife/ide-eclipse.html)做一些配置，否则会运行出错。
+
 {% highlight ruby %}
 class ExampleActivity extends Activity {
   TextView title;
