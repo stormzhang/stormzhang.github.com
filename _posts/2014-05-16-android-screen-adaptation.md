@@ -81,7 +81,7 @@ dpi是Dots Per Inch的缩写, 每英寸点数，即每英寸包含像素个数�
 
 wrap_content和dp都是在Android开发中应该经常用到的，然后它们冥冥中是有关系的。
 
-假设你看了这篇文章后都是统一有xhdpi的资源，那么你用wrap_content完全没有问题，Android会自动为其他规格的dpi屏幕适配,比如你在xhdpi放了一张120X120px大小的图片，那么在在hdpi屏幕上显示的就只有120/1.5=80px大小，但是如果你不小心同样把这张图片也放入了mdpi了，这个时候用wrap_content显示就会有问题，具体看下面的例子：
+假设你看了这篇文章后都是统一有xhdpi的资源，那么你用wrap_content完全没有问题，Android会自动为其他规格的dpi屏幕适配,比如你在xhdpi放了一张120X120px大小的图片，那么在在hdpi屏幕上显示的就只有120/2*1.5=90px大小，但是如果你不小心同样把这张图片也放入了mdpi了，这个时候用wrap_content显示就会有问题，具体看下面的例子：
 
 例如假设你只在drawable_xhdpi文件夹下放了test图片，xhdpi的设备会去xhdpi文件夹下找到test图片并直接显示，而mdpi的设备优先会去mdpi文件夹里查找test图片，但是没找到，最后在xhdpi文件夹下找到，然后会自动根据density计算并缩放显示出来，实际显示出来的大小是120/2=60px, 所以整体的显示比例才会看起来比较正常
 
