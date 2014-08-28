@@ -21,6 +21,7 @@ tags: [Adb, Wifi]
 * 3.第一次的时候需要用手机USB连接到你的电脑，之后运行下面国外大牛写的shell脚本连接成功就可以把你的USB数据线拔掉了，然后你的电脑就可以通过wifi调试你的应用了。
 
 {% highlight ruby %}
+# adbwifi.sh是脚本的文件名
 sh adbwifi.sh
 {% endhighlight %}
 
