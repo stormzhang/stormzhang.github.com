@@ -227,3 +227,9 @@ Android-Universal-Image-Loader是一个强大的开源图片异步加载库，�
 
 * Company & App: [薄荷](http://www.boohee.com/app/)
 
+## Android微信公众账号
+
+推荐大家关注我的微信公众账号AndroidDeveloper, 专注Android技术分享，保证绝对干货！
+
+<img src="/image/weixinpublic.jpg" />
+
