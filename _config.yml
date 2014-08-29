@@ -87,9 +87,9 @@ codepiano :
   # Set 'provider' to false to turn analytics off globally.
   #        
   analytics :
-    provider : google 
-    google : 
-        tracking_id : 'UA-22956003-2'
+    provider : custom
+  #  google : 
+  #      tracking_id : 'UA-22956003-2'
 
   # Settings for sharing helper. 
   # Sharing is for things like tweet, plusone, like, reddit buttons etc.
