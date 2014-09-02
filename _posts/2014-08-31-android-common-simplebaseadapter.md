@@ -3,7 +3,7 @@ layout: post
 keywords: [commonadapter]
 description: blog
 title: "Android简便通用的SimpleBaseAdapter"
-categories: [AndroidTips]
+categories: [Android, AndroidTips]
 tags: [adapter]
 ---
 {% include codepiano/setup %}

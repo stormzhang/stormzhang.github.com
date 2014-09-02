@@ -3,7 +3,7 @@ layout: post
 keywords: blog
 description: blog
 title: "Android通过Wifi来调试你的应用"
-categories: [Android]
+categories: [Android, AndroidTips]
 tags: [Adb, Wifi]
 ---
 {% include codepiano/setup %}

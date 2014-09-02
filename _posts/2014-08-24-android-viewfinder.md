@@ -3,7 +3,7 @@ layout: post
 keywords: blog
 description: blog
 title: "Android ViewFinder"
-categories: [AndroidTips]
+categories: [Android, AndroidTips]
 tags: [ViewFinder]
 ---
 {% include codepiano/setup %}
