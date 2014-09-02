@@ -131,8 +131,8 @@ public abstract class SimpleBaseAdapter<T> extends BaseAdapter {
     public View getView(int position, View convertView, ViewGroup parent) {
         ViewHolder holder;
         if (null == convertView) {
-            holder = new ViewHolder(convertView);
             convertView = View.inflate(context, getItemResource(), null);
+            holder = new ViewHolder(convertView);
             convertView.setTag(holder);
         } else {
             holder = (ViewHolder) convertView.getTag();
