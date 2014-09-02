@@ -109,7 +109,7 @@ public abstract class SimpleBaseAdapter<T> extends BaseAdapter {
     }
 
     /**
-     * 改方法需要子类实现，需要返回item布局的resource id
+     * 该方法需要子类实现，需要返回item布局的resource id
      * 
      * @return
      */
