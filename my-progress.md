@@ -10,6 +10,8 @@ group: static
 我的大事记
 ===
 
+* 2014年10月2日，农历九月初九，结束了7年的爱情生涯，终于我们结婚啦！特此写篇博客以作纪念.[我们结婚啦](http://stormzhang.github.io/others/2014/09/10/we-get-married/)
+
 * 2014年8月13日，收到了一封来自Facebook Android Team的邮件邀请，邮件内容见[这篇微博](http://weibo.com/2942550243/BihHsgkkm?mod=weibotime)突然觉得人生真是充满了惊喜，每一天的坚持努力付出总能有所收获。还有什么比被这种世界顶级互联网公司认可你的能力更重要的么？
 
 * 2014年7月18日，写了篇[Android学习之路](http://stormzhang.github.io/android/2014/07/07/learn-android-from-rookie/),在微博上引起非常大的反响，先后被各种IT界公众账号、BAT的工程师们、甚至一些CEO、创始人、投资人等等大V转发，也上了码农周刊、伯乐在线、CDSN、SegmentFault等，非常惊讶，仿佛刮起了一阵全民学Android的风...
