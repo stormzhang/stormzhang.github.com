@@ -2,7 +2,7 @@
 layout: post
 keywords: blog
 description: blog
-title: "Activity生命周期讲解一"
+title: "Activity生命周期详解一"
 categories: [Android]
 tags: [Activity]
 ---
