@@ -3,7 +3,7 @@ layout: post
 keywords: Android Developer Libraries
 description: Android Developer Libraries
 title: "Android Libraries For Developers"
-categories: [Android, DevTips]
+categories: [Android, DevTools]
 tags: [Library]
 ---
 {% include codepiano/setup %}
