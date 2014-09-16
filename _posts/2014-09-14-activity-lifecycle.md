@@ -120,4 +120,7 @@ protected void onPostCreate(Bundle savedInstanceState) {
 
 onCreate方法会在第一次创建的时候执行，紧接着便会执行onStart方法，之后页面被完全遮挡会执行onStop方法，再返回的时候一般便会执行onRestart --> onStart方法， 但是如果如果这时候App内存不够需要更多的内存的时候，App便会杀死该进程，结束掉该Activity，所以这时候再返回的时候便会重新执行onCreate --> onStart --> onResume方法。
 
+## onSaveInstanceState、 onRestoreInstanceState
+
+这是一个比较深入的话题，后面博文会单独来讲。
 
