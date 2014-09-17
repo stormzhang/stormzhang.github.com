@@ -21,71 +21,76 @@ onCreate --> onStart --> onResume --> onPause --> onStop --> onDestroy
 {% highlight ruby %}
 public class DemoActivity extends Activity {
 
-	static final String TAG = DemoActivity.class.getSimpleName();
+    static final String TAG = DemoActivity.class.getSimpleName();
 
-	@Override
-	public void onCreate(Bundle savedInstanceState) {
-		super.onCreate(savedInstanceState);
-		Log.d(TAG, "onCreate");
-		setContentView(R.layout.activity_demo);
-	}
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        Log.d(TAG, "onCreate");
+        setContentView(R.layout.activity_demo);
+    }
 
-	@Override
-	public void onContentChanged() {
-		super.onContentChanged();
-		Log.d(TAG, "onContentChanged");
-	}
+    @Override
+    public void onContentChanged() {
+        super.onContentChanged();
+        Log.d(TAG, "onContentChanged");
+    }
 
-	public void onStart() {
-		super.onStart();
-		Log.d(TAG, "onStart");
-	}
+    public void onStart() {
+        super.onStart();
+        Log.d(TAG, "onStart");
+    }
 
-	public void onPostCreate(Bundle savedInstanceState) {
-		super.onPostCreate(savedInstanceState);
-		Log.d(TAG, "onPostCreate");
-	}
+    public void onRestart() {
+        super.onRestart();
+        Log.d(TAG, "onRestart");
+    }
 
-	@Override
-	public void onResume() {
-		super.onResume();
-		Log.d(TAG, "onResume");
-	}
+    public void onPostCreate(Bundle savedInstanceState) {
+        super.onPostCreate(savedInstanceState);
+        Log.d(TAG, "onPostCreate");
+    }
 
-	public void onPostResume() {
-		super.onPostResume();
-		Log.d(TAG, "onPostResume");
-	}
+    @Override
+    public void onResume() {
+        super.onResume();
+        Log.d(TAG, "onResume");
+    }
 
-	public void onPause() {
-		super.onPause();
-		Log.d(TAG, "onPause");
-	}
+    public void onPostResume() {
+        super.onPostResume();
+        Log.d(TAG, "onPostResume");
+    }
 
-	public void onStop() {
-		super.onStop();
-		Log.d(TAG, "onStop");
-	}
+    public void onPause() {
+        super.onPause();
+        Log.d(TAG, "onPause");
+    }
 
-	public void onDestroy() {
-		super.onDestroy();
-		Log.d(TAG, "onDestroy");
-	}
+    public void onStop() {
+        super.onStop();
+        Log.d(TAG, "onStop");
+    }
 
-	public void onConfigurationChanged(Configuration newConfig) {
-		super.onConfigurationChanged(newConfig);
-		Log.d(TAG, "onConfigurationChanged");
-	}
+    public void onDestroy() {
+        super.onDestroy();
+        Log.d(TAG, "onDestroy");
+    }
 
-	public void onSaveInstanceState(Bundle outState) {
-		super.onSaveInstanceState(outState);
-		Log.d(TAG, "onSaveInstanceState");
-	}
+    public void onConfigurationChanged(Configuration newConfig) {
+        super.onConfigurationChanged(newConfig);
+        Log.d(TAG, "onConfigurationChanged");
+    }
 
-	public void onRestoreInstanceState(Bundle outState) {
-		super.onRestoreInstanceState(outState);
-		Log.d(TAG, "onRestoreInstanceState");
-	}
+    public void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+        Log.d(TAG, "onSaveInstanceState");
+    }
+
+    public void onRestoreInstanceState(Bundle outState) {
+        super.onRestoreInstanceState(outState);
+        Log.d(TAG, "onRestoreInstanceState");
+    }
 }
 {% endhighlight %}
 
