@@ -20,7 +20,7 @@ onPause --> onStop --> onDestroy
 
 ## 按Home键
 
-onPause --> onStop
+onPause --> onSaveInstanceState --> onStop
 
 ## 再次打开
 
