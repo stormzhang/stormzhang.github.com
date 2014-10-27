@@ -38,7 +38,13 @@ Android官网博客, 在上面可以关注Android最新的进展与最权威的�
 
 也是开源代码合集，很多超赞的效果，不过是多平台的
 
-* 
+* [AndroidDevTools](http://www.androiddevtools.cn/)
+
+翻墙有困难？没关系，这里整理了各种开发工具与SDK等，除此之外还有教程以及设计工具等。
+
+* [Android Arsenal](https://android-arsenal.com/)
+
+国外整理的各种Android开源库、组件。分类整理，瀑布流展示，支持关键字搜索，你值得拥有，强烈推荐！！
 
 ## 源代码托管
 
