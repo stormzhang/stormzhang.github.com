@@ -12,7 +12,7 @@ tags: [curl]
 
 ## curl
 
-curl是一个向服务器传输数据的工具，它支持http、https、ftp、ftps、scp、sftp、tftp、telnet等协议，这里只针对http进行讲解一些常用的用法。
+curl是一个向服务器传输数据的工具，它支持http、https、ftp、ftps、scp、sftp、tftp、telnet等协议，这里只针对http进行讲解一些常用的用法，具体安装请自行搜索。
 
 ## 打开百度
 

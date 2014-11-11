@@ -10,10 +10,13 @@ tags: [Android]
 
     欢迎转载，但请务必在明确位置注明出处！http://stormzhang.github.io/android/2014/07/07/learn-android-from-rookie/
 
-#### QQ交流群：入群理由请正确填写我的GitHub账号
+    QQ交流群：入群理由请正确填写我的GitHub账号
+	* 383323653 (Android学习之路1群，已满)
+	* 187252236 (Android学习之路2群)
 
-* 383323653 (Android学习之路1群，已满)
-* 187252236 (Android学习之路2群)
+## 这篇博客背后的故事
+
+一路走来很不容易，刚好知乎有被人邀请回答[如何自学android编程](http://www.zhihu.com/question/26417244)， 就借这个机会在知乎上记录一路走来的历程，很励志，希望能给那些正在或准备走编程行业的人一些正能量，感兴趣的可以去阅读下。
 
 ---
 
