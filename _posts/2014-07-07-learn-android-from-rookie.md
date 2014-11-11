@@ -226,15 +226,23 @@ Android-Universal-Image-Loader是一个强大的开源图片异步加载库，�
 
 非科班转投编程，Android开发者，Google脑残粉，热爱开源，分享Android方面的知识、技术、见闻
 
-* Weibo: [googdev](http://weibo.com/zhangqi8)
-
 * GitHub: [stormzhang](https://github.com/stormzhang)
 
-* Company & App: [薄荷](http://www.boohee.com/app/)
+* Weibo: [googdev](http://weibo.com/zhangqi8)
+
+* 知乎: [stormzhang](http://www.zhihu.com/people/stormzhang)
+
+* 更多我的消息: [关于我](http://stormzhang.github.io/about.html)
 
 ## Android微信公众账号
 
 推荐大家关注我的微信公众账号AndroidDeveloper, 专注Android技术分享，保证绝对干货！
 
 <img src="/image/weixinpublic.jpg" />
+
+## 打赏我
+
+如果觉得我的博客，或者我的各种分享对您有帮助，不妨支付宝扫描请我喝杯咖啡吧，我将是我持续更新的动力
+
+<img src="/image/zhifubao.jpg" />
 
