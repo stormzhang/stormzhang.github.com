@@ -10,6 +10,8 @@ group: static
 我的大事记
 ===
 
+* 在知乎上邀请回答[如何自学android编程](http://www.zhihu.com/question/26417244)， 想想一路走来也不容易，那就借这个机会回忆下一路走过的弯路，给那些准备走这行的人一些正能量。
+
 * 2014年10月2日，农历九月初九，结束了7年的爱情生涯，终于我们结婚啦！特此写篇博客以作纪念.[我们结婚啦](http://stormzhang.github.io/others/2014/09/10/we-get-married/)
 
 * 2014年8月13日，收到了一封来自Facebook Android Team的邮件邀请，邮件内容见[这篇微博](http://weibo.com/2942550243/BihHsgkkm?mod=weibotime)突然觉得人生真是充满了惊喜，每一天的坚持努力付出总能有所收获。还有什么比被这种世界顶级互联网公司认可你的能力更重要的么？
