@@ -8,7 +8,7 @@ paginate: 5
 title : Make A Good App
 tagline: 爱生活，爱技术，爱科技，爱折腾
 author :
-  name : storm
+  name : stormzhang
   description: Android Developer, Google Fans, Like OpenSource
   email : zhangqi.dev@qq.com
   github : https://github.com/stormzhang
@@ -23,7 +23,7 @@ author :
 # Else if you are pushing to username.github.io, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://stormzhang.github.io
+production_url : stormzhang.com
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
