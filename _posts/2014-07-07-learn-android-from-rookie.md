@@ -20,6 +20,8 @@ tags: [Android]
 
 一路走来很不容易，刚好知乎上被人邀请回答[如何自学android编程](http://www.zhihu.com/question/26417244)， 就借这个机会在知乎上记录一路走来的历程，很励志，希望能给那些正在或准备走编程行业的人一些正能量，内容有点长，感兴趣的可以当做励志小说阅读吧。
 
+<!--more-->
+
 ---
 
 收到一些朋友的微博私信，说能不能给Android新手们一些指导，我只能说指导谈不上，毕竟我也很多东西正在学习中，与此同时一大学同学准备转行Android，可以说是从头开始，那么我就姑且以一个过来人的身份给一些建议吧，只希望在学习的过程中能够少走写弯路吧。
@@ -33,6 +35,22 @@ tags: [Android]
 * 手机--推荐Nexus 5
 
 做Android开发最难以忍受的就是那龟速的模拟器，强烈推荐入手我Google的Nexus系列，原生rom，性价比超高，有条件的推荐再入手一台小米或三星之类的，不是因为他们有多好用，而是因为目前市场上这两个品牌的手机份额最大，实际开发中可能需要进行适配与测试，总之你需要有台Android手机。你可能还需要知道魅族手机有个SmartBar的东东，虽然我认为确实很SB。最后你实在还是要用模拟器的话，那么姑且就给你推荐一款比较快速的模拟器吧----Genymotion, 具体的见我这篇博客[一个强大的Android模拟器Genymotion](http://stormzhang.github.io/android/2013/12/04/android-genymotion/)
+
+## 书籍
+
+书不在多，适合你就好，其实市面上的书籍大部分都差不多，没有本质的区别，所以书必要要有，但不推荐一次性买太多。这里推荐几本我认为比较好的书籍，点击可以直接购买。
+
+* [第一行代码](http://redirect.simba.taobao.com/rd?w=unionnojs&f=http%3A%2F%2Fai.taobao.com%2Fauction%2Fedetail.htm%3Fe%3Df8oGURBCqIi6k0Or%252B%252BH4tGcqVOHLHTPypvhC2iAi0c2LltG5xFicOdXrTUTgh9sMDPIwxrc30rgx5xFFx04TdUkC8scULPWFEdRP1L4O1tAHbU39aISQG1Rmtaud%252B0v%252BvoIRmNqqTFnQQxOy9T69zQ%253D%253D%26ptype%3D100010%26from%3Dbasic&k=5ccfdb950740ca16&c=un&b=alimm_0&p=mm_105752214_8212618_27816125)
+
+郭神的最新力作，郭神的博客很棒，书我也买了看了一部分，非常棒，适合新手，而且是针对Android 4.0进行讲解的。
+
+* [Thinking In Java中文版](http://redirect.simba.taobao.com/rd?w=unionnojs&f=http%3A%2F%2Fai.taobao.com%2Fauction%2Fedetail.htm%3Fe%3DzBqhej1TSvC6k0Or%252B%252BH4tFzbR25iLs%252BQ8nBOXRi6ylDlL1tPWpvWRP7gvmtLyoa3Dlg3nJM8sR9roPAB877mV0X91EzKR9ZCbXyZbUPW4kmGIpXDPBJEB23abJM7sDg28ZPfsQmmNK1siZ7sxXrr%252BQ%253D%253D%26ptype%3D100010%26from%3Dbasic&k=5ccfdb950740ca16&c=un&b=alimm_0&p=mm_105752214_8212618_27816125)
+
+Thinking In Java是Java的经典书籍，这是一本值得反复看的书籍，针对有一定Java基础的人，可以说是学习Java语言必备的书籍。
+
+* [Effective Java中文第二版](http://redirect.simba.taobao.com/rd?w=unionnojs&f=http%3A%2F%2Fai.taobao.com%2Fauction%2Fedetail.htm%3Fe%3DJT0ci%252BHeZfDghojqVNxKsTGWoJvkBKvwAdcPAzm7QvSLltG5xFicOdXrTUTgh9sMDPIwxrc30rgx5xFFx04TdUkC8scULPWFEdRP1L4O1tAHbU39aISQG1Rmtaud%252B0v%252BvoIRmNqqTFmAtSSB6kybGQ%253D%253D%26ptype%3D100010%26from%3Dbasic&k=5ccfdb950740ca16&c=un&b=alimm_0&p=mm_105752214_8212618_27816125)
+
+Effective Java是Java进阶必备书籍，看后绝对会让你对Java有了更深的认识。
 
 ## 开发环境
 
