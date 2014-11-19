@@ -44,6 +44,10 @@ tags: [Android]
 
 郭神的最新力作，郭神的博客很棒，书我也买了看了一部分，非常棒，适合新手，而且是针对Android 4.0进行讲解的。
 
+* [疯狂Android讲义第二版](http://redirect.simba.taobao.com/rd?w=unionnojs&f=http%3A%2F%2Fai.taobao.com%2Fauction%2Fedetail.htm%3Fe%3DgrXsbPZNK1DghojqVNxKsUpLFKJHzWl4gp1Jf7hv%252FcmLltG5xFicOdXrTUTgh9sMDPIwxrc30rgx5xFFx04TdUkC8scULPWFEdRP1L4O1tAHbU39aISQG1Rmtaud%252B0v%252Bji5PXRRaYfGFnCv8qWGxHA%253D%253D%26ptype%3D100010%26from%3Dbasic&k=5ccfdb950740ca16&c=un&b=alimm_0&p=mm_105752214_8212618_27816125)
+
+当年我学习的时候就看的这本书，现在出了第二版了，这本书的优点是讲的很细，代码较多，你可以跟着代码一步步敲，缺点就是篇幅太多，导致书太厚了，携带不方便，书中最后的几个实例教程不是那么好，不知道第二版更改没。
+
 * [Thinking In Java中文版](http://redirect.simba.taobao.com/rd?w=unionnojs&f=http%3A%2F%2Fai.taobao.com%2Fauction%2Fedetail.htm%3Fe%3DzBqhej1TSvC6k0Or%252B%252BH4tFzbR25iLs%252BQ8nBOXRi6ylDlL1tPWpvWRP7gvmtLyoa3Dlg3nJM8sR9roPAB877mV0X91EzKR9ZCbXyZbUPW4kmGIpXDPBJEB23abJM7sDg28ZPfsQmmNK1siZ7sxXrr%252BQ%253D%253D%26ptype%3D100010%26from%3Dbasic&k=5ccfdb950740ca16&c=un&b=alimm_0&p=mm_105752214_8212618_27816125)
 
 Thinking In Java是Java的经典书籍，这是一本值得反复看的书籍，针对有一定Java基础的人，可以说是学习Java语言必备的书籍。
