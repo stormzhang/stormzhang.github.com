@@ -3,7 +3,7 @@ layout: post
 keywords: blog
 description: blog
 title: "我们结婚啦"
-categories: [Others]
+categories: [Other]
 tags: [Marry]
 ---
 {% include codepiano/setup %}
