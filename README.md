@@ -1,6 +1,6 @@
 ## Storm的博客
 
-基于jekyll的个人博客站点[http://stormzhang.github.io/](http://stormzhang.github.io/)，主题风格本着"simple is beautiful"的原则。
+基于jekyll的个人博客站点[http://stormzhang.com](http://stormzhang.com)，主题风格本着"simple is beautiful"的原则。
 
 ## 关于我
 
@@ -8,6 +8,8 @@ Android开发者 + Ruby语言爱好者 + Google脑残粉，爱技术， 爱开�
 
 ## 联系我
 
-* Github: [https://github.com/stormzhang](https://github.com/stormzhang)
+* Github: [stormzhang](https://github.com/stormzhang)
 
-* Weibo: [http://weibo.com/stormzhang](http://weibo.com/zhangqi8)
+* Weibo: [googdev](http://weibo.com/zhangqi8)
+
+* 知乎: [stormzhang](http://www.zhihu.com/people/stormzhang)

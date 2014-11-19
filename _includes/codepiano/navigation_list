@@ -4,7 +4,7 @@
 {% assign color_hack = color_hack | replace:{{current_nav}},'active' %}
 {% assign color_hack = color_hack | split:' ' %}
 
-<li class="{{color_hack[0]}}"><a href="/posts.html">文章</a></li>
-<li class="{{color_hack[1]}}"><a href="/timeline.html">归档</a></li>
-<li class="{{color_hack[2]}}"><a href="/categories.html">目录</a></li>
+<li class="{{color_hack[0]}}"><a href="/posts.html">目录</a></li>
+<li class="{{color_hack[1]}}"><a href="/timeline.html">时间线</a></li>
+<li class="{{color_hack[2]}}"><a href="/categories.html">分类</a></li>
 <li class="{{color_hack[3]}}"><a href="/about.html">关于</a></li>
