@@ -8,7 +8,7 @@ tags: [Android]
 ---
 {% include codepiano/setup %}
 
-    欢迎转载，但请务必在明确位置注明出处！http://stormzhang.github.io/android/2014/07/07/learn-android-from-rookie/
+    欢迎转载，但请务必在明确位置注明出处！http://stormzhang.com/android/2014/07/07/learn-android-from-rookie/
 
     QQ交流群：入群理由请正确填写我的GitHub账号
 	* 383323653 (Android学习之路1群，已满)
