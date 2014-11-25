@@ -82,27 +82,34 @@ Android开发工具的网站，上面链接是Studio的canary渠道，列出了S
 
 至于安装就没什么可说的了，点击直接运行了。这里我以Mac系统的1.0RC版本为例，来创建第一个HelloWorld项目。其他平台基本上差不多，在这之前假设你已经配置好了JDK和Android SDK环境，并且你是第一次安装Studio。
 
-1、首先运行时的欢迎画面
+* 1、首先运行时的欢迎画面
 
 <img src="/image/studio_splash.png" />
 
-2、之后第一次的话会进入到设置向导页
+
+* 2、之后第一次的话会进入到设置向导页
+
 
 <img src="/image/studio_wizard1.png" />
 
+
 点击Next进入选择设置类型向导页
 
+
 <img src="/image/studio_wizard2.png" />
+
 
 这里有两个选项“Standard”和“Custom”，即标准和自定义，如果你本机的Android SDK没有配置过，那么建议直接选择“Standard”, 点击“Finish”按钮
 
 因为我本地已经下载SDK并配置好了环境变量，所以我选择"Custom"，然后到下一步：
 
+
 <img src="/image/studio_wizard3.png" />
 
-这一步选择你本地SDK的位置，可以看到有个2.5GB的SDK要下载，那是因为Studio 1.0默认要下载5.0的SDK以及一些Tools之类的，然后点击"Finish"按钮
 
-3、下载依赖组件
+这一步选择你本地SDK的位置，可以看到有个2.25GB的SDK要下载，那是因为Studio 1.0默认要下载5.0的SDK以及一些Tools之类的，然后点击"Finish"按钮
+
+* 3、下载依赖组件
 
 <img src="/image/studio_wizard4.png" />
 
@@ -112,7 +119,7 @@ Android开发工具的网站，上面链接是Studio的canary渠道，列出了S
 
 下载完成后点击"Finish"按钮
 
-4、新建项目
+* 4、新建项目
 
 <img src="/image/studio_wizard6.png" />
 
