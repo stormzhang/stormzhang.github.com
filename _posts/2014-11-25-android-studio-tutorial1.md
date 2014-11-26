@@ -18,39 +18,39 @@ tags: [AndroidStudio]
 
 相信目前国内用Eclipse的还是大多数，那么首先就来说一下Studio的一些优点，比较才能更有说服力，才能说明为什么我们要从Eclipse迁移到Studio。
 
-* 1.Google推出的
+* 1、Google推出的
 
-毫无疑问，这个是它的最大优势，Android Stuido是Google推出，专门为Android“量身订做”的，是Google大力支持的一款基于IntelliJ IDEA改造的IDE，这个应该能说明为什么它使Android的未来
+毫无疑问，这个是它的最大优势，Android Stuido是Google推出，专门为Android“量身订做”的，是Google大力支持的一款基于IntelliJ IDEA改造的IDE，这个应该能说明为什么它是Android的未来
 
-* 2.速度更快
+* 2、速度更快
 
 Eclipse的启动速度、响应速度、内存占用一直被诟病，相信大家这点应该深有体会，而且经常遇到卡死状态。Studio不管哪一个方面都全面领先Eclipse
 
-* 3.UI更漂亮
+* 3、UI更漂亮
 
 I/O上演示的那款黑色主题真是太棒了，极客范，Stuido自带的Darcula主题的炫酷黑界面实在是高大上，相比而言Eclipse下的黑色主题太low了
 
-* 4.更加智能
+* 4、更加智能
 
 提示补全对于开发来说意义重大， Studio则更加智能，智能保存，从此再也不用每次都 Ctrl + S了。熟悉Studio以后效率会大大提升。
 
-* 5.整合了Gradle构建工具
+* 5、整合了Gradle构建工具
 
 Gradle是一个新的构建工具，自Studio亮相之处就支持Gradle，可以说Gradle集合了Ant和Maven的优点，不管是配置、编译、打包都非常棒。
 
-* 6.强大的UI编辑器
+* 6、强大的UI编辑器
 
 Android Studio的编辑器非常的智能，除了吸收Eclipse+ADT的优点之外，还自带了多设备的实时预览，相对这对Android开发者来说简直是神器啊。
 
-* 7.内置终端
+* 7、内置终端
 
 Studio内置终端，这对于习惯命令行操作的人来说简直是福音啊，再也不用来回切换了，一个Studio全部搞定。
 
-* 8.更完善的插件系统
+* 8、更完善的插件系统
 
 Studio下支持各种插件，如Git、Markdown、Gradle等等，你想要什么插件，直接搜索下载。
 
-* 9.完美整合版本控制系统
+* 9、完美整合版本控制系统
 
 安装的时候就自带了如GitHub, Git, SVN等流行的版本控制系统，可以直接check out你的项目。
 
