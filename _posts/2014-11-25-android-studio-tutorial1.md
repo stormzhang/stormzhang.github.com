@@ -36,7 +36,7 @@ I/O上演示的那款黑色主题真是太棒了，极客范，Stuido自带的Da
 
 * 5.整合了Gradle构建工具
 
-Gradle是一个新的构建工具，自Studio亮相支出就支持Gradle，可以说Gradle集合了Ant和Maven的优点，不管是配置、编译、打包都非常棒。
+Gradle是一个新的构建工具，自Studio亮相之处就支持Gradle，可以说Gradle集合了Ant和Maven的优点，不管是配置、编译、打包都非常棒。
 
 * 6.强大的UI编辑器
 
