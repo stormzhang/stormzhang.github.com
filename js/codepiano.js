@@ -92,3 +92,14 @@ tooltipConfig = {
   "placement": "right",
   "delay": { show: 200, hide: 100 }
 }
+
+/* 为md文件添加target="_blank" */
+function addBlankTargetForLinks () {
+  $('a[href^="http"]').each(function(){
+      $(this).attr('target', '_blank');
+  });
+}
+
+$(document).bind('DOMNodeInserted', function(event) {
+  addBlankTargetForLinks();
+});
