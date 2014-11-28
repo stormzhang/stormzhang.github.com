@@ -109,6 +109,8 @@ Android开发工具的网站，上面链接是Studio的canary渠道，列出了S
 
 这一步选择你本地SDK的位置，可以看到有个2.25GB的SDK要下载，那是因为Studio 1.0默认要下载5.0的SDK以及一些Tools之类的，然后点击"Finish"按钮
 
+（PS: 这个选择并下载2.25G的组件是studio的一个bug，评论里有人提醒，感谢这位同学。如果网速不行想跳过这步的可以在bin目录的idea.properties增加一行：disable.android.first.run=true就行了，mac平台的右键安装包->Show Package Contents 就找到bin目录了。）
+
 * 3、下载依赖组件
 
 <img src="/image/studio_wizard4.png" />
