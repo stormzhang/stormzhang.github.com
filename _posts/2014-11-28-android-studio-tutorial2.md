@@ -42,6 +42,8 @@ tags: [AndroidStudio]
 
 强迫症的你肯定无法忍受，没关系，这里也同样可以设置，到 **Preferences** -> **Appearance** 修改如图所示就ok，这里同样不仅可以更改字体大小，也可以选择不同的字体,点击OK，这次页面字体就完全对你胃口了。
 
+<img src="/image/preference_font3.png" />
+
 ## 运行
 
 接下来运行程序，运行和 **Eclipse** 中比较像，点击菜单栏的绿色箭头直接运行
