@@ -44,6 +44,10 @@ tags: [AndroidStudio]
 
 <img src="/image/preference_font3.png" />
 
+调整之后再看下效果
+
+<img src="/image/preference_font4.png" />
+
 ## 运行
 
 接下来运行程序，运行和 **Eclipse** 中比较像，点击菜单栏的绿色箭头直接运行
