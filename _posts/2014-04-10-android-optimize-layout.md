@@ -138,7 +138,7 @@ header.xml文件
         android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="@dimen/dp_40"
-        android:layout_above="@+id/text"/>
+        android:layout_above="@id/text"/>
 
     <TextView
         android:id="@+id/text"
@@ -225,7 +225,7 @@ merge标签的作用是合并UI布局，使用该标签能降低UI布局的嵌�
         android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="@dimen/dp_40"
-        android:layout_above="@+id/text"/>
+        android:layout_above="@id/text"/>
  
     <TextView
         android:id="@+id/text"
