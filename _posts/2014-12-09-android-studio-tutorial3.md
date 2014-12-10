@@ -46,8 +46,8 @@ Action             |     Mac OSX     |     Win/Linux
 快捷生成结构体      | Cmd + Alt + T      | Ctrl + Alt + T
 快捷覆写方法        | Ctrl + O        | Ctrl + O
 快捷定位到行首/尾   | Cmd + Left/Right | Cmd + Left/Right
-折叠展开代码块      |   Cmd + Plus,Minus | Ctrl + Shift + Plus/Minus
-折叠展开全部代码块 | Cmd + Shift + Plus,Minus  | Cmd + Shift + Plus,Minus
+折叠展开代码块      |   Cmd + Plus,Minus | Ctrl + Plus/Minus
+折叠展开全部代码块 | Cmd + Shift + Plus,Minus  | Ctrl + Shift + Plus,Minus
 文件方法结构 | Cmd + F12 | Ctrl + F12
 查找调用的位置 | Ctrl + Alt + H | Ctrl + Alt + H
 
