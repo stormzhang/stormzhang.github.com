@@ -58,3 +58,7 @@ Action             |     Mac OSX     |     Win/Linux
 到 **Preferences** -> **Editor** -> **Auto Import** -> **Java** 把以下选项勾上就OK了
 
 <img src="/image/auto_import.png" />
+
+从此世界清静了。。。
+
+至此Android Studio的基本使用相信大家都已经会了，从下一系列开始介绍Gradle语法以及基本配置与多渠道打包等，敬请期待！
