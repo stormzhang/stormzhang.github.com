@@ -2,7 +2,7 @@
 layout: post
 keywords: blog
 description: blog
-title: "Android Studio系列教程二"
+title: "Android Studio系列教程二--基本设置与运行"
 categories: [DevTools]
 tags: [AndroidStudio]
 ---
