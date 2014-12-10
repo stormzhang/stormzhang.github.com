@@ -50,6 +50,7 @@ Action             |     Mac OSX     |     Win/Linux
 折叠展开全部代码块 | Cmd + Shift + Plus,Minus  | Ctrl + Shift + Plus,Minus
 文件方法结构 | Cmd + F12 | Ctrl + F12
 查找调用的位置 | Ctrl + Alt + H | Ctrl + Alt + H
+大小写转换     |  Cmd + Shift + U  |  Ctrl + Shift + U
 
 **(PS: 以上快捷键没有在win平台尝试确认，欢迎反馈错误与补充)**
 
