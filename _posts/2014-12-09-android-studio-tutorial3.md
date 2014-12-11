@@ -35,24 +35,26 @@ tags: [AndroidStudio]
 Action             |     Mac OSX     |     Win/Linux
 -------------------|-----------------|--------------
 注释代码(//)        | Cmd + /         | Ctrl + /
-注释代码(/**/)      | Cmd + Alt + /   | Ctrl + Alt + /
-格式化代码          | Cmd + Alt + L   | Ctrl + Alt + L
-清除无效包引用      | Alt + Control + O | Alt + Ctrl + O
+注释代码(/**/)      | Cmd + Option + /   | Ctrl + Alt + /
+格式化代码          | Cmd + Option + L   | Ctrl + Alt + L
+清除无效包引用      | Option + Control + O | Alt + Ctrl + O
 查找               | Cmd + F          | Ctrl + F
 查找+替换           | Cmd + R         | Ctrl + R
-上下移动代码        | Alt + Shift + Up/Down  | Alt + Shift + Up/Down
+上下移动代码        | Option + Shift + Up/Down  | Alt + Shift + Up/Down
 删除行              | Cmd + Delete    | Ctrl + Y
-扩大缩小选中范围     | Alt + Up/Down    | Ctrl + W/Ctrl + Shift + W
-快捷生成结构体      | Cmd + Alt + T      | Ctrl + Alt + T
+扩大缩小选中范围     | Option + Up/Down    | Ctrl + W/Ctrl + Shift + W
+快捷生成结构体      | Cmd + Option + T      | Ctrl + Alt + T
 快捷覆写方法        | Ctrl + O        | Ctrl + O
-快捷定位到行首/尾   | Cmd + Left/Right | Cmd + Left/Right
+快捷定位到行首/尾   | Cmd + Left/Right | Ctrl + Left/Right
 折叠展开代码块      |   Cmd + Plus,Minus | Ctrl + Plus/Minus
 折叠展开全部代码块 | Cmd + Shift + Plus,Minus  | Ctrl + Shift + Plus,Minus
 文件方法结构 | Cmd + F12 | Ctrl + F12
-查找调用的位置 | Ctrl + Alt + H | Ctrl + Alt + H
+查找调用的位置 | Ctrl + Option + H | Ctrl + Alt + H
 大小写转换     |  Cmd + Shift + U  |  Ctrl + Shift + U
 
 **(PS: 以上快捷键没有在win平台尝试确认，欢迎反馈错误与补充)**
+
+## 自动导包
 
 最后再介绍一个最有用的设置，我们只有每次引用一些类的时候必须要导包，而Studio可以通过设置自动导包，简直太实用了.
 
