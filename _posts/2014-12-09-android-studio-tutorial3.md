@@ -35,7 +35,7 @@ tags: [AndroidStudio]
 Action             |     Mac OSX     |     Win/Linux
 -------------------|-----------------|--------------
 注释代码(//)        | Cmd + /         | Ctrl + /
-注释代码(/**/)      | Cmd + Option + /   | Ctrl + Alt + /
+注释代码(/**/)      | Cmd + Option + /   | Ctrl + Shift + /
 格式化代码          | Cmd + Option + L   | Ctrl + Alt + L
 清除无效包引用      | Option + Control + O | Alt + Ctrl + O
 查找               | Cmd + F          | Ctrl + F
