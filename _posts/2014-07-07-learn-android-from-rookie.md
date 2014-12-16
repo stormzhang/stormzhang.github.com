@@ -267,9 +267,4 @@ Android-Universal-Image-Loader是一个强大的开源图片异步加载库，�
 
 <img src="/image/weixinpublic.jpg" />
 
-## 打赏我
-
-如果觉得我的博客，或者我的各种分享对您有帮助，不妨支付宝扫描请我喝杯咖啡吧，我将是我持续更新的动力
-
-<img src="/image/zhifubao.jpg" />
 
