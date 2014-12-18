@@ -78,7 +78,7 @@ Google帮你集成了一个完整的Android开发环境，包含一个定制的E
 
 如果无论如何你都不想翻墙的话，这里github上可以直接下载以上Android开发工具
 
-[AndroidDevTools](https://github.com/inferjay/AndroidDevTools/)
+[AndroidDevTools](http://www.androiddevtools.cn/)
 
 ## Google Android官方教程
 
