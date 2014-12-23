@@ -12,7 +12,7 @@ tags: [AndroidStudio, Gradle]
 
 ## 什么是Gradle？
 
-Gradle是一种依赖管理工具，基于Groovy语言，面向Java应用为主，它抛弃了基于XML的各种繁琐配置，却而代之的是一种基于Groovy的内部领域特定（DSL）语言。
+Gradle是一种依赖管理工具，基于Groovy语言，面向Java应用为主，它抛弃了基于XML的各种繁琐配置，取而代之的是一种基于Groovy的内部领域特定（DSL）语言。
 
 ## 安装Gradle
 
@@ -107,7 +107,7 @@ dependencies {
 
 #### 2. 9GAG/extras/ShimmerAndroid/build.gradle
 
-每一个Module都需要有一个gradle配置文件，语法都是一样，唯一不同的是开头声明的是 **apply plugin: 'android-library'**
+每一个Module都需要有一个gradle配置文件，语法都是一样，唯一不同的是开头声明的是 **apply plugin: 'com.android.library'**
 
 #### 3. 9GAG/gradle
 
