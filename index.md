@@ -46,3 +46,16 @@ description: Android技术分享者，开源爱好者
 
 [Android Studio 比 Eclipse 好用在哪里？](http://www.zhihu.com/question/21534929/answer/34488828)
 
+## 我的GitHub开源项目
+
+[9GAG](https://github.com/stormzhang/9GAG)
+
+[CustomLoading](https://github.com/stormzhang/CustomLoading)
+
+[SwipeRefreshLayoutDemo](https://github.com/stormzhang/SwipeRefreshLayoutDemo)
+
+## 我的微信公众号: AndroidDeveloper (专注Android干货分享)
+
+<img src="http://stormzhang.com/image/weixinpublic.jpg" />
+
+
