@@ -68,7 +68,19 @@ Google帮你集成了一个完整的Android开发环境，包含一个定制的E
 
 * [Android Studio](http://developer.android.com/sdk/installing/studio.html)
 
-首先说明这个不适合新手们使用，但是你必须知道这是Google最新推出的Android开发工具，基于IDEA，编译依赖[Gradle](http://www.gradle.org/)，目前还没有推出1.0的正式版，但是你依然可以业余项目熟悉了解下，因为这也许是Android开发工具的未来
+首先说明这个不适合新手们使用，但是你必须知道这是Google最新推出的Android开发工具，基于IDEA，编译依赖[Gradle](http://www.gradle.org/)，目前已经推出1.0正式版，这也许是Android开发工具的未来，所以身为Android开发者有必要花点时间去学习使用它。
+
+为此我也推出了Android Studio的一些列学习教程，堪称史上最详细：
+
+[Android Studio系列教程一 ---- 下载与安装](http://stormzhang.com/devtools/2014/11/25/android-studio-tutorial1/)
+
+[Android Studio系列教程二 ---- 基本设置与运行](http://stormzhang.com/devtools/2014/11/28/android-studio-tutorial2/)
+
+[Android Studio系列教程三 ---- 快捷键](http://stormzhang.com/devtools/2014/12/09/android-studio-tutorial3/)
+
+[Android Studio系列教程四 ---- Gradle基础](http://stormzhang.com/devtools/2014/12/18/android-studio-tutorial4/)
+
+未完，待续...
 
 ## 翻墙
 
