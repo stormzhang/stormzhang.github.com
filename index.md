@@ -6,6 +6,10 @@ description: Android技术分享者，开源爱好者
 ---
 {% include codepiano/setup %}
 
+## 置顶
+
+[高薪招聘Android工程师（可年后入职）](http://stormzhang.com/other/2014/12/24/boohee-jobs/)
+
 ## Android开发者必备
 
 [Android学习之路](/android/2014/07/07/learn-android-from-rookie/)
