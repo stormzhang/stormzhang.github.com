@@ -12,7 +12,7 @@ tags: [AndroidStudio, Gradle]
 
 ## 什么是Gradle？
 
-Gradle是一种依赖管理工具，基于Groovy语言，面向Java应用为主，它抛弃了基于XML的各种繁琐配置，却而代之的是一种基于Groovy的内部领域特定（DSL）语言。
+Gradle是一种依赖管理工具，基于Groovy语言，面向Java应用为主，它抛弃了基于XML的各种繁琐配置，取而代之的是一种基于Groovy的内部领域特定（DSL）语言。
 
 ## 安装Gradle
 
@@ -99,7 +99,7 @@ dependencies {
 
 * minifyEnabled也是最新的语法，很早之前是runProguard,这个也需要更新下。
 
-* proguardFiles这部分有两段，前一部分代表系统默认的android程序的混淆文件，该文件已经包含了基本的混淆声明，免去了我们很多事，这个文件的目录在 **<sdk目录>/tools/proguard/proguard-android.txt**, 后一部分是我们项目里的自定义的混淆文件，目录就在 **app/proguard-rules.txt**, 如果你用Studio 1.0创建的新项目默认生成的文件名是 **proguard-rules.pro**, 这个名字没关系，在这个文件里你可以声明一些第三方依赖的一些混淆规则，由于是开源项目，9GAG里并未进行混淆，具体混淆的语法也不是本篇博客讨论的范围。最终混淆的结果是这两部分文件共同作用的。
+* proguardFiles这部分有两段，前一部分代表系统默认的android程序的混淆文件，该文件已经包含了基本的混淆声明，免去了我们很多事，这个文件的目录在 **<sdk目录>/tools/proguard/proguard-android.txt** , 后一部分是我们项目里的自定义的混淆文件，目录就在 **app/proguard-rules.txt** , 如果你用Studio 1.0创建的新项目默认生成的文件名是 **proguard-rules.pro** , 这个名字没关系，在这个文件里你可以声明一些第三方依赖的一些混淆规则，由于是开源项目，9GAG里并未进行混淆，具体混淆的语法也不是本篇博客讨论的范围。最终混淆的结果是这两部分文件共同作用的。
 
 * compile project(':extras:ShimmerAndroid')这一行是因为9GAG中存在其他Module，不知道Module的概念可以看下这篇博客[Android Studio系列教程二--基本设置与运行](http://stormzhang.com/devtools/2014/11/28/android-studio-tutorial2/), 总之你可以理解成Android Library，由于Gradle的普及以及远程仓库的完善，这种依赖渐渐的会变得非常不常见，但是你需要知道有这种依赖的。
 
@@ -107,7 +107,7 @@ dependencies {
 
 #### 2. 9GAG/extras/ShimmerAndroid/build.gradle
 
-每一个Module都需要有一个gradle配置文件，语法都是一样，唯一不同的是开头声明的是 **apply plugin: 'android-library'**
+每一个Module都需要有一个gradle配置文件，语法都是一样，唯一不同的是开头声明的是 **apply plugin: 'com.android.library'**
 
 #### 3. 9GAG/gradle
 
