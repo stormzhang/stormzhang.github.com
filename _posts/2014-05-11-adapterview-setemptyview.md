@@ -38,7 +38,7 @@ setEmptyView()其实是AdapterView的方法，而我们开发中常用到的List
 
 {% highlight ruby %}
 ListView listView = (ListView)findViewById(R.id.list_view);
-listView.setEmptyView(findViewById(R.id.iv_empty));
+listView.setEmptyView(findViewById(R.id.tv_empty));
 {% endhighlight %}
 
 ## 2. Empty View在单独的布局文件里，这种一般适用于比较复杂的View或者打算在多个地方复用
