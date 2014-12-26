@@ -2,7 +2,7 @@
 layout: post
 keywords: blog
 description: blog
-title: "Material Deisgn调色板"
+title: "Material Design调色板"
 categories: [Design]
 tags: [Material]
 ---
