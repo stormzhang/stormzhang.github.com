@@ -6,6 +6,10 @@ description: Android技术分享者，开源爱好者
 ---
 {% include codepiano/setup %}
 
+## 每周推荐
+
+[Material Design调色板](http://stormzhang.com/design/2014/12/26/material-design-palette/)
+
 ## 置顶
 
 [高薪招聘Android工程师（可年后入职）](http://stormzhang.com/other/2014/12/24/boohee-jobs/)
