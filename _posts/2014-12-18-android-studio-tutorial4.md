@@ -62,6 +62,10 @@ android {
     }
     
     buildTypes {
+        debug {
+            // debug模式
+        }
+        
         release {
             // 是否进行混淆
             minifyEnabled false
