@@ -8,7 +8,7 @@ description: Android技术分享者，开源爱好者
 
 ## 每周推荐
 
-[Material Design调色板](http://stormzhang.com/design/2014/12/26/material-design-palette/)
+[我的2014](http://stormzhang.com/other/2015/01/01/my-2014/)
 
 ## 置顶
 
