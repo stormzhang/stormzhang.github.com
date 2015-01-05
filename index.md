@@ -10,6 +10,8 @@ description: Android技术分享者，开源爱好者
 
 [我的2014](http://stormzhang.com/other/2015/01/01/my-2014/)
 
+[Android Studio系列教程五--Gradle命令详解与导入第三方包](http://stormzhang.com/devtools/2015/01/05/android-studio-tutorial5/)
+
 ## 置顶
 
 [高薪招聘Android工程师（可年后入职）](http://stormzhang.com/other/2014/12/24/boohee-jobs/)
@@ -27,6 +29,8 @@ description: Android技术分享者，开源爱好者
 [Android Studio系列教程三 ---- 快捷键](http://stormzhang.com/devtools/2014/12/09/android-studio-tutorial3/)
 
 [Android Studio系列教程四 ---- Gradle基础](http://stormzhang.com/devtools/2014/12/18/android-studio-tutorial4/)
+
+[Android Studio系列教程五--Gradle命令详解与导入第三方包](http://stormzhang.com/devtools/2015/01/05/android-studio-tutorial5/)
 
 未完，待续...
 
