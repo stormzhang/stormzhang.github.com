@@ -121,7 +121,7 @@ distributionUrl=https\://services.gradle.org/distributions/gradle-2.2.1-all.zip
 
 * ./gradlew assembleRelease 编译并打Release的包
 
-除此之外，assemble还可以和productFlavors结合使用，具体在下一届多渠道打包进一步解释。
+除此之外，assemble还可以和productFlavors结合使用，具体在下一篇多渠道打包进一步解释。
 
 * ./gradlew installRelease Release模式打包并安装
 
