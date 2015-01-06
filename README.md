@@ -1,4 +1,4 @@
-## Storm的博客
+## stormzhang的个人博客
 
 基于jekyll的个人博客站点[http://stormzhang.com](http://stormzhang.com)，主题风格本着"simple is beautiful"的原则。
 
