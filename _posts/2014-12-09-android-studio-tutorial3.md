@@ -44,7 +44,7 @@ Action             |     Mac OSX     |     Win/Linux
 删除行              | Cmd + Delete    | Ctrl + Y
 扩大缩小选中范围     | Option + Up/Down    | Ctrl + W/Ctrl + Shift + W
 快捷生成结构体      | Cmd + Option + T      | Ctrl + Alt + T
-快捷覆写方法        | Ctrl + O        | Ctrl + O
+快捷覆写方法        | Cmd + O        | Ctrl + O
 快捷定位到行首/尾   | Cmd + Left/Right | Ctrl + Left/Right
 折叠展开代码块      |   Cmd + Plus,Minus | Ctrl + Plus/Minus
 折叠展开全部代码块 | Cmd + Shift + Plus,Minus  | Ctrl + Shift + Plus,Minus

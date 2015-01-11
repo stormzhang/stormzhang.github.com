@@ -8,9 +8,7 @@ description: Android技术分享者，开源爱好者
 
 ## 每周推荐
 
-[我的2014](http://stormzhang.com/other/2015/01/01/my-2014/)
-
-[Android Studio系列教程五--Gradle命令详解与导入第三方包](http://stormzhang.com/devtools/2015/01/05/android-studio-tutorial5/)
+[Android Studio Tips -- 布局预览](http://stormzhang.com/devtools/2015/01/11/android-studio-tips1/)
 
 ## 置顶
 
