@@ -8,7 +8,7 @@ description: Focus Android, Love Open Source, Performance Optimization, Coding n
 
 ## 每周推荐
 
-[Android Studio Tips -- 布局预览](http://stormzhang.com/devtools/2015/01/11/android-studio-tips1/)
+[Android Studio系列教程六--Gradle多渠道打包](http://stormzhang.com/devtools/2015/01/15/android-studio-tutorial6/)
 
 ## 置顶
 
