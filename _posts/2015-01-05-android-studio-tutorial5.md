@@ -8,6 +8,8 @@ tags: [AndroidStudio, Gradle]
 ---
 {% include codepiano/setup %}
 
+>> 本文为个人原创，欢迎转载，但请务必在明显位置注明出处！
+
 Android Studio + Gradle的组合用起来非常方便，很多第三方开源项目也早都迁移到了Studio，为此今天就来介绍下查看、编译并导入第三方开源项目的方法。
 
 ## Sublime + Terminal编译并查看源码

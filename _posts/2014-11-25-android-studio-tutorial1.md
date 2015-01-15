@@ -8,6 +8,8 @@ tags: [AndroidStudio]
 ---
 {% include codepiano/setup %}
 
+>> 本文为个人原创，欢迎转载，但请务必在明显位置注明出处！
+
 ## 背景
 
 相信大家对Android Studio已经不陌生了，Android Studio是Google于2013 I/O大会针对Android开发推出的新的开发工具，目前很多开源项目都已经在采用，Google的更新速度也很快，明显能感觉到这是Android开发的未来，那么我们还有什么理由不去拥抱未来呢？

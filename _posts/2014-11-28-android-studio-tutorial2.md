@@ -8,6 +8,8 @@ tags: [AndroidStudio]
 ---
 {% include codepiano/setup %}
 
+>> 本文为个人原创，欢迎转载，但请务必在明显位置注明出处！
+
 上面一篇博客，介绍了Studio的优点与1.0 RC的安装与上手体验，没想到google的更新速度这么快，已经出了RC 2版本，主要是修复一些bug。那么今天就带大家预览下Stduio的界面与基本功能。
 
 ## 项目结构

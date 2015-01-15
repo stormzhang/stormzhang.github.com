@@ -8,6 +8,8 @@ tags: [AndroidStudio]
 ---
 {% include codepiano/setup %}
 
+>> 本文为个人原创，欢迎转载，但请务必在明显位置注明出处！
+
 ## Android Studio 1.0正式版发布啦
 
 今天是个大日子，Android Studio 1.0 终于发布了正式版， 这对于Android开发者来说简直是喜大普奔的大消息啊，那么就果断来下载使用。

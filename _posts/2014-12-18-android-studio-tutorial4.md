@@ -8,6 +8,8 @@ tags: [AndroidStudio, Gradle]
 ---
 {% include codepiano/setup %}
 
+>> 本文为个人原创，欢迎转载，但请务必在明显位置注明出处！
+
 其实很早之前也写了一篇Gradle的基础博客，但是时间很久了，现在Gradle已经更新了很多，所以暂且结合Stduio 1.0正式版与最新的Gradle语法来详细讲解下，小伙伴们直接跟我一步步来学习吧。
 
 ## 什么是Gradle？
