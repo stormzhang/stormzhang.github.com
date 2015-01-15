@@ -100,11 +100,11 @@ android {
 
 总之，**assemble** 命令创建task有如下用法：
 
-* assemble<Variant Name>： 允许直接构建一个Variant版本，例如assembleFlavor1Debug。
+* **assemble<Variant Name>**： 允许直接构建一个Variant版本，例如assembleFlavor1Debug。
 
-* assemble<Build Type Name>： 允许构建指定Build Type的所有APK，例如assembleDebug将会构建Flavor1Debug和Flavor2Debug两个Variant版本。
+* **assemble<Build Type Name>**： 允许构建指定Build Type的所有APK，例如assembleDebug将会构建Flavor1Debug和Flavor2Debug两个Variant版本。
 
-* assemble<Product Flavor Name>： 允许构建指定flavor的所有APK，例如assembleFlavor1将会构建Flavor1Debug和Flavor1Release两个Variant版本。
+* **assemble<Product Flavor Name>**： 允许构建指定flavor的所有APK，例如assembleFlavor1将会构建Flavor1Debug和Flavor1Release两个Variant版本。
 
 ## 完整的gradle脚本
 
