@@ -2,7 +2,7 @@
 layout: post
 keywords: blog
 description: blog
-title: "Android Studio系列教程六--多渠道打包"
+title: "Android Studio系列教程六--Gradle多渠道打包"
 categories: [DevTools]
 tags: [AndroidStudio]
 ---
