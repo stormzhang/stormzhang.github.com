@@ -30,7 +30,7 @@ description: Focus Android, Love Open Source, Performance Optimization, Coding n
 
 [Android Studio系列教程五--Gradle命令详解与导入第三方包](http://stormzhang.com/devtools/2015/01/05/android-studio-tutorial5/)
 
-未完，待续...
+[Android Studio系列教程六--Gradle多渠道打包](http://stormzhang.com/devtools/2015/01/15/android-studio-tutorial6/)
 
 ## Android开发工具类
 
