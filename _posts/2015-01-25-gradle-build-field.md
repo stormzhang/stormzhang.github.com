@@ -5,6 +5,7 @@ description: blog
 title: "Gradle自定义你的BuildConfig"
 categories: [Android]
 tags: [Gradle]
+---
 {% include codepiano/setup %}
 
 在很早之前我发布了这篇博客[Android BuildConfig.DEBUG的妙用](http://stormzhang.com/android/2013/08/28/android-use-build-config/), 提到了Eclipse中通过BuildConfig.DEBUG字段用来调试Log非常好用，但是殊不知在Android Studio中通过Gradle这种用法更加强大。
