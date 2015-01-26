@@ -10,7 +10,7 @@ tags: [Gradle]
 
 在很早之前我发布了这篇博客[Android BuildConfig.DEBUG的妙用](http://stormzhang.com/android/2013/08/28/android-use-build-config/), 提到了Eclipse中通过BuildConfig.DEBUG字段用来调试Log非常好用，但是殊不知在Android Studio中通过Gradle这种用法更加强大。
 
-## BuildCondig.DEBUG
+## BuildConfig.DEBUG
 
 首先在Gradle脚本中默认的debug和release两种模式BuildCondig.DEBUG字段分别为true和false，而且不可更改。改字段编译后自动生成，在Studio中自动生成的在 **app/build/source/BuildConfig/<Build Varients>/<package name>/BuildConfig** 文件下。我们以9GAG为例来看下release模式下该文件的内容：
 
@@ -27,7 +27,7 @@ public final class BuildConfig {
 }
 {% endhighlight %}
 
-## 自定义BuildCondig字段
+## 自定义BuildConfig字段
 
 大家看到上述内容的时候发现莫名的有个LOG_DEBUG字段，这个完全是我自定义的一个字段，我来用它控制Log的输出，而没有选择用默认的DEBUG字段。举例一个场景，我们在App开发用到的api环境假设可能会有测试、正式环境，我们不可能所有的控制都通过DEBUG字段来控制，而且有时候环境复杂可能还会有两个以上的环境，这个时候就用到了Gradle提供了自定义BuildConfig字段，我们在程序中通过这个字段就可以配置我们不同的开发环境。
 
