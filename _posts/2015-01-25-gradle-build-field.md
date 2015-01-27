@@ -35,7 +35,23 @@ public final class BuildConfig {
 
     buildConfigField "boolean", "API_ENV", "true"
 
-上述语法就定义了一个boolean类型的API_ENV字段，值为true，之后我们就可以在程序中使用BuildConfig.API_ENV字段来判断我们所处的api环境。不仅如此，如果遇到复杂的环境，你也可能自定义一个String类型的字段，这种方式免去了发布之前手动更改环境的麻烦，减少出错的可能性，只需要在Gradle配置好debug、release等模式下的环境就好了，打包的之后毫无顾虑。
+上述语法就定义了一个boolean类型的API_ENV字段，值为true，之后我们就可以在程序中使用BuildConfig.API_ENV字段来判断我们所处的api环境。例如:
+
+{% highlight ruby %}
+public class BooheeClient {
+	public static final boolean DEBUG = BuildConfig.API_ENV;
+
+	public static String getHost {
+		if (DEBUG) {
+			return "your qa host";
+		}
+		return "your production host";
+	}
+}
+{% endhighlight %}
+
+
+不仅如此，如果遇到复杂的环境，你也可能自定义一个String类型的字段，这种方式免去了发布之前手动更改环境的麻烦，减少出错的可能性，只需要在Gradle配置好debug、release等模式下的环境就好了，打包的之后毫无顾虑。
 
 使用方法很简单，大家如果有问题或者疑问可以直接博客留言。
 
