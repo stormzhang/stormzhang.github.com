@@ -12,7 +12,7 @@ tags: [Gradle]
 
 ## BuildConfig.DEBUG
 
-首先在Gradle脚本中默认的debug和release两种模式BuildCondig.DEBUG字段分别为true和false，而且不可更改。改字段编译后自动生成，在Studio中自动生成的在 **app/build/source/BuildConfig/<Build Varients>/<package name>/BuildConfig** 文件下。我们以9GAG为例来看下release模式下该文件的内容：
+首先在Gradle脚本中默认的debug和release两种模式BuildCondig.DEBUG字段分别为true和false，而且不可更改。改字段编译后自动生成，在Studio中自动生成的在 **app/build/source/BuildConfig/Build Varients/package name/BuildConfig** 文件下。我们以9GAG为例来看下release模式下该文件的内容：
 
 {% highlight ruby %}
 public final class BuildConfig {
