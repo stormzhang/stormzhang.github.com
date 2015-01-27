@@ -39,14 +39,14 @@ public final class BuildConfig {
 
 {% highlight ruby %}
 public class BooheeClient {
-	public static final boolean DEBUG = BuildConfig.API_ENV;
+    public static final boolean DEBUG = BuildConfig.API_ENV;
 
-	public static String getHost {
-		if (DEBUG) {
-			return "your qa host";
-		}
-		return "your production host";
-	}
+    public static String getHost {
+        if (DEBUG) {
+            return "your qa host";
+        }
+        return "your production host";
+    }
 }
 {% endhighlight %}
 
