@@ -166,7 +166,7 @@ Android异步操作的另一种方法
 
 * [Android Custom Loading](http://stormzhang.github.io/openandroid/2013/11/15/android-custom-loading/)
 
-很早的一个小demo，教你如果做一个App的Loading动画
+很早的一个小demo，教你如何做一个App的Loading动画
 
 ## Android进阶
 
