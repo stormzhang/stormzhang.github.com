@@ -12,9 +12,11 @@ tags: [Android]
 
     QQ交流群：入群理由请正确填写我的GitHub账号
 	* 383323653 (Android学习之路1群，已满)
-	* 187252236 (Android学习之路2群)
+	* 187252236 (Android学习之路2群，已满)
+	* 416618703 (Android学习之路3群，新开)
+	请不要重复加群，谢谢！
 
-	不想加群的可以考虑加我的微信公众账号：googdev（AndroidDeveloper）， 技术分享，绝对干货
+	不想加群的可以考虑加我的微信公众账号：AndroidDeveloper， 技术分享，绝对干货
 
 ## 这篇博客背后的故事
 
@@ -164,7 +166,7 @@ Android异步操作的另一种方法
 
 * [Android Custom Loading](http://stormzhang.github.io/openandroid/2013/11/15/android-custom-loading/)
 
-很早的一个小demo，教你如果做一个App的Loading动画
+很早的一个小demo，教你如何做一个App的Loading动画
 
 ## Android进阶
 
