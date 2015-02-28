@@ -12,7 +12,7 @@ description: Focus Android, Love Open Source, Performance Optimization, Coding n
 
 ## 置顶
 
-[高薪招聘Android工程师（可年后入职）](http://stormzhang.com/other/2014/12/24/boohee-jobs/)
+[高薪招聘Android工程师](http://stormzhang.com/other/2014/12/24/boohee-jobs/)
 
 ## Android开发者必备
 
