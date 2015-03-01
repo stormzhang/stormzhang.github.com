@@ -8,7 +8,7 @@ description: Focus Android, Love Open Source, Performance Optimization, Coding n
 
 ## 每周推荐
 
-[Gradle自定义你的BuildConfig](http://stormzhang.com/android/2015/01/25/gradle-build-field/)
+[Android模块化编程之引用本地的aar](http://stormzhang.com/android/2015/03/01/android-reference-local-aar/)
 
 ## 置顶
 
