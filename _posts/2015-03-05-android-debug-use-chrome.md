@@ -109,4 +109,4 @@ dependencies {
 
 最后，提供一个facebook stetho demo的一个下载。
 
-![Stetho Sample]()
+![Stetho Sample](https://github.com/stormzhang/stormzhang.github.com/blob/master/apk/stetho_sample.apk?raw=true)
