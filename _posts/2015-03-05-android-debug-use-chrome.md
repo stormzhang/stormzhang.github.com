@@ -61,9 +61,52 @@ public class MyApplication extends Application {
 
 ## 基本功能使用
 
-// to be continue
+* 检测网络状态
+
+<img src="/image/inspector-network.png"/>
+
+* 查看App本地数据库并且可以直接执行SQL
+
+<img src="/image/inspector-sqlite.png"/>
+
+* 查看App本地的SharedPreference文件并可以直接编辑
+
+<img src="/image/inspect-local.png"/>
+
 
 ## 注意事项
 
-// to be continue
+值得注意的是如果你只是简单的进行配置下，检测网络状态的是没法查看，有两种方式：
 
+* 使用OkHttp
+
+这是最简单的一种方式，要求OkHttp的版本在2.2.x+，只需要添加如下代码：
+
+{% highlight ruby %}
+OkHttpClient client = new OkHttpClient();
+client.networkInterceptors().add(new StethoInterceptor());
+{% endhighlight %}
+
+* 使用HttpURLConnection
+
+如果你使用的自己写的或者其他http library底层是用HttpURLConnection实现的，你需要使用StethoURLConnectionManager来进行集成。然后必须声明Accept-Encoding: gzip的请求headers。具体用法见facebook stetho源码的sample。
+
+其中你可能会依赖如下network helpers.
+
+{% highlight ruby %}
+dependencies {
+  compile 'com.facebook.stetho:stetho-okhttp:1.0.1'
+}
+{% endhighlight %}
+
+或者
+
+{% highlight ruby %}
+dependencies {
+  compile 'com.facebook.stetho:stetho-urlconnection:1.0.1'
+}
+{% endhighlight %}
+
+最后，提供一个facebook stetho demo的一个下载。
+
+![Stetho Sample]()
