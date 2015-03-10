@@ -80,7 +80,7 @@ public class MyApplication extends Application {
 
 * 使用OkHttp
 
-这是最简单的一种方式，要求OkHttp的版本在2.2.x+，只需要添加如下代码：
+这是最简单的一种方式，要求OkHttp的版本在2.2.x+，只需要添加如下代码, 这也是目前最简单的方法
 
 {% highlight ruby %}
 OkHttpClient client = new OkHttpClient();
