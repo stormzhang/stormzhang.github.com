@@ -6,13 +6,13 @@ description: Focus Android, Love Open Source, Performance Optimization, Coding n
 ---
 {% include codepiano/setup %}
 
+## 广告合作(希望大家多支持下)
+
+[Android视频学习推荐](http://www.jikexueyuan.com/event/android.html?hmsr=stormzhang_index_word_03.20)
+
 ## 每周推荐
 
 [使用Chrome来调试你的Android App](http://stormzhang.com/android/2015/03/05/android-debug-use-chrome/)
-
-## 置顶
-
-[Android视频学习推荐](http://www.jikexueyuan.com/event/android.html?hmsr=stormzhang_index_word_03.20)
 
 ## Android开发者必备
 
