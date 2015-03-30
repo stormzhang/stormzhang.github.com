@@ -2,7 +2,7 @@
 layout: post
 keywords: blog
 description: blog
-title: "Android Support兼容包讲解"
+title: "Android Support兼容包详解"
 categories: [Android]
 tags: [SupportLibrary]
 ---

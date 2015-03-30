@@ -10,7 +10,7 @@ description: Focus Android, Love Open Source, Performance Optimization, Coding n
 
 [Android视频学习推荐](http://www.jikexueyuan.com/event/android.html?hmsr=stormzhang_index_word_03.20)
 
-[使用Chrome来调试你的Android App](http://stormzhang.com/android/2015/03/05/android-debug-use-chrome/)
+[Android Support兼容包详解](http://stormzhang.com/android/2015/03/29/android-support-library/)
 
 ## Android开发者必备
 
