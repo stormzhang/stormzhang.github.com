@@ -13,7 +13,7 @@ tags: [Android]
     QQ交流群：入群理由请正确填写我的GitHub账号
 	* 383323653 (Android学习之路1群，已满)
 	* 187252236 (Android学习之路2群，已满)
-	* 416618703 (Android学习之路3群，新开)
+	* 416618703 (Android学习之路3群)
 	请不要重复加群，谢谢！
 
 	不想加群的可以考虑加我的微信公众账号：AndroidDeveloper， 技术分享，绝对干货
@@ -60,17 +60,9 @@ Effective Java是Java进阶必备书籍，看后绝对会让你对Java有了更�
 
 ## 开发环境
 
-* [Eclipse ADT](http://developer.android.com/sdk/index.html)
-
-Google帮你集成了一个完整的Android开发环境，包含一个定制的Eclipse + ADT plugin，以及最新的SDK及源码
-
-* [IntelliJ IDEA](http://www.jetbrains.com/idea/)
-
-相比与Eclipse更推荐使用IDEA，以后可以无缝过渡到Android Studio
-
 * [Android Studio](http://developer.android.com/sdk/installing/studio.html)
 
-首先说明这个不适合新手们使用，但是你必须知道这是Google最新推出的Android开发工具，基于IDEA，编译依赖[Gradle](http://www.gradle.org/)，目前已经推出1.0正式版，这也许是Android开发工具的未来，所以身为Android开发者有必要花点时间去学习使用它。
+目前强烈推荐Android开发者使用，抛弃Eclipse拥抱未来吧！这是Google最新推出的Android开发工具，基于IDEA，编译依赖[Gradle](http://www.gradle.org/)，目前已经推出1.0正式版，这是Android开发工具的未来，所以身为Android开发者有必要花点时间去学习使用它，亲身经历，自从使用它之后再也不想去碰Eclipse。
 
 为此我也推出了Android Studio的一些列学习教程，堪称史上最详细：
 
@@ -82,7 +74,9 @@ Google帮你集成了一个完整的Android开发环境，包含一个定制的E
 
 [Android Studio系列教程四 ---- Gradle基础](http://stormzhang.com/devtools/2014/12/18/android-studio-tutorial4/)
 
-未完，待续...
+[Android Studio系列教程五--Gradle命令详解与导入第三方包](http://stormzhang.com/devtools/2015/01/05/android-studio-tutorial5/)
+
+[Android Studio系列教程六--Gradle多渠道打包](http://stormzhang.com/devtools/2015/01/15/android-studio-tutorial6/)
 
 ## 翻墙
 
@@ -97,6 +91,12 @@ Google帮你集成了一个完整的Android开发环境，包含一个定制的E
 ## Google Android官方教程
 
 [Android Training Course in Chinese](http://hukai.me/android-training-course-in-chinese/index.html)
+
+## 视频推荐
+
+在这里我必须强烈推荐新手们结合视频学习，身为过来人我的很清楚一开始入门很难，只是看书或者资料难以理解，而这时候结合视频讲解，加上自己的书籍与实战，会起到事半功倍的效果。所以不要小看了视频的作用，当然现阶段的我完全不需要去看视频，因为视频讲解的有些慢，但是对于新手们的作用非常巨大。视频学习有很多，但大都差不多，我也没法推荐最好的给你，只是以我自己的角度觉得质量还不错，推荐如下Android视频学习。
+
+[Android视频学习推荐](http://www.jikexueyuan.com/event/android.html?hmsr=stormzhang_index_word_03.20)
 
 ## Android基础
 
@@ -188,9 +188,7 @@ Google官方Android新的构建系统，可以很方便的管理依赖、编译�
 
 ## Android设计
 
-在开发一款Android App之前，你需要了解下Android平台的设计规范，这里有一系列关于Android Design的讲解以及Google最新推出的Material Design中文翻译版
-
-* [Android Design](http://www.geekpark.net/tag/Android%20Design)
+在开发一款Android App之前，你需要了解下Android平台的设计规范，这里有Google最新推出的Material Design中文翻译版
 
 * [Material Design](http://design.1sters.com/)
 
