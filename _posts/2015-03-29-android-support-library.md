@@ -57,4 +57,4 @@ Gradle引用方法:
 ** 使用appcompat之后，你的所有的Activity应该继承自ActionBarActivity，而ActionBarActivity继承自FragmentActivity，所以放心的使用Fragment；
 
 
-最后，相信已经讲的很清楚了，大家有问题可直接博客留言。
+最后，相信已经讲的很清楚了，大家有问题可直接博客留言。如果英语好的，可直接移步官方最权威的解释[https://developer.android.com/tools/support-library/features.html](https://developer.android.com/tools/support-library/features.html)
