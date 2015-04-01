@@ -18,7 +18,7 @@ tags: [SupportLibrary]
 
 * support-v4
 
-用在API lever 4(即Android 1.6)或者更高版本之上。它包含了相对更多的内容，而且用的更为广泛，例如：Fragment，NotificationCompat，LoadBroadcastManager，ViewPager，PageTabAtrip，Loader，FileProvider 等
+用在API lever 4(即Android 1.6)或者更高版本之上。它包含了相对更多的内容，而且用的更为广泛，例如：Fragment，NotificationCompat，LoadBroadcastManager，ViewPager，PageTabStrip，Loader，FileProvider 等
 
 Gradle引用方法： 
 
@@ -42,11 +42,11 @@ Gradle引用方法:
 
 * Hoho Theme
 
-在4.0之前Android可以说是没有设计可言的，在4.0之后推出了Android Design，从此Android在设计上有了很大的改善，而在程序实现上相应的就是Holo风格，所以你看到有类似 **Theme.Holo.Light**、 **Theme.Holo.Light.DarkActionBar** 就是4.0的设计风格，但是为了让4.0之前的版本也能有这种风格怎么办呢？这个时候就不得不引用v7包了，所以对应的就有 **Theme.AppCompat.Light**、 **Theme.AppCompat.Light.DarkActionBar**，如果你的程序最小支持的版本是4.0，那么可以不用考虑v7的兼容，所以在目前来看，我个人建议不用考虑兼容。
+在4.0之前Android可以说是没有设计可言的，在4.0之后推出了Android Design，从此Android在设计上有了很大的改善，而在程序实现上相应的就是Holo风格，所以你看到有类似 **Theme.Holo.Light**、 **Theme.Holo.Light.DarkActionBar** 就是4.0的设计风格，但是为了让4.0之前的版本也能有这种风格怎么办呢？这个时候就不得不引用v7包了，所以对应的就有 **Theme.AppCompat.Light**、 **Theme.AppCompat.Light.DarkActionBar**，如果你的程序最小支持的版本是4.0，那么可以不用考虑v7的兼容。
 
 * Material Design Theme
 
-今年的5.0版本，Android推出了Material Design的概念，这是在设计上Android的又一大突破。对应的程序实现上就有 **Theme.Material.Light**、 **Theme.Material.Light.DarkActionBar**等，但是这种风格只能应用在在5.0版本的手机，如果在5.0之前应用Material Design该怎么办呢？同样的引用appcompat-v7包，这个时候的**Theme.AppCompat.Light**、 **Theme.AppCompat.Light.DarkActionBar**就是想对应兼容的Material Design的Theme。
+今年的5.0版本，Android推出了Material Design的概念，这是在设计上Android的又一大突破。对应的程序实现上就有 **Theme.Material.Light**、 **Theme.Material.Light.DarkActionBar**等，但是这种风格只能应用在在5.0版本的手机，如果在5.0之前应用Material Design该怎么办呢？同样的引用appcompat-v7包，这个时候的**Theme.AppCompat.Light**、 **Theme.AppCompat.Light.DarkActionBar**就是相对应兼容的Material Design的Theme。
 
 ## 注意事项
 
@@ -54,7 +54,7 @@ Gradle引用方法:
 
 * **compile 'com.android.support:appcompat-v7:21.0.3'** 中的21代表API level 21推出的兼容包，所以如果你引用的是21之前的版本，则默认这些**Theme.AppCompat.Light**是Holo风格的，从21开始的版本默认是Material风格
 
-** 使用appcompat之后，你的所有的Activity应该继承自ActionBarActivity，而ActionBarActivity继承自FragmentActivity，所以放心的使用Fragment；
+* 使用appcompat之后，你的所有的Activity应该继承自ActionBarActivity，而ActionBarActivity继承自FragmentActivity，所以放心的使用Fragment；
 
 
 最后，相信已经讲的很清楚了，大家有问题可直接博客留言。如果英语好的，可直接移步官方最权威的解释[https://developer.android.com/tools/support-library/features.html](https://developer.android.com/tools/support-library/features.html)
