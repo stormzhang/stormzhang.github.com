@@ -20,6 +20,6 @@ tags: [AndroidStudio]
 
 <img src="/image/custom_logcat2.png"/>
 
-注意下verbose类别的是没法自定义的，颜色更改之后在底部就可以实时预览logcat的效果图。
+颜色更改之后在底部就可以实时预览logcat的效果图。
 
 OK，这个小Tips很简单，但是很实用！
