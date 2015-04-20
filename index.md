@@ -10,7 +10,7 @@ description: Focus Android, Love Open Source, Performance Optimization, Coding n
 
 [Android视频学习推荐](http://www.jikexueyuan.com/event/android.html?hmsr=stormzhang_index_word_03.20)
 
-[Android Studio Tips -- 自定义Logcat](http://stormzhang.com/devtools/2015/04/12/android-studio-custom-logcat/)
+[各种炫酷的Android Loading动画](http://stormzhang.com/android/2015/04/19/android-loading/)
 
 ## Android开发者必备
 
