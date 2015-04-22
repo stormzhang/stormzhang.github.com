@@ -58,6 +58,12 @@ Thinking In Java是Java的经典书籍，这是一本值得反复看的书籍，
 
 Effective Java是Java进阶必备书籍，看后绝对会让你对Java有了更深的认识。
 
+补充：鉴于很多小伙伴让推荐Java学习的初级睡觉，Thinking In Java确实是本好书，但好书一般都不是针对初学者的，所以如果你没有任何编程经验，那么我来给你推荐几本Java基础书籍，就不提供购买链接了，大家自行搜索去购买。
+
+* 《疯狂Java讲义》(李刚)，《JAVA面向对象编程》(孙卫琴),《Java开发实战经典》(李兴华)，《Core Java》
+
+这几本书都是针对初学者的，我都没有看过，但是我自己稍微做了了解，最后，这些书买一本就够了，然后配合视频学习，小白入门不是梦。
+
 ## 开发环境
 
 * [Android Studio](http://developer.android.com/sdk/installing/studio.html)
