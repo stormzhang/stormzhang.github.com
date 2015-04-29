@@ -40,9 +40,7 @@ description: Focus Android, Love Open Source, Performance Optimization, Coding n
 
 [Android通过Wifi来调试你的应用](http://stormzhang.com/android/2014/08/27/adb-over-wifi/)
 
-[一个强大的Android模拟器Genymotion](一个强大的Android模拟器Genymotion)
-
-[8个常用的Android开发工具](http://stormzhang.com/android/2013/07/07/eight-android-develop-tools/)
+[一个强大的Android模拟器Genymotion](http://stormzhang.com/android/2013/12/04/android-genymotion/)
 
 [Sublime Text 2 Plugin](http://stormzhang.com/devtools/2012/12/30/sublime-plugin/)
 
