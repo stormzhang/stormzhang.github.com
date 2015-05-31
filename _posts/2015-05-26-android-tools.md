@@ -4,13 +4,13 @@ keywords: blog
 description: blog
 title: "推荐几个非常有用的工具"
 categories: [Android]
-tags: [Archive]
+tags: [DevTools]
 ---
 {% include codepiano/setup %}
 
 一晃好久没更新博客了，最近一个月真的很忙，因为公司在准备C轮融资，公司的发展到了一个关键的阶段，自己全部精力投入在公司产品上，这个状态可能还会持续一段时间，今天忙中抽闲来给大家分享下我们最近在项目中采用到的一些能帮助团队提升工作效率的几个Android Studio插件和工具。
 
-## [https://github.com/avast/android-butterknife-zelezny](https://github.com/avast/android-butterknife-zelezny)
+## [ButterKnife Zelezny](https://github.com/avast/android-butterknife-zelezny)
 
 ButterKnife 生成器，使用起来非常简单方便，不知道ButterKnife的赶紧去我的博客搜下
 
@@ -20,7 +20,7 @@ ButterKnife 生成器，使用起来非常简单方便，不知道ButterKnife的
 
 设计师给我们提供好了各种资源，每个按钮都要写一个selector是不是很麻烦？这么这个插件就为解决这个问题而生，你只需要做的是告诉设计师们按照规范命名就好了，其他一键搞定。
 
-<img src="/image/select_option.gif"/>
+<img src="/image/select_option.png"/>
 
 ## [GsonFormat](https://github.com/zzz40500/GsonFormat)
 
@@ -32,7 +32,7 @@ ButterKnife 生成器，使用起来非常简单方便，不知道ButterKnife的
 
 Android中的序列化有两种方式，分别是实现Serializable接口和Parcelable接口，但在Android中是推荐使用Parcelable，只不过我们这种方式要比Serializable方式要繁琐，那么有了这个插件一切就ok了。
 
-<img src="/image/parcelable_generator.gif"/>
+<img src="/image/parcelable_generator.png"/>
 
 ## [LeakCanary](https://github.com/square/leakcanary)
 
@@ -40,5 +40,5 @@ Android中的序列化有两种方式，分别是实现Serializable接口和Parc
 
 英文不好的这里有雷锋同志翻译的中文版[LeakCanary 中文使用说明](http://www.liaohuqiu.net/cn/posts/leak-canary-read-me/)
 
-<img src="/image/leakcaneray.gif"/>
+<img src="/image/leakcaneray.png"/>
 
