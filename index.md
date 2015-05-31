@@ -10,7 +10,7 @@ description: Focus Android, Love Open Source, Performance Optimization, Coding n
 
 [Android视频学习推荐](http://e.jikexueyuan.com/android.html?hmsr=stormzhang_index_word_05.20)
 
-[Android Studio Tips -- 提取方法](http://stormzhang.com/devtools/2015/04/26/android-studio-extract-method/)
+[推荐几个非常有用的工具](http://stormzhang.com/android/2015/05/26/android-tools/)
 
 ## Android开发者必备
 
