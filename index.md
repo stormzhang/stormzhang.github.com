@@ -8,9 +8,9 @@ description: Focus Android, Love Open Source, Performance Optimization, Coding n
 
 ## 每周推荐
 
-[推荐几个非常有用的工具](http://stormzhang.com/android/2015/05/26/android-tools/)
+[高薪招聘中、高级Android工程师](http://stormzhang.com/other/2014/12/24/boohee-jobs/)
 
-[Android视频学习推荐](http://e.jikexueyuan.com/android.html?hmsr=stormzhang_index_word_05.20)
+[推荐几个非常有用的工具](http://stormzhang.com/android/2015/05/26/android-tools/)
 
 ## Android开发者必备
 
