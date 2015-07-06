@@ -2,7 +2,7 @@
 layout: post
 keywords: blog
 description: blog
-title: "高薪招聘Android工程师"
+title: "招聘中、高级Android工程师"
 categories: [Other]
 tags: [jobs]
 ---
@@ -18,9 +18,7 @@ tags: [jobs]
 
 * [薄荷](http://www.wandoujia.com/apps/com.boohee.one) 公司的主要App，总用户已过千万
 
-* [食物图书馆](http://app.mi.com/detail/80550) 最近刚上线的一款小而美的App
-
-* [轻卡减肥](https://itunes.apple.com/cn/app/qing-ka-jian-fei/id931801154?mt=8) 针对减肥人群定制的一款App
+* [食物图书馆](http://app.mi.com/detail/80550) 一款小而美的App
 
 ## 基本要求
 
@@ -28,13 +26,11 @@ tags: [jobs]
 
 * 全日制本科及以上学历(虽然我们更看重能力但通过简历筛选效率更高，谅解)
 
-* 实际Android工作经验2年左右
+* 实际Android工作经验1年以上
 
 * 至少有过一款成熟作品的开发经验
 
 * 热爱这个职业！热爱！
-
-（PS：我们目前只招优秀的Android工程师，实习生、初级的暂不招聘）
 
 ## 加分项
 
@@ -64,5 +60,7 @@ tags: [jobs]
 
 ## 更多职位
 
-除此之外我们还有iOS、Ruby、web前端工程师等职位也在招聘，感兴趣的也可以帮忙推荐或者简历直接发到我邮箱。
+* Java工程师（数名）
+
+主要负责ERP方向和微信业务，中、高级工程师都需要，机会难得，感兴趣可砸个简历过来。
 
