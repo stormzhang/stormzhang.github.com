@@ -2,11 +2,13 @@
 layout: post
 keywords: blog
 description: blog
-title: "招聘中、高级Android工程师"
+title: "高薪招聘中、高级Android工程师"
 categories: [Other]
 tags: [jobs]
 ---
 {% include codepiano/setup %}
+
+* （最后更新于2015年7月7日）
 
 不好意思，我们发展的太快了，人才的需求不断增加，为此薄荷科技又多出两名Android工程师的坑。
 
