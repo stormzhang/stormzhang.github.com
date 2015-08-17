@@ -8,9 +8,9 @@ description: Focus Android, Love Open Source, Performance Optimization, Coding n
 
 ## 每周推荐
 
-[Android视频学习推荐](http://e.jikexueyuan.com/android.html?hmsr=stormzhang_index_word_05.20)
+[薄荷Toolbar(ActionBar)的适配方案](http://www.stormzhang.com/android/2015/08/16/boohee-toolbar/)
 
-[推荐几个非常有用的工具](http://stormzhang.com/android/2015/05/26/android-tools/)
+[Android视频学习推荐](http://e.jikexueyuan.com/android.html?hmsr=stormzhang_index_word_05.20)
 
 ## Android开发者必备
 
