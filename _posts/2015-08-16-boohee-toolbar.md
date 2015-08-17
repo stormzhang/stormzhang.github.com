@@ -32,7 +32,7 @@ group: archive
 
 <img src="/image/nexus5_api21.png"/>
 
-**而4.4之前版本顶部的状态栏默认是黑色的，这里就不截图了，看微信就知道了**
+**而4.4之前版本顶部的状态栏默认是黑色的，这里就不截图了，看微信Android版就知道了**
 
 
 2. 全局替换ActionBar
@@ -180,3 +180,4 @@ if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
 
 最后我这边写了一个完整的demo放在GitHub供大家理解使用。
 
+GitHub地址：
