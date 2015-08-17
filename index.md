@@ -62,6 +62,6 @@ description: Focus Android, Love Open Source, Performance Optimization, Coding n
 
 ## 我的微信公众号: AndroidDeveloper (专注Android干货分享)
 
-<img src="http://stormzhang.com/image/weixinpublic.jpg" />
+<img src="/image/weixinpublic.jpg" />
 
 

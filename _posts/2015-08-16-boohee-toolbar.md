@@ -13,7 +13,7 @@ group: archive
 
 另外先打个广告，以后博客更新准备第一时间更新在我的微信公众号: **AndroidDeveloper** 上，方便大家第一时间通知到大家，大家可以扫码关注下。
 
-<img src="http://stormzhang.com/image/weixinpublic.jpg" />
+<img src="/image/weixinpublic.jpg" />
 
 ## 背景
 
