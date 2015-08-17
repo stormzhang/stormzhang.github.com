@@ -11,14 +11,15 @@ tags: [Android]
     欢迎转载，但请务必在明确位置注明出处！http://stormzhang.com/android/2014/07/07/learn-android-from-rookie/
 
     QQ交流群：入群理由请正确填写我的GitHub账号
-	* 383323653 (Android学习之路1群
+	* 383323653 (Android学习之路1群）
 	* 187252236 (Android学习之路2群)
 	* 416618703 (Android学习之路3群)
 	请不要重复加群，谢谢！
 
-	推荐大家加我的微信公众账号：AndroidDeveloper， 技术分享，绝对干货，博客更新第一时间知晓
 
-	<img src="/image/weixinpublic.jpg" />
+推荐大家加我的微信公众账号：AndroidDeveloper， 技术分享，绝对干货，博客更新第一时间知晓
+
+<img src="/image/weixinpublic.jpg" />
 
 ## 这篇博客背后的故事
 
