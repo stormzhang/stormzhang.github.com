@@ -180,4 +180,4 @@ if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
 
 最后我这边写了一个完整的demo放在GitHub供大家理解使用。
 
-GitHub地址：
+GitHub地址：[https://github.com/stormzhang/BooheeToolbar](https://github.com/stormzhang/BooheeToolbar)
