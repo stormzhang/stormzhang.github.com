@@ -82,7 +82,7 @@ public class Foo {
     "id": 100,
     "body": "It is my post",
     "number": 0.13,
-    "created_at": "2014-05-22 19:12:38"
+    "created_at": "2014-05-22 19:12:38",
     "foo2": {
         "id": 200,
         "name": "haha"
@@ -147,4 +147,4 @@ ArrayList<Foo> foos = new Gson().fromJson(JSON_DATA, listType);
 
 ## 总结
 
-上面基本就总结到开发中常用到的集中类型，用法很简单方便，主要需要json数据抽象成对应的数据模型就ok了。不过阿里也有一套自己的开源json解析库--FastJson，据说性能更佳，但是实际应用中感觉Gson的解析已经相当快了，而且更习惯用Google官方的东西，所以对[FastJson](https://github.com/alibaba/fastjson)没有怎么研究，以后有时间使用体验一下。
+上面基本就总结到开发中常用到的几种类型，用法很简单方便，主要需要json数据抽象成对应的数据模型就ok了。不过阿里也有一套自己的开源json解析库--FastJson，据说性能更佳，但是实际应用中感觉Gson的解析已经相当快了，而且更习惯用Google官方的东西，所以对[FastJson](https://github.com/alibaba/fastjson)没有怎么研究，以后有时间使用体验一下。
