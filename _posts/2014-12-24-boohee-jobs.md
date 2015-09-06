@@ -20,7 +20,9 @@ tags: [jobs]
 
 * [薄荷](http://www.wandoujia.com/apps/com.boohee.one) 公司的主要App，总用户已过千万
 
-* [食物图书馆](http://app.mi.com/detail/80550) 一款小而美的App
+* [食物图书馆](http://app.mi.com/detail/80550) 一款小而美的App，目前已完成它的使命
+
+* [TODO]() 目前正在酝酿一款新的App，主打电商方向
 
 ## 基本要求
 
