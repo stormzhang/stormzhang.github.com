@@ -8,7 +8,7 @@ description: Focus Android, Love Open Source, Performance Optimization, Coding n
 
 ## 每周推荐
 
-[薄荷Toolbar(ActionBar)的适配方案](http://www.stormzhang.com/android/2015/08/16/boohee-toolbar/)
+[高薪招聘中级Android工程师](http://stormzhang.com/other/2014/12/24/boohee-jobs/)
 
 [Android视频学习推荐](http://e.jikexueyuan.com/android.html?hmsr=stormzhang_index_word_05.20)
 
