@@ -10,7 +10,7 @@ description: Focus Android, Love Open Source, Performance Optimization, Coding n
 
 [高薪招聘中(高)级Android工程师](http://stormzhang.com/other/2014/12/24/boohee-jobs/)
 
-[Android视频学习推荐](http://e.jikexueyuan.com/android.html?hmsr=stormzhang_index_word_05.20)
+[【年薪20万】4个月实战学会Android开发，保就业！](http://jiuye.jikexueyuan.com/train/android?hmsr=stormzhang_jiuye_android_word_09.08)
 
 ## Android开发者必备
 
