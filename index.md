@@ -8,13 +8,15 @@ description: Focus Android, Love Open Source, Performance Optimization, Coding n
 
 ## 每周推荐
 
-[高薪招聘中(高)级Android工程师](http://stormzhang.com/other/2014/12/24/boohee-jobs/)
+[微信公众号最新文章](http://mp.weixin.qq.com/s?__biz=MzA4NTQwNDcyMA==&mid=400570850&idx=1&sn=52074d52b926f4c9da11c8c4718158d6#rd)
 
 [零基础Android学习路线](http://e.jikexueyuan.com/android.html?hmsr=stormzhang_index_word_10.12)
 
 ## Android开发者必备
 
 [Android学习之路](/android/2014/07/07/learn-android-from-rookie/)
+
+<a href="http://m.jianxun.io/event/2?from=stormzhang"><img src="http://www.jianxun.io/ad/20151101/eventno2-stormzhang-banner.png" /></a>
 
 ## Android Studio系列教程
 
