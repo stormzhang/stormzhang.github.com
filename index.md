@@ -3,12 +3,13 @@ layout: post
 title: stormzhang博客精华
 keywords: stormzhang, storm, android, java, android developer, android开发, android技术分享, performance
 description: Focus Android, Love Open Source, Performance Optimization, Coding now
+categories: [Android]
 ---
 {% include codepiano/setup %}
 
 ## 每周推荐
 
-[微信公众号最新文章](http://mp.weixin.qq.com/s?__biz=MzA4NTQwNDcyMA==&mid=400570850&idx=1&sn=52074d52b926f4c9da11c8c4718158d6#rd)
+[微信公众号最新文章](http://stormzhang.com/android/2015/11/04/weixin01/)
 
 [零基础Android学习路线](http://e.jikexueyuan.com/android.html?hmsr=stormzhang_index_word_10.12)
 
