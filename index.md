@@ -11,7 +11,7 @@ categories: [Android]
 
 [微信公众号最新文章](http://stormzhang.com/android/2015/11/04/weixin01/)
 
-[零基础Android学习路线](http://e.jikexueyuan.com/android.html?hmsr=stormzhang_index_word_10.12)
+[极客学院双11大促，不只是5折！](http://huodong.jikexueyuan.com/20151111?hmsr=stormzhang_word_11.11)
 
 ## Android开发者必备
 
