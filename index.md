@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: stormzhang博客精华
 keywords: stormzhang, storm, android, java, android developer, android开发, android技术分享, performance
 description: Focus Android, Love Open Source, Performance Optimization, Coding now
@@ -66,5 +66,6 @@ categories: [Android]
 ## 我的微信公众号: AndroidDeveloper (专注Android干货分享)
 
 <img src="/image/weixinpublic.jpg" />
+
 
 

@@ -93,3 +93,24 @@ group: static
 * 2011年4月，处于毕业迷茫季，带着几个好哥们来到上海参加了51Testing的软件测试培训班，注定要来到上海发展。
 
 * 2007年9月，在安徽工业大学开启大学之路，专业：信息与计算科学（偏数学）。
+
+<br />
+
+<div id="comment-hook">
+<!-- 多说评论框 start -->
+	<div class="ds-thread" data-thread-key="my-progress" data-title="{{ page.title }}" data-url="http://stormzhang.com{{ page.url }}"></div>
+<!-- 多说评论框 end -->
+<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+<script type="text/javascript">
+var duoshuoQuery = {short_name:"stormzhang"};
+	(function() {
+		var ds = document.createElement('script');
+		ds.type = 'text/javascript';ds.async = true;
+		ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+		ds.charset = 'UTF-8';
+		(document.getElementsByTagName('head')[0] 
+		 || document.getElementsByTagName('body')[0]).appendChild(ds);
+	})();
+	</script>
+<!-- 多说公共JS代码 end -->
+</div>
