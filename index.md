@@ -11,7 +11,7 @@ categories: [Android]
 
 [微信公众号最新文章](http://stormzhang.com/android/2015/11/04/weixin01/)
 
-[轻松几步学会Android开发](http://e.jikexueyuan.com/android.html?hmsr=stormzhang_index_word_11.18)
+[Android开发入门教程](http://e.jikexueyuan.com/android.html?hmsr=stormzhang_index_word_12.07)
 
 ## Android开发者必备
 
