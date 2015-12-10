@@ -17,7 +17,7 @@ categories: [Android]
 
 [Android学习之路](/android/2014/07/07/learn-android-from-rookie/)
 
-<a href="http://m.jianxun.io/event/2?from=stormzhang"><img src="http://www.jianxun.io/ad/20151101/eventno2-stormzhang-banner.png" /></a>
+<!-- <a href="http://m.jianxun.io/event/2?from=stormzhang"><img src="http://www.jianxun.io/ad/20151101/eventno2-stormzhang-banner.png" /></a> -->
 
 ## Android Studio系列教程
 
