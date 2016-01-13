@@ -39,7 +39,7 @@ tags: [Android]
 
 * 手机--推荐Nexus 5
 
-做Android开发最难以忍受的就是那龟速的模拟器，强烈推荐入手我Google的Nexus系列，原生rom，性价比超高，有条件的推荐再入手一台小米或三星之类的，不是因为他们有多好用，而是因为目前市场上这两个品牌的手机份额最大，实际开发中可能需要进行适配与测试，总之你需要有台Android手机。你可能还需要知道魅族手机有个SmartBar的东东，虽然我认为确实很SB。最后你实在还是要用模拟器的话，那么姑且就给你推荐一款比较快速的模拟器吧----Genymotion, 具体的见我这篇博客[一个强大的Android模拟器Genymotion](http://stormzhang.github.io/android/2013/12/04/android-genymotion/)
+做Android开发最难以忍受的就是那龟速的模拟器，强烈推荐入手我Google的Nexus系列，原生rom，性价比超高，有条件的推荐再入手一台小米或三星之类的，不是因为他们有多好用，而是因为目前市场上这两个品牌的手机份额最大，实际开发中可能需要进行适配与测试，总之你需要有台Android手机。你可能还需要知道魅族手机有个SmartBar的东东，虽然我认为确实很SB。最后你实在还是要用模拟器的话，那么姑且就给你推荐一款比较快速的模拟器吧----Genymotion, 具体的见我这篇博客[一个强大的Android模拟器Genymotion](http://stormzhang.com/android/2013/12/04/android-genymotion/)
 
 ## 书籍
 
@@ -127,7 +127,7 @@ ListView是所有控件中最常使用且对新手来说比较复杂的用法，
 
 Intent解决了Android中四大组件的通讯，非常有用，这篇博客收集整理了系统的标准Intent
 
-* [Android 屏幕适配](http://stormzhang.github.io/android/2014/05/16/android-screen-adaptation/)
+* [Android 屏幕适配](http://stormzhang.com/android/2014/05/16/android-screen-adaptation/)
 
 介绍一些Android屏幕适配的基础
 
@@ -153,11 +153,11 @@ View做为UI开发中最常用到的，必须要深入理解
 
 Service作为Android四大组件之一，在每一个应用程序中都扮演着非常重要的角色
 
-* [Android Gson](http://stormzhang.github.io/android/2014/05/22/android-gson/)
+* [Android Gson](http://stormzhang.com/android/2014/05/22/android-gson/)
 
 目前比较常用比较流行的数据格式就是json了，这篇博客教你如何使用Google Gson库来进行json解析
 
-* [Android 布局优化](http://stormzhang.github.io/android/2014/04/10/android-optimize-layout/)
+* [Android 布局优化](http://stormzhang.com/android/2014/04/10/android-optimize-layout/)
 
 Android开发中经常会用到xml布局，那么布局优化方面的知识更是需要掌握的了
 
@@ -173,13 +173,13 @@ Android开发中异步操作是经常使用的，必须理解掌握
 
 Android异步操作的另一种方法
 
-* [Android Custom Loading](http://stormzhang.github.io/openandroid/2013/11/15/android-custom-loading/)
+* [Android Custom Loading](http://stormzhang.com/openandroid/2013/11/15/android-custom-loading/)
 
 很早的一个小demo，教你如何做一个App的Loading动画
 
 ## Android进阶
 
-* [Android Gradle](http://stormzhang.github.io/android/2014/02/28/android-gradle/)
+* [Android Gradle](http://stormzhang.com/android/2014/02/28/android-gradle/)
 
 Google官方Android新的构建系统，可以很方便的管理依赖、编译打包等
 
@@ -191,7 +191,7 @@ Google官方Android新的构建系统，可以很方便的管理依赖、编译�
 
 一个开源客户端，教你使用Studio、Gradle以及一些流行的开源库快速开发一个不错的Android客户端
 
-* [整理的Android开发资源](http://stormzhang.github.io/android/2014/06/05/android-awesome-resources/)
+* [整理的Android开发资源](http://stormzhang.com/android/2014/06/05/android-awesome-resources/)
 
 自己整理的一些Android开发资源，包括开发、工具、设计等，相信会对你有用的
 
@@ -209,7 +209,7 @@ Google官方Android新的构建系统，可以很方便的管理依赖、编译�
 
 大神JakeWharton的一个ActionBar的兼容库，支持在2.x版本使用ActionBar
 
-* [ActionBar Compact](http://stormzhang.github.io/android/2013/12/13/android-actionbar-compact/)
+* [ActionBar Compact](http://stormzhang.com/android/2013/12/13/android-actionbar-compact/)
 
 在这之前使用ActionBar基本都会使用上述JakeWharton的兼容库，但是目前Google有了自己的一套ActionBar兼容库，推荐使用ActionBar Compact，具体介绍及使用方法详见我的这篇博客
 
@@ -252,7 +252,7 @@ App开发中免不了要和服务端进行交互，而volley是Google官方推�
 
 ActiveAndroid算是一个轻量级的ORM(对象关系映射(Object Relation Mapping))框架，简单地通过如save()和delete()等方法来做到增删改查等操作。
 
-* [ActiveAndroid--Android轻量级ORM框架](http://stormzhang.github.io/openandroid/android/sqlite/2013/12/20/android-orm-tools-activeandroid/)
+* [ActiveAndroid--Android轻量级ORM框架](http://stormzhang.com/openandroid/android/sqlite/2013/12/20/android-orm-tools-activeandroid/)
 
 #### [Retrofit](http://square.github.io/retrofit/)
 
@@ -264,7 +264,7 @@ Retrofit和Java领域的ORM概念类似， ORM把结构化数据转换为Java对
 
 Android-Universal-Image-Loader是一个强大的开源图片异步加载库，该项目的目的是提供一个可重复使用的仪器为异步图像加载，缓存和显示。
 
-* [Android-Universal-Image-Loader](http://stormzhang.github.io/android/openandroid/2013/12/01/android-universal-image-loader/)
+* [Android-Universal-Image-Loader](http://stormzhang.com/android/openandroid/2013/12/01/android-universal-image-loader/)
 
 #### [Android开源项目分类汇总](https://github.com/Trinea/android-open-project)
 
@@ -280,7 +280,7 @@ Android-Universal-Image-Loader是一个强大的开源图片异步加载库，�
 
 * 知乎: [stormzhang](http://www.zhihu.com/people/stormzhang)
 
-* 更多我的消息: [关于我](http://stormzhang.github.io/about.html)
+* 更多我的消息: [关于我](http://stormzhang.com/about.html)
 
 ## Android微信公众账号
 
