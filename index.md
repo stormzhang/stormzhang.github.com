@@ -15,15 +15,15 @@ categories: [Android]
 
 ## 微信公众号精华
 
-* 我的微信公众号: AndroidDeveloper (专注Android的原创分享，你在别处可看不到哦)
-
-<img src="/image/weixinpublic.jpg" />
-
 [你是如何抵制百度系列产品的？](http://mp.weixin.qq.com/s?__biz=MzA4NTQwNDcyMA==&mid=402031205&idx=1&sn=15fdc90da554717debe1f84ab5749483&scene=23&srcid=0113v8SA36990IU7cIVdBnhD#rd)
 
 [公众号的15年总结](http://mp.weixin.qq.com/s?__biz=MzA4NTQwNDcyMA==&mid=402003448&idx=1&sn=4bae6f223bac0f8dcd2b876cfbb1bb83#rd)
 
 [新年第一发](http://mp.weixin.qq.com/s?__biz=MzA4NTQwNDcyMA==&mid=401954661&idx=1&sn=6a83a3fc68f2c9818527723d8895577b#rd)
+
+* 我的微信公众号: AndroidDeveloper (专注Android的原创分享，你在别处可看不到哦)
+
+<img src="/image/weixinpublic.jpg" />
 
 ## Android开发者必备
 
