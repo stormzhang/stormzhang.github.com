@@ -9,7 +9,7 @@ categories: [Android]
 
 ## 每周推荐
 
-[你是如何抵制百度系列产品的？](http://mp.weixin.qq.com/s?__biz=MzA4NTQwNDcyMA==&mid=402031205&idx=1&sn=15fdc90da554717debe1f84ab5749483&scene=23&srcid=0113v8SA36990IU7cIVdBnhD#rd)
+[私人珍藏的Chrome插件，吐血推荐](http://stormzhang.com/devtools/2016/01/15/google-chrome-extension/)
 
 [Android开发入门教程](http://e.jikexueyuan.com/android.html?hmsr=stormzhang_index_word_12.07)
 
