@@ -9,6 +9,8 @@ categories: [Android]
 
 ## 每周推荐
 
+[Android学习之路--Android开发者必备教程](/android/2014/07/07/learn-android-from-rookie/)
+
 [私人珍藏的Chrome插件，吐血推荐](http://stormzhang.com/devtools/2016/01/15/google-chrome-extension/)
 
 [Android开发入门教程](http://e.jikexueyuan.com/android.html?hmsr=stormzhang_index_word_12.07)
@@ -25,13 +27,11 @@ categories: [Android]
 
 <img src="/image/weixinpublic.jpg" />
 
-## Android开发者必备
-
-[Android学习之路--Android开发者的入门必备教程](/android/2014/07/07/learn-android-from-rookie/)
-
 <!-- <a href="http://m.jianxun.io/event/2?from=stormzhang"><img src="http://www.jianxun.io/ad/20151101/eventno2-stormzhang-banner.png" /></a> -->
 
 ## Android开发工具推荐
+
+[Android Studio详细教程汇总](http://stormzhang.com/devtools/2015/06/17/android-studio-all/)
 
 [推荐几个非常有用的工具](http://stormzhang.com/android/2015/05/26/android-tools/)
 
@@ -42,18 +42,6 @@ categories: [Android]
 [Android通过Wifi来调试你的应用](http://stormzhang.com/android/2014/08/27/adb-over-wifi/)
 
 ## Android Studio系列教程
-
-[Android Studio系列教程一 ---- 下载与安装](http://stormzhang.com/devtools/2014/11/25/android-studio-tutorial1/)
-
-[Android Studio系列教程二 ---- 基本设置与运行](http://stormzhang.com/devtools/2014/11/28/android-studio-tutorial2/)
-
-[Android Studio系列教程三 ---- 快捷键](http://stormzhang.com/devtools/2014/12/09/android-studio-tutorial3/)
-
-[Android Studio系列教程四 ---- Gradle基础](http://stormzhang.com/devtools/2014/12/18/android-studio-tutorial4/)
-
-[Android Studio系列教程五--Gradle命令详解与导入第三方包](http://stormzhang.com/devtools/2015/01/05/android-studio-tutorial5/)
-
-[Android Studio系列教程六--Gradle多渠道打包](http://stormzhang.com/devtools/2015/01/15/android-studio-tutorial6/)
 
 ## 我在知乎的有用回答
 
