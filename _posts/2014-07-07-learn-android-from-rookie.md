@@ -17,7 +17,7 @@ tags: [Android]
 	请不要重复加群，谢谢！
 
 
-推荐大家加我的微信公众账号：AndroidDeveloper， 技术分享，绝对干货，博客更新第一时间知晓
+推荐大家加我的微信公众账号：googdev， 技术分享，绝对干货，博客更新第一时间知晓
 
 <img src="/image/weixinpublic.jpg" />
 
@@ -284,7 +284,7 @@ Android-Universal-Image-Loader是一个强大的开源图片异步加载库，�
 
 ## Android微信公众账号
 
-推荐大家关注我的微信公众账号AndroidDeveloper, 专注Android技术分享，保证绝对干货！
+推荐大家关注我的微信公众账号googdev, 专注Android技术分享，保证绝对干货！
 
 <img src="/image/weixinpublic.jpg" />
 

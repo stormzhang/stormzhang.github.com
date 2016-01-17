@@ -23,7 +23,7 @@ categories: [Android]
 
 [新年第一发](http://mp.weixin.qq.com/s?__biz=MzA4NTQwNDcyMA==&mid=401954661&idx=1&sn=6a83a3fc68f2c9818527723d8895577b#rd)
 
-* 我的微信公众号: AndroidDeveloper (专注Android的原创分享，你在别处可看不到哦)
+* 我的微信公众号: googdev (专注Android的原创分享，你在别处可看不到哦)
 
 <img src="/image/weixinpublic.jpg" />
 

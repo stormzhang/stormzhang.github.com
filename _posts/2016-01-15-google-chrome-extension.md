@@ -8,7 +8,7 @@ tags: [Chrome]
 ---
 {% include codepiano/setup %}
 
-> 微信公众号: AndroidDeveloper首发，转载请注明出处！扫码关注，第一时间获取干货分享
+> 微信公众号: googdev首发，转载请注明出处！扫码关注，第一时间获取干货分享
 >
 > <img src="/image/weixinpublic_200.png" />
 
