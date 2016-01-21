@@ -1,7 +1,7 @@
 ---
 layout: post
 keywords: 自学Android，
-description: 如何自学Android编程
+description: 如何自学Android编程？
 title: "如何自学Android编程"
 categories: [Android]
 tags: [Android]
@@ -294,4 +294,4 @@ MVP越来越多的被Android社区所讨论，有点是能够让代码更清晰�
 
 这篇文章值得你转发、收藏并打赏么？
 
-<img src="/image/weixin_pay.png" />
+<img src="/image/weixin_pay.jpg" />

@@ -9,6 +9,8 @@ categories: [Android]
 
 ## 每周推荐
 
+[如何自学Android编程？](http://stormzhang.com/android/2016/01/21/learn-android-byself/)
+
 [私人珍藏的Chrome插件，吐血推荐](http://stormzhang.com/devtools/2016/01/15/google-chrome-extension/)
 
 [Android开发入门教程视频](http://e.jikexueyuan.com/android.html?hmsr=stormzhang_index_word_12.07)
