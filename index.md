@@ -9,11 +9,21 @@ categories: [Android]
 
 ## 每周推荐
 
-[Android学习之路--Android开发者必备教程](/android/2014/07/07/learn-android-from-rookie/)
-
 [私人珍藏的Chrome插件，吐血推荐](http://stormzhang.com/devtools/2016/01/15/google-chrome-extension/)
 
-[Android开发入门教程](http://e.jikexueyuan.com/android.html?hmsr=stormzhang_index_word_12.07)
+[Android开发入门教程视频](http://e.jikexueyuan.com/android.html?hmsr=stormzhang_index_word_12.07)
+
+## Android开发必备
+
+* 自学Android&&Android开发必备教程
+
+[Android学习之路--Android开发者必备教程](/android/2014/07/07/learn-android-from-rookie/)
+
+* 靠谱VPN推荐
+
+俗话说，不会翻墙的程序员不是好程序员，尤其作为Android开发，连SDK的下载都需要翻墙，这里推荐一个靠谱的VPN吧，支持多设备MAC, Windows, Android, iPhone等， 如果和小伙伴们一起合买的话每月只要几块钱，圈内的朋友们都在用，如果你通过下面链接购买的话，你和我的账户都会增加10元钱。
+
+[云梯VPN](http://refyt.com/?r=a9b90a505050781a)
 
 ## 微信公众号精华
 
