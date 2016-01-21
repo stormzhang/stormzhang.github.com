@@ -15,11 +15,11 @@ categories: [Android]
 
 ## Android开发必备
 
-* 自学Android&&Android开发必备教程
+#### 自学Android&&Android开发必备教程
 
 [Android学习之路--Android开发者必备教程](/android/2014/07/07/learn-android-from-rookie/)
 
-* 靠谱VPN推荐
+#### 靠谱VPN推荐
 
 俗话说，不会翻墙的程序员不是好程序员，尤其作为Android开发，连SDK的下载都需要翻墙，这里推荐一个靠谱的VPN吧，支持多设备MAC, Windows, Android, iPhone等， 如果和小伙伴们一起合买的话每月只要几块钱，圈内的朋友们都在用，如果你通过下面链接购买的话，你和我的账户都会增加10元钱。
 
@@ -50,8 +50,6 @@ categories: [Android]
 [使用curl来调试你的应用](http://stormzhang.com/devtools/2014/11/07/use-curl-debug/)
 
 [Android通过Wifi来调试你的应用](http://stormzhang.com/android/2014/08/27/adb-over-wifi/)
-
-## Android Studio系列教程
 
 ## 我在知乎的有用回答
 
