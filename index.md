@@ -9,6 +9,8 @@ categories: [Android]
 
 ## 每周推荐
 
+[解密朋友圈红包照片功能](http://mp.weixin.qq.com/s?__biz=MzA4NTQwNDcyMA==&mid=402201301&idx=1&sn=f31d21e4c16c05697c4e95298a485688#rd)
+
 [薄荷Android团队招聘啦](http://mp.weixin.qq.com/s?__biz=MzA4NTQwNDcyMA==&mid=402175270&idx=1&sn=61d24e82e7fe76f101ce973fa7bd6b72#rd)
 
 [如何自学Android编程？](http://stormzhang.com/android/2016/01/21/learn-android-byself/)
