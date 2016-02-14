@@ -101,23 +101,23 @@ GitHub俗称为“全球最大的程序员同性社交社区”，足以见他�
 
 大名鼎鼎的Dribble，堪称设计师必备，而装了这个插件，可以让你打开空白tab的时间第一时间把每日精选作品展现出来，视觉的享受，强烈推荐给设计师们，装了这个插件我的桌面是这样的。（这个插件跟Momentum同时只能使用一个）
 
-![Dribbble](https://pic4.zhimg.com/5d886194c950245fe6b068f0ec8ea35b_b.jpg)
+![Dribbble](https://segmentfault.com/img/bVsK8a)
 
 14、[Clearly](https://chrome.google.com/webstore/detail/clearly/iooicodkiihhpojmmeghjclgihfjdjhj)
 
 Evernote出品，这个强烈推荐！！不管你是用Evernote记笔记也好，还是用来阅读也好，网页看到好东西直接保存到Evernote，你们以为它只能同步么？错了，最有用的是他可以把阅读的内容以一种非常友好的方式阅读，统一阅读体验堪称网页版的Kindle。下面以我的博客举个例子：
 
-![Clearly](https://pic4.zhimg.com/609e038848dd779148566e1e0786296b_b.png)
+![Clearly](https://segmentfault.com/img/bVsK8b)
 
 点击Clearly插件的时候阅读体验变成这样：
 
-![Clearly](https://pic4.zhimg.com/ecce83ca8533d60adbaac74d5fbda823_b.png)
+![Clearly](https://segmentfault.com/img/bVsK8c)
 
 15、[LastPass](https://chrome.google.com/webstore/detail/lastpass-free-password-ma/hdokiejnpimakedhajhdlcegeplioahd)
 
 是不是平时上网很多网站各种密码记不住？都用一个密码又怕一个网站的密码泄露全军覆没，有了这个就不用怕了，用官方原话解释就是：Free Password Manager，你值得拥有。
 
-![LastPass](https://pic2.zhimg.com/c3865aa44c9bdb89412005a226a94c99_b.png)
+![LastPass](https://segmentfault.com/img/bVsK8d)
 
 以上，呕心沥血，良心推荐，不转发和点赞真心说不过去！
 
