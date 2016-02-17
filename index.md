@@ -9,9 +9,7 @@ categories: [Android]
 
 ## 每周推荐
 
-[解密朋友圈红包照片功能](http://mp.weixin.qq.com/s?__biz=MzA4NTQwNDcyMA==&mid=402201301&idx=1&sn=f31d21e4c16c05697c4e95298a485688#rd)
-
-[薄荷Android团队招聘啦](http://mp.weixin.qq.com/s?__biz=MzA4NTQwNDcyMA==&mid=402175270&idx=1&sn=61d24e82e7fe76f101ce973fa7bd6b72#rd)
+[Kotlin 1.0 正式版发布啦](http://mp.weixin.qq.com/s?__biz=MzA4NTQwNDcyMA==&mid=402409332&idx=1&sn=10b8ae0fbb612ce99da2920f46b60a23#rd)
 
 [如何自学Android编程？](http://stormzhang.com/android/2016/01/21/learn-android-byself/)
 
@@ -30,6 +28,8 @@ categories: [Android]
 [云梯VPN](http://refyt.com/?r=a9b90a505050781a)
 
 ## 微信公众号精华
+
+[解密朋友圈红包照片功能](http://mp.weixin.qq.com/s?__biz=MzA4NTQwNDcyMA==&mid=402201301&idx=1&sn=f31d21e4c16c05697c4e95298a485688#rd)
 
 [私人珍藏的Chrome插件，吐血推荐](http://stormzhang.com/devtools/2016/01/15/google-chrome-extension/)
 
