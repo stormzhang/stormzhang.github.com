@@ -9,6 +9,8 @@ categories: [Android]
 
 ## 每周推荐
 
+[自学Android资料大放送](http://mp.weixin.qq.com/s?__biz=MzA4NTQwNDcyMA==&mid=402468813&idx=1&sn=0e12e4e6e0f92369c0b40b150556b53d#rd)
+
 [Kotlin 1.0 正式版发布啦](http://mp.weixin.qq.com/s?__biz=MzA4NTQwNDcyMA==&mid=402409332&idx=1&sn=10b8ae0fbb612ce99da2920f46b60a23#rd)
 
 [如何自学Android编程？](http://stormzhang.com/android/2016/01/21/learn-android-byself/)
