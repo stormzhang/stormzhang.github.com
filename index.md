@@ -15,6 +15,10 @@ categories: [Android]
 
 [Android开发入门教程视频](http://e.jikexueyuan.com/android.html?hmsr=stormzhang_index_word_12.07)
 
+* 我的微信公众号: googdev (专注Android的原创分享，关注并回复googdev自学Android资料免费获取)
+
+<img src="/image/weixinpublic.jpg" />
+
 ## Android开发必备
 
 * 自学Android&&Android开发必备教程
@@ -42,10 +46,6 @@ categories: [Android]
 [公众号的15年总结](http://mp.weixin.qq.com/s?__biz=MzA4NTQwNDcyMA==&mid=402003448&idx=1&sn=4bae6f223bac0f8dcd2b876cfbb1bb83#rd)
 
 [新年第一发](http://mp.weixin.qq.com/s?__biz=MzA4NTQwNDcyMA==&mid=401954661&idx=1&sn=6a83a3fc68f2c9818527723d8895577b#rd)
-
-* 我的微信公众号: googdev (专注Android的原创分享，你在别处可看不到哦)
-
-<img src="/image/weixinpublic.jpg" />
 
 <!-- <a href="http://m.jianxun.io/event/2?from=stormzhang"><img src="http://www.jianxun.io/ad/20151101/eventno2-stormzhang-banner.png" /></a> -->
 
