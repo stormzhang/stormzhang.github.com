@@ -41,12 +41,6 @@ categories: [Android]
 
 [私人珍藏的Chrome插件，吐血推荐](http://stormzhang.com/devtools/2016/01/15/google-chrome-extension/)
 
-[你是如何抵制百度系列产品的？](http://mp.weixin.qq.com/s?__biz=MzA4NTQwNDcyMA==&mid=402031205&idx=1&sn=15fdc90da554717debe1f84ab5749483&scene=23&srcid=0113v8SA36990IU7cIVdBnhD#rd)
-
-[公众号的15年总结](http://mp.weixin.qq.com/s?__biz=MzA4NTQwNDcyMA==&mid=402003448&idx=1&sn=4bae6f223bac0f8dcd2b876cfbb1bb83#rd)
-
-[新年第一发](http://mp.weixin.qq.com/s?__biz=MzA4NTQwNDcyMA==&mid=401954661&idx=1&sn=6a83a3fc68f2c9818527723d8895577b#rd)
-
 <!-- <a href="http://m.jianxun.io/event/2?from=stormzhang"><img src="http://www.jianxun.io/ad/20151101/eventno2-stormzhang-banner.png" /></a> -->
 
 ## Android开发工具推荐
