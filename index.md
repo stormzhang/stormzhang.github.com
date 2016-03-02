@@ -9,9 +9,7 @@ categories: [Android]
 
 ## 每周推荐
 
-[自学Android资料大放送](http://mp.weixin.qq.com/s?__biz=MzA4NTQwNDcyMA==&mid=402468813&idx=1&sn=0e12e4e6e0f92369c0b40b150556b53d#rd)
-
-[Kotlin 1.0 正式版发布啦](http://mp.weixin.qq.com/s?__biz=MzA4NTQwNDcyMA==&mid=402409332&idx=1&sn=10b8ae0fbb612ce99da2920f46b60a23#rd)
+[我为什么坚持写博客？](http://mp.weixin.qq.com/s?__biz=MzA4NTQwNDcyMA==&mid=402564613&idx=1&sn=d2b7c75b11046a0dcf8df77e737d2b4c#rd)
 
 [如何自学Android编程？](http://stormzhang.com/android/2016/01/21/learn-android-byself/)
 
@@ -30,6 +28,10 @@ categories: [Android]
 [云梯VPN](http://refyt.com/?r=a9b90a505050781a)
 
 ## 微信公众号精华
+
+[自学Android资料大放送](http://mp.weixin.qq.com/s?__biz=MzA4NTQwNDcyMA==&mid=402468813&idx=1&sn=0e12e4e6e0f92369c0b40b150556b53d#rd)
+
+[Kotlin 1.0 正式版发布啦](http://mp.weixin.qq.com/s?__biz=MzA4NTQwNDcyMA==&mid=402409332&idx=1&sn=10b8ae0fbb612ce99da2920f46b60a23#rd)
 
 [解密朋友圈红包照片功能](http://mp.weixin.qq.com/s?__biz=MzA4NTQwNDcyMA==&mid=402201301&idx=1&sn=f31d21e4c16c05697c4e95298a485688#rd)
 
