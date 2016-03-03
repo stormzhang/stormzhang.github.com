@@ -13,9 +13,6 @@ tags: [Android]
 >
 > <img src="/image/weixinpublic_200.png" />
 
-<img src="/image/beself.jpg" />
-
-送给你们的壁纸
 
 你们期待的终于来了，我可以算作是Android自学界的鼻祖了，之前自学的故事与分享的知识、经验影响了无数人，如今几年过去了，我经常收到不少人的感谢信，很多当初看我的教程的初学者如今已经在Android开发小有成就，而且让我欣慰的是他们也依然延续我的分享精神，影响更多的人。
 
@@ -287,7 +284,3 @@ MVP越来越多的被Android社区所讨论，有点是能够让代码更清晰�
 [https://github.com/lzyzsd/Awesome-RxJava](https://github.com/lzyzsd/Awesome-RxJava)
 
 **当你下定决心，准备前行的时候，剩下的只有坚持了！**
-
-这篇文章值得你转发、收藏并打赏么？
-
-<img src="/image/weixin_pay.jpg" />
