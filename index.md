@@ -15,7 +15,7 @@ categories: [Android]
 
 [Android开发入门教程视频](http://e.jikexueyuan.com/android.html?hmsr=stormzhang_index_word_12.07)
 
-* 我的微信公众号: googdev (专注Android的原创分享，关注并回复googdev自学Android资料免费获取)
+* 我的微信公众号: AndroidDeveloper「googdev」 (专注Android的原创分享，关注并回复googdev自学Android资料免费获取)
 
 <img src="/image/weixinpublic.jpg" />
 
