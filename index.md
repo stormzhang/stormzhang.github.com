@@ -9,7 +9,7 @@ categories: [Android]
 
 ## 每周推荐
 
-[我为什么坚持写博客？](http://mp.weixin.qq.com/s?__biz=MzA4NTQwNDcyMA==&mid=402564613&idx=1&sn=d2b7c75b11046a0dcf8df77e737d2b4c#rd)
+[什么样的公司值得加入？](http://mp.weixin.qq.com/s?__biz=MzA4NTQwNDcyMA==&mid=402644669&idx=1&sn=eaf1461b4d0d4bd0faf3cd5042b8ad0d#rd)
 
 [如何自学Android编程？](http://stormzhang.com/android/2016/01/21/learn-android-byself/)
 
@@ -32,6 +32,8 @@ categories: [Android]
 [云梯VPN](http://refyt.com/?r=a9b90a505050781a)
 
 ## 微信公众号精华
+
+[我为什么坚持写博客？](http://mp.weixin.qq.com/s?__biz=MzA4NTQwNDcyMA==&mid=402564613&idx=1&sn=d2b7c75b11046a0dcf8df77e737d2b4c#rd)
 
 [自学Android资料大放送](http://mp.weixin.qq.com/s?__biz=MzA4NTQwNDcyMA==&mid=402468813&idx=1&sn=0e12e4e6e0f92369c0b40b150556b53d#rd)
 
