@@ -1,0 +1,296 @@
+/* =============================================================================
+#     FileName: codepiano.css
+#         Desc: stylesheet for blog
+#       Author: codepiano
+#        Email: anyexingchen999@qq.com
+#     HomePage: http://www.weibo.com/anyexingchen
+#      Version: 0.0.1
+#   LastChange: 2013-05-14 14:13:41
+#      History:
+============================================================================= */
+
+@charset "utf-8";
+
+/* a标签样式 */
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: #1077BC;
+}
+
+a:hover {
+  color: #FF9900;
+  text-decoration: none;
+}
+
+a:active {
+  color: #FF6699;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #FF6699;
+}
+
+/* 主页中央区域 */
+html, body, div.wrapper {
+  height: 100%;
+  background-color: #F3F3F3;
+}
+
+/* 段落样式 */
+.paragraph {
+  font-size: 15px;
+  text-indent: 2em;
+}
+
+/* font-awesome post信息按钮样式 */
+.icon-folder-open, .icon-tags, .icon-calendar {
+  color:#A84365;
+}
+
+.icon-double-angle-right {
+  color: #FF6699;
+}
+
+/* 自定义高亮样式 */
+.highlight pre,code {
+  font-size: 15px;
+  background-color: #002B36;
+  color:#93A1A1;
+}
+
+blockquote {
+  font-size: 15px;
+  background-color: #002B36;
+  color:#93A1A1;
+}
+
+blockquote p {
+  font-size: 15px;
+}
+/* 覆盖bootstrap导航条设置 */
+a.brand {
+  height: auto;
+}
+
+.navbar ul.nav {
+  padding: 15px 20px 15px;
+  height:auto;
+}
+
+.navbar>.navbar-inner{
+  padding-left: 0px;
+}
+
+/* 覆盖导航条激活菜单的背景色设置 */
+.navbar .nav>.active>a, .navbar .nav>.active>a:hover, .navbar .nav>.active>a:focus {
+  background-color: transparent;
+  box-shadow:none;
+}
+
+.navbar .nav>li.active>a {
+  color:#EC6197; 
+}
+
+/* 覆盖typo.css中ul默认的margin-left属性 */
+ul.tag_box {
+  margin-left: 0;
+}
+
+ul.tag_box > li:first-child {
+  padding-left: 0px;
+}
+
+/* 标题栏文字样式 */
+.site-title {
+  font-size: 14px;
+  color: #1B813F;
+}
+
+.site-author {
+  font-size: 28px;
+  color: #169FDE;
+}
+
+/* 底部div定位 */
+div.wrapper>div.typo{
+  padding-bottom: 60px;
+}
+
+/* 底栏div样式 */
+div.bottom {
+  position: relative;
+  margin-top: -60px;
+  height: 60px;
+  clear: both;
+}
+
+/* 底栏声明链接样式 */
+a.license {
+  color:#5E6087;
+}
+
+/* 解决typo.css覆盖bootstrap的li.list-style */
+ul.nav.nav-tabs {
+  list-style: none;
+}
+
+/* 技术支持列表样式 */
+ul#support {
+  margin-top: 20px;
+}
+
+.dispear {
+  border-color: #F3F3F3;
+}
+
+ul#support.dispear>li {
+  display:none;
+}
+
+ul#support.dispear>li:first-child {
+  display:block;
+}
+
+ul#support.dispear>li>a {
+  border-color: #F3F3F3;
+  color: #F3F3F3;
+}
+
+ul#support.dispear>li>a:hover {
+  background-color: transparent;
+}
+
+
+ul#support.dispear>li:first-child>a:hover {
+  color: #CC527A;
+}
+
+ul#support.dispear>li:first-child>a>i.icon-star-empty {
+  color: #F3F3F3;
+}
+
+ul#support.dispear>li:first-child>a:hover>i.icon-star-empty {
+  color: #E8175D;
+}
+
+#support.show a {
+  color: #CC527A;
+}
+
+.icon-ok, .icon-star-empty {
+  color: #E8175D;
+}
+
+ul#support.show {
+  border-color: #F3F3F3;
+}
+
+ul#support.show li {
+  display:block;
+}
+
+ul#support.show a {
+  border-color: #DDDDDD;
+  color:#CC527A;
+}
+
+/* 文章日期样式 */
+.post-date {
+  color: #1077BC;
+}
+
+/* Datatable设置,应用bootstrap样式 */
+table#post-data {
+  border-spacing:0;
+  border-collapse:collapse;
+}
+
+table#post-data td, table#post-data th {
+  color: #1077BC;
+}
+
+table#post-data .icon-calendar, table#post-data .icon-bookmark, table#post-data .icon-tags {
+  color: #1077BC;
+}
+
+table#post-data a:hover {
+  color: #FF6699;
+}
+
+div.row {
+  margin-left: 0px;
+}
+
+/* 覆盖bootstrap默认的tooltip设置 */
+div.tooltip.right .tooltip-arrow {
+  border-right-color: #1693A7;
+}
+
+div.tooltip-inner {
+  font-size: 14px;
+  color: #F3F3F3;
+  background-color: #1693A7;
+}
+
+/* 归档和时间线页面列表样式 */
+ul.posts-list {
+  list-style: none;
+}
+
+ul.posts-list li{
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: #D9D7D4;
+  margin-top: 9px;
+  padding-bottom: 5px;
+  font-size: 14px;
+}
+
+a.post-url {
+  font-size: 16px;
+  margin-left: 2px;
+}
+
+span.post-right-info {
+  font-size: 16px;
+  color: #BBBBBB;
+}
+
+
+/* 时间锚点的样式 */
+ul.time-list {
+  margin-top: 10px;
+}
+
+ul.time-list a {
+  font-size: 14px;
+  color: #FF6699;
+}
+
+ul.time-list a>i.icon-chevron-right{
+  color: #F3F3F3;
+}
+
+ul.time-list>li.active>a>i.icon-chevron-right {
+  color: #333333;
+}
+
+/* about样式 */
+p.about {
+  text-indent: 2em;
+  font-size: 18px;
+}
+
+/* 链接table样式 */
+table#about-me td{
+  font-size: 18px;
+  padding:7px;
+}
+
+table#about-me a{
+  color: #1077BC;
+}

@@ -8,3 +8,4 @@
 <li class="{{color_hack[1]}}"><a href="/timeline.html">时间线</a></li>
 <li class="{{color_hack[2]}}"><a href="/categories.html">分类</a></li>
 <li class="{{color_hack[3]}}"><a href="/about.html">关于</a></li>
+<li class="{{color_hack[4]}}"><a href="/link.html">好基友</a></li>

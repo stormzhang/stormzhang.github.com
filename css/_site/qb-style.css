@@ -1,0 +1,87 @@
+/* CSS Reset */
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { margin:0; padding:0; } 
+table { border-collapse:collapse; border-spacing:0; } 
+fieldset,img { border:0; } 
+address,caption,cite,code,dfn,em,strong,th,var { font-style:normal; font-weight:normal; } 
+caption,th { text-align:left; } 
+h1,h2,h3,h4,h5,h6 { font-size:100%; font-weight:normal; } 
+abbr,acronym { border:0; } 
+textarea, input{resize: none;}
+button {overflow:visible;width:auto;margin:0;padding:0;border:0 none;outline:none;}
+ul,ol {list-style:none;list-style-image: none;}
+
+/* public */
+
+html {font-family:"Oxygen",Arial,"Hiragino Sans GB","Microsoft YaHei","STHeiti","WenQuanYi Micro Hei",SimSun,sans-serif;color:#333;font-size:14px;background:#f3f1ec;}
+body {width:960px;padding:10px;margin:0 auto;}
+
+a {color:#0073B9;text-decoration: underline;padding:2px;}
+a:hover {color:#fff;background:#0073B9;}
+
+hr {border:0 none;border-top: 1px solid #f3f1ec;}
+
+.ullist {margin: 1em 0;padding: 0 0 0 40px;list-style-type:disc;}
+.ullist li {margin-bottom:5px;}
+.hidden {display:none;}
+
+/* input & button */
+
+label {display:block;margin-bottom:3px;}
+
+button,
+input,
+select,
+textarea {font-family:Arial,Helvetica,sans-serif;margin:0;padding:.5em;border:1px solid #ccc;line-height:normal;vertical-align:middle;border-radius:0;font-size:14px;}
+button {cursor:pointer;padding-left:1.6em;padding-right:1.6em}
+
+  	.ipt-gray {box-shadow:inset 1px 2px 1px rgba(0,0,0,.06);background:#f8f8f8}
+  	.btn-green {color:#fff;border-color:#7bb03e;background:#7bb03e}
+  	.btn-green:hover {background:#360;border-color:#360;}
+
+/* head */
+
+.head {overflow:hidden; zoom:1;}
+	.logo {display:block;}
+	.logo a {display:block;width:175px;height:41px;text-indent:-999999px;background-position: 0 0;}
+	
+	.logo a { 
+		background:transparent url("/img/icon@1x.png?v=20130413") no-repeat scroll;
+		background-image: -webkit-image-set(url("/img/icon@2x.png?v=20130413") 2x);
+		background-image: -moz-image-set(url("/img/icon@2x.png?v=20130413") 2x);
+		background-image: -ms-image-set(url("/img/icon@2x.png?v=20130413") 2x);
+		background-image: -o-image-set(url("/img/icon@2x.png?v=20130413") 2x);
+	  }
+
+/* main */
+
+.main {overflow:hidden; zoom:1;margin:10px 0;padding:40px;background:#fff;box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);}
+	.main .col2-1,
+	.main .col2-2 {display:block;vertical-align:top;}
+	.main .col2-1 {width:68%;float:left;padding-right:5%;border-right: 1px solid #f3f1ec;}
+	.main .col2-2 {width:24%;float:right;}
+	
+	.main .col2-1 .bar {padding:10px 0;text-align:right;}
+	.main .col2-2 .sub-nav ul li {margin-bottom:15px;}
+	.main .col2-2 .sub-nav ul li:before {content: "Â»";color:#999;margin-right:5px;}
+	
+	.main h2 {font-size: 36px; margin-bottom:0.83em;}
+	.main h3 {font-size: 24px; margin:1em 0;}
+	.main h4 {font-size: 21px; margin:1em 0;}
+	.main p {margin: 1em 0;}
+	
+	.content img {max-width:100%;_width:expression((documentElement.clientWidth > 600) ? "600px" : "auto" ); }
+	
+/* foot */
+	
+.foot {margin:20px 0 40px 0;text-align:center;}
+
+/* contact us */
+
+.contactus {}
+	.contactus input,
+	.contactus textarea,
+	.feedback input,
+	.feedback textarea  {width:30em;}
+	.contactus textarea,
+	.feedback textarea {height:6em;}
