@@ -42,7 +42,7 @@ Android开发是基于Java语言的，所以毫无疑问的是必须要掌握Jav
 
 * 《Java语言程序设计》，优点是非常基础，适合初学者，建议只要看到前十四章就ok了，第十二章也可以略过。
 
-[http://book.douban.com/subject/6529833/](http://book.douban.com/subject/6529833/)
+[http://book.douban.com/subject/6529833/](http://book.douban.com/subject/6529833)
 
 * Mars老师的Java4Android视频课程结合学习，便于初学者很好的理解与入门。
 
@@ -62,7 +62,7 @@ Android开发是基于Java语言的，所以毫无疑问的是必须要掌握Jav
 * 《第一行代码》
 
 郭霖大神的最新力作，全书由浅入深、系统全面地讲解了Android软件开发的方方面面，而且是针对Android 4.0进行讲解的，非常适合Android入门。
-[http://book.douban.com/subject/25942191/](http://book.douban.com/subject/25942191/)
+[http://book.douban.com/subject/25942191/](http://book.douban.com/subject/25942191)
 
 * Mars老师的Android开发视频教程
 
@@ -70,7 +70,7 @@ Android开发是基于Java语言的，所以毫无疑问的是必须要掌握Jav
 
 * 极客学院Android开发视频教程
 
-[http://www.jikexueyuan.com/path/android/](http://www.jikexueyuan.com/path/android/)
+[http://www.jikexueyuan.com/path/android/](http://www.jikexueyuan.com/path/android)
 
 * 慕课网的Android视频教程
 

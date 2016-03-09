@@ -24,11 +24,11 @@ tags: [DevEnvironment]
 
 * Android Studio + Gradle
 
-Android Studio绝对是Android开发的未来，各种功能都很棒，可能唯一的不足是现在还不太成熟，而且从Eclipse迁移过来各种不习惯，但你要坚信这是未来，所以早点学习上手总不是坏处。至于用Gradle来自动编译、管理依赖非常简单方便，这篇博客则介绍了如何使用Gradle。[Android Gradle](http://stormzhang.com/android/2014/02/28/android-gradle/)
+Android Studio绝对是Android开发的未来，各种功能都很棒，可能唯一的不足是现在还不太成熟，而且从Eclipse迁移过来各种不习惯，但你要坚信这是未来，所以早点学习上手总不是坏处。至于用Gradle来自动编译、管理依赖非常简单方便，这篇博客则介绍了如何使用Gradle。[Android Gradle](http://stormzhang.com/android/2014/02/28/android-gradle)
 
 * Git
 
-目前用Git来做版本控制应该都没得说吧，但在分支的管理上更习惯用GitFlow，这里有一篇博客介绍了GitFLow---[使用Git Flow管理开发流程](http://stormzhang.com/git/2014/01/29/git-flow/)。
+目前用Git来做版本控制应该都没得说吧，但在分支的管理上更习惯用GitFlow，这里有一篇博客介绍了GitFLow---[使用Git Flow管理开发流程](http://stormzhang.com/git/2014/01/29/git-flow)。
 
 * MarkDown
 

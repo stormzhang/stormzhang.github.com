@@ -8,7 +8,7 @@ tags: [Submodule]
 ---
 {% include codepiano/setup %}
 
-开发过程中经常用到的Git操作在这篇博客[Git常用命令备忘](http://stormzhang.com/git/2014/01/27/git-common-command/)有介绍，但是没有涉及到submodule的命令，这也是比较常用的命令，这篇博客就介绍下git submodule的用法.
+开发过程中经常用到的Git操作在这篇博客[Git常用命令备忘](http://stormzhang.com/git/2014/01/27/git-common-command)有介绍，但是没有涉及到submodule的命令，这也是比较常用的命令，这篇博客就介绍下git submodule的用法.
 
 开发过程中，经常会有一些通用的部分希望抽取出来做成一个公共库来提供给别的工程来使用，而公共代码库的版本管理是个麻烦的事情。而且一旦更新了就要同步到多个引用的系统中，这个时候使用git submodule，然后执行: git submodule update就全部搞定了。
 

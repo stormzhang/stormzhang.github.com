@@ -14,7 +14,7 @@ tags: [AndroidStudio]
 
 [Android Studio系列教程二 ---- 基本设置与运行](http://stormzhang.com/devtools/2014/11/28/android-studio-tutorial2)
 
-[Android Studio系列教程三 ---- 快捷键](http://stormzhang.com/devtools/2014/12/09/android-studio-tutorial3/)
+[Android Studio系列教程三 ---- 快捷键](http://stormzhang.com/devtools/2014/12/09/android-studio-tutorial3)
 
 [Android Studio系列教程四 ---- Gradle基础](http://stormzhang.com/devtools/2014/12/18/android-studio-tutorial4)
 

@@ -18,7 +18,7 @@ tags: [AndroidStudio]
 
 官方下载地址： [http://developer.android.com/sdk/index.html](http://developer.android.com/sdk/index.html)
 
-如果你之前已经使用其他版本的Studio，那么直接覆盖就好了，如果是第一次使用，那么参照[Android Studio系列教程一](http://stormzhang.com/devtools/2014/11/25/android-studio-tutorial1/)进行安装配置。
+如果你之前已经使用其他版本的Studio，那么直接覆盖就好了，如果是第一次使用，那么参照[Android Studio系列教程一](http://stormzhang.com/devtools/2014/11/25/android-studio-tutorial1)进行安装配置。
 
 于此同时一起更新的还有SDK Tools等，打开SDK Manager进行更新就OK。如果之前有在使用RC版本的Studio，更新覆盖之后应该会出错，那是因为Stuido 1.0默认使用1.0的Gradle插件，所以只需到项目根目录的 **build.gradle** 更新成如下代码然后同步下就OK了
 

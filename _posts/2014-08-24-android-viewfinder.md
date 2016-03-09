@@ -59,6 +59,6 @@ TextView textView = finder.find(R.id.textview);
 
 ## 第三种
 
-前两种方法本质上是利用了泛型，还有一种利用注解的方式，使用起来更方便，不仅省事的处理了findViewById，甚至包括setOnClickListener这种方法也能很方便的调用，具体见我这篇博客[ButterKnife--View注入框架](http://stormzhang.com/openandroid/android/2014/01/12/android-butterknife/)。
+前两种方法本质上是利用了泛型，还有一种利用注解的方式，使用起来更方便，不仅省事的处理了findViewById，甚至包括setOnClickListener这种方法也能很方便的调用，具体见我这篇博客[ButterKnife--View注入框架](http://stormzhang.com/openandroid/android/2014/01/12/android-butterknife)。
 
 注意：如果你是使用的Eclipse引用该library，你需要参考这里[Eclipse Configuration](http://jakewharton.github.io/butterknife/ide-eclipse.html)做一些配置，否则会运行出错。

@@ -18,7 +18,7 @@ Gradle是一种依赖管理工具，基于Groovy语言，面向Java应用为主�
 
 ## 安装Gradle
 
-在[Android Studio系列教程一--下载与安装](http://stormzhang.com/devtools/2014/11/25/android-studio-tutorial1/)中新建项目成功后会下载Gradle，貌似这个过程不翻墙也是可以下载，但是访问特别慢，建议翻墙下载。那么下载的Gradle到什么地方呢？
+在[Android Studio系列教程一--下载与安装](http://stormzhang.com/devtools/2014/11/25/android-studio-tutorial1)中新建项目成功后会下载Gradle，貌似这个过程不翻墙也是可以下载，但是访问特别慢，建议翻墙下载。那么下载的Gradle到什么地方呢？
 
 * Mac上会默认下载到 **/Users/<用户名>/.gradle/wrapper/dists** 目录
 
@@ -101,13 +101,13 @@ dependencies {
 
 * applicationId代表应用的包名，也是最新的写法，这里就不在多说了。
 
-* android 5.0开始默认安装jdk1.7才能编译，但是由于mac系统自带jdk的版本是1.6，所以需要手动下载jdk1.7并配置下，具体可以见我这篇博客[Mac下安装和管理Java](http://stormzhang.com/android/2014/06/27/manage-java-on-macosx/)
+* android 5.0开始默认安装jdk1.7才能编译，但是由于mac系统自带jdk的版本是1.6，所以需要手动下载jdk1.7并配置下，具体可以见我这篇博客[Mac下安装和管理Java](http://stormzhang.com/android/2014/06/27/manage-java-on-macosx)
 
 * minifyEnabled也是最新的语法，很早之前是runProguard,这个也需要更新下。
 
 * proguardFiles这部分有两段，前一部分代表系统默认的android程序的混淆文件，该文件已经包含了基本的混淆声明，免去了我们很多事，这个文件的目录在 **<sdk目录>/tools/proguard/proguard-android.txt** , 后一部分是我们项目里的自定义的混淆文件，目录就在 **app/proguard-rules.txt** , 如果你用Studio 1.0创建的新项目默认生成的文件名是 **proguard-rules.pro** , 这个名字没关系，在这个文件里你可以声明一些第三方依赖的一些混淆规则，由于是开源项目，9GAG里并未进行混淆，具体混淆的语法也不是本篇博客讨论的范围。最终混淆的结果是这两部分文件共同作用的。
 
-* compile project(':extras:ShimmerAndroid')这一行是因为9GAG中存在其他Module，不知道Module的概念可以看下这篇博客[Android Studio系列教程二--基本设置与运行](http://stormzhang.com/devtools/2014/11/28/android-studio-tutorial2/), 总之你可以理解成Android Library，由于Gradle的普及以及远程仓库的完善，这种依赖渐渐的会变得非常不常见，但是你需要知道有这种依赖的。
+* compile project(':extras:ShimmerAndroid')这一行是因为9GAG中存在其他Module，不知道Module的概念可以看下这篇博客[Android Studio系列教程二--基本设置与运行](http://stormzhang.com/devtools/2014/11/28/android-studio-tutorial2), 总之你可以理解成Android Library，由于Gradle的普及以及远程仓库的完善，这种依赖渐渐的会变得非常不常见，但是你需要知道有这种依赖的。
 
 * 以上文件里的内容只是基本配置，其实还有很多自定义部分，如自动打包debug，release，beta等环境，签名，多渠道打包等，后续会单独拿出来讲解。
 
