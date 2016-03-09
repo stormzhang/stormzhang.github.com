@@ -11,7 +11,7 @@ categories: [Android]
 
 [什么样的公司值得加入？](http://mp.weixin.qq.com/s?__biz=MzA4NTQwNDcyMA==&mid=402644669&idx=1&sn=eaf1461b4d0d4bd0faf3cd5042b8ad0d#rd)
 
-[如何自学Android编程？](http://stormzhang.com/android/2016/01/21/learn-android-byself/)
+[如何自学Android编程？](http://stormzhang.com/android/2016/01/21/learn-android-byself)
 
 [Android开发入门教程视频](http://e.jikexueyuan.com/android.html?hmsr=stormzhang_index_word_12.07)
 
@@ -41,21 +41,21 @@ categories: [Android]
 
 [解密朋友圈红包照片功能](http://mp.weixin.qq.com/s?__biz=MzA4NTQwNDcyMA==&mid=402201301&idx=1&sn=f31d21e4c16c05697c4e95298a485688#rd)
 
-[私人珍藏的Chrome插件，吐血推荐](http://stormzhang.com/devtools/2016/01/15/google-chrome-extension/)
+[私人珍藏的Chrome插件，吐血推荐](http://stormzhang.com/devtools/2016/01/15/google-chrome-extension)
 
 <!-- <a href="http://m.jianxun.io/event/2?from=stormzhang"><img src="http://www.jianxun.io/ad/20151101/eventno2-stormzhang-banner.png" /></a> -->
 
 ## Android开发工具推荐
 
-[Android Studio详细教程汇总](http://stormzhang.com/devtools/2015/06/17/android-studio-all/)
+[Android Studio详细教程汇总](http://stormzhang.com/devtools/2015/06/17/android-studio-all)
 
-[推荐几个非常有用的工具](http://stormzhang.com/android/2015/05/26/android-tools/)
+[推荐几个非常有用的工具](http://stormzhang.com/android/2015/05/26/android-tools)
 
-[使用Chrome来调试你的Android App](http://stormzhang.com/android/2015/03/05/android-debug-use-chrome/)
+[使用Chrome来调试你的Android App](http://stormzhang.com/android/2015/03/05/android-debug-use-chrome)
 
-[使用curl来调试你的应用](http://stormzhang.com/devtools/2014/11/07/use-curl-debug/)
+[使用curl来调试你的应用](http://stormzhang.com/devtools/2014/11/07/use-curl-debug)
 
-[Android通过Wifi来调试你的应用](http://stormzhang.com/android/2014/08/27/adb-over-wifi/)
+[Android通过Wifi来调试你的应用](http://stormzhang.com/android/2014/08/27/adb-over-wifi)
 
 ## 我在知乎的有用回答
 
