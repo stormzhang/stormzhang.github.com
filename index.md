@@ -23,7 +23,7 @@ categories: [Android]
 
 * 自学Android&&Android开发必备教程
 
-[Android学习之路--Android开发者必备教程](/android/2014/07/07/learn-android-from-rookie/)
+[Android学习之路--Android开发者必备教程](http://stormzhang.com/android/2014/07/07/learn-android-from-rookie)
 
 * 靠谱VPN推荐
 
