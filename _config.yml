@@ -6,7 +6,6 @@ exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 # auto: true
 highlighter: pygments
 paginate: 5
-jekyll-paginate: true
 
 title : 做好现在的事儿
 tagline: 爱生活，爱技术，爱科技，爱折腾
