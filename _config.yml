@@ -1,9 +1,12 @@
-permalink: /:categories/:year/:month/:day/:title/
+# This is the default format. 
+# For more see: http://jekyllrb.com/docs/permalinks/
+permalink: /:categories/:year/:month/:day/:title
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
-auto: true
-pygments: true
+# auto: true
+highlighter: pygments
 paginate: 5
+jekyll-paginate: true
 
 title : 做好现在的事儿
 tagline: 爱生活，爱技术，爱科技，爱折腾
@@ -23,7 +26,7 @@ author :
 # Else if you are pushing to username.github.io, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : stormzhang.com
+production_url : http://stormzhang.com
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
