@@ -9,7 +9,7 @@ categories: [Android]
 
 ## 每周推荐
 
-[什么样的公司值得加入？](http://mp.weixin.qq.com/s?__biz=MzA4NTQwNDcyMA==&mid=402644669&idx=1&sn=eaf1461b4d0d4bd0faf3cd5042b8ad0d#rd)
+[Gradle依赖的统一管理](http://mp.weixin.qq.com/s?__biz=MzA4NTQwNDcyMA==&mid=402733201&idx=1&sn=052e12818fe937e28ef08331535a179e#rd)
 
 [如何自学Android编程？](http://stormzhang.com/android/2016/01/21/learn-android-byself)
 
@@ -33,13 +33,13 @@ categories: [Android]
 
 ## 微信公众号精华
 
+[有大事件即将发生](http://mp.weixin.qq.com/s?__biz=MzA4NTQwNDcyMA==&mid=402689997&idx=1&sn=4a0bfab80d93885bc9016c785303ac7f#rd)
+
+[什么样的公司值得加入？](http://mp.weixin.qq.com/s?__biz=MzA4NTQwNDcyMA==&mid=402644669&idx=1&sn=eaf1461b4d0d4bd0faf3cd5042b8ad0d#rd)
+
 [我为什么坚持写博客？](http://mp.weixin.qq.com/s?__biz=MzA4NTQwNDcyMA==&mid=402564613&idx=1&sn=d2b7c75b11046a0dcf8df77e737d2b4c#rd)
 
 [自学Android资料大放送](http://mp.weixin.qq.com/s?__biz=MzA4NTQwNDcyMA==&mid=402468813&idx=1&sn=0e12e4e6e0f92369c0b40b150556b53d#rd)
-
-[Kotlin 1.0 正式版发布啦](http://mp.weixin.qq.com/s?__biz=MzA4NTQwNDcyMA==&mid=402409332&idx=1&sn=10b8ae0fbb612ce99da2920f46b60a23#rd)
-
-[解密朋友圈红包照片功能](http://mp.weixin.qq.com/s?__biz=MzA4NTQwNDcyMA==&mid=402201301&idx=1&sn=f31d21e4c16c05697c4e95298a485688#rd)
 
 [私人珍藏的Chrome插件，吐血推荐](http://stormzhang.com/devtools/2016/01/15/google-chrome-extension)
 
