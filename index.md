@@ -9,9 +9,9 @@ categories: [Android]
 
 ## 每周推荐
 
-[Gradle依赖的统一管理](http://mp.weixin.qq.com/s?__biz=MzA4NTQwNDcyMA==&mid=402733201&idx=1&sn=052e12818fe937e28ef08331535a179e#rd)
+[人生的第一辆车](http://mp.weixin.qq.com/s?__biz=MzA4NTQwNDcyMA==&mid=402821022&idx=1&sn=fc82e99f8ab2a02de90b3a8c371eff4f#rd)
 
-[如何自学Android编程？](http://stormzhang.com/android/2016/01/21/learn-android-byself)
+[我的自学编程故事](http://mp.weixin.qq.com/s?__biz=MzA4NTQwNDcyMA==&mid=402784322&idx=1&sn=b28ae10f7f30db7918398a85923b65b5#rd)
 
 [Android开发入门教程视频](http://e.jikexueyuan.com/android.html?hmsr=stormzhang_index_word_12.07)
 
@@ -32,6 +32,8 @@ categories: [Android]
 [云梯VPN](http://refyt.com/?r=a9b90a505050781a)
 
 ## 微信公众号精华
+
+[如何自学Android编程？](http://stormzhang.com/android/2016/01/21/learn-android-byself)
 
 [有大事件即将发生](http://mp.weixin.qq.com/s?__biz=MzA4NTQwNDcyMA==&mid=402689997&idx=1&sn=4a0bfab80d93885bc9016c785303ac7f#rd)
 
