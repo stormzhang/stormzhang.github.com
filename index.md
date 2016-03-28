@@ -9,6 +9,8 @@ categories: [Android]
 
 ## 每周推荐
 
+[不能怂，就是干！](http://mp.weixin.qq.com/s?__biz=MzA4NTQwNDcyMA==&mid=403010590&idx=1&sn=7a57f7a2e40a33c621edb9b7688710fa#rd)
+
 [30天入门 Android 开发， Google 与你一起圆梦](http://stormzhang.com/android/2016/03/26/google-studyjams/)
 
 [人生的第一辆车](http://mp.weixin.qq.com/s?__biz=MzA4NTQwNDcyMA==&mid=402821022&idx=1&sn=fc82e99f8ab2a02de90b3a8c371eff4f#rd)
