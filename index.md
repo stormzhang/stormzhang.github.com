@@ -17,7 +17,7 @@ categories: [Android]
 
 [我的自学编程故事](http://mp.weixin.qq.com/s?__biz=MzA4NTQwNDcyMA==&mid=402784322&idx=1&sn=b28ae10f7f30db7918398a85923b65b5#rd)
 
-[Android在线学习 送kindle阅读器](http://huodong.jikexueyuan.com/2016325/jingxihui.html#jiuye?hmsr=stormzhang_jiuye_word_03.21)
+[Android开发入门教程视频](http://e.jikexueyuan.com/android.html?hmsr=stormzhang_index_word_12.07)
 
 * 我的微信公众号: AndroidDeveloper「googdev」 (专注Android的原创分享，关注并回复googdev自学Android资料免费获取)
 
