@@ -9,7 +9,7 @@ categories: [Android]
 
 ## 每周推荐
 
-[不能怂，就是干！](http://mp.weixin.qq.com/s?__biz=MzA4NTQwNDcyMA==&mid=403010590&idx=1&sn=7a57f7a2e40a33c621edb9b7688710fa#rd)
+[Android开发如何进阶？](http://mp.weixin.qq.com/s?__biz=MzA4NTQwNDcyMA==&mid=403072488&idx=1&sn=12a1deee3c00da644ad3844032a2374f#rd)
 
 [30天入门 Android 开发， Google 与你一起圆梦](http://stormzhang.com/android/2016/03/26/google-studyjams/)
 
