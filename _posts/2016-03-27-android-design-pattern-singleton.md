@@ -38,7 +38,7 @@ public class Singleton{
 
     private Singleton(){}
 
-    public static newInstance(){
+    public static Singleton newInstance(){
         if(null == instance){
             instance = new Singleton();
         }
