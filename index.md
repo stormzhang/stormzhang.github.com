@@ -9,6 +9,8 @@ categories: [Android]
 
 ## 每周推荐
 
+[买房真的很难么？](http://mp.weixin.qq.com/s?__biz=MzA4NTQwNDcyMA==&mid=403087497&idx=1&sn=efedc9a18425e12f43b8663a66d54b29#rd)
+
 [Android开发如何进阶？](http://mp.weixin.qq.com/s?__biz=MzA4NTQwNDcyMA==&mid=403072488&idx=1&sn=12a1deee3c00da644ad3844032a2374f#rd)
 
 [30天入门 Android 开发， Google 与你一起圆梦](http://stormzhang.com/android/2016/03/26/google-studyjams/)
