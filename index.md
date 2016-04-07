@@ -9,6 +9,8 @@ categories: [Android]
 
 ## 每周推荐
 
+[心触动Android主管招聘](http://stormzhang.com/archive/2016/03/31/xinchudong-jobs/)
+
 [买房真的很难么？](http://mp.weixin.qq.com/s?__biz=MzA4NTQwNDcyMA==&mid=403087497&idx=1&sn=efedc9a18425e12f43b8663a66d54b29#rd)
 
 [Android开发如何进阶？](http://mp.weixin.qq.com/s?__biz=MzA4NTQwNDcyMA==&mid=403072488&idx=1&sn=12a1deee3c00da644ad3844032a2374f#rd)
