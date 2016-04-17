@@ -9,6 +9,8 @@ categories: [Android]
 
 ## 每周推荐
 
+[天朝的奇葩网络问题ppt](http://stormzhang.com/slides/china-network/#/)
+
 [心触动Android主管招聘](http://stormzhang.com/archive/2016/03/31/xinchudong-jobs/)
 
 [买房真的很难么？](http://mp.weixin.qq.com/s?__biz=MzA4NTQwNDcyMA==&mid=403087497&idx=1&sn=efedc9a18425e12f43b8663a66d54b29#rd)
