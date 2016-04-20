@@ -9,17 +9,17 @@ categories: [Android]
 
 ## 每周推荐
 
+[Swift是Android的未来么？](http://mp.weixin.qq.com/s?__biz=MzA4NTQwNDcyMA==&mid=2650661497&idx=1&sn=9ef2e103eaddfa1247d0b589151c5b72#rd)
+
+[强烈推荐MD](http://mp.weixin.qq.com/s?__biz=MzA4NTQwNDcyMA==&mid=2650661494&idx=1&sn=54e79dd517a0fb107f5b74c943c3b4d6#rd)
+
+[天朝的奇葩网络问题ppt](http://stormzhang.com/slides/china-network/#/)
+
 [天朝的奇葩网络问题ppt](http://stormzhang.com/slides/china-network/#/)
 
 [心触动Android主管招聘](http://stormzhang.com/archive/2016/03/31/xinchudong-jobs/)
 
-[买房真的很难么？](http://mp.weixin.qq.com/s?__biz=MzA4NTQwNDcyMA==&mid=403087497&idx=1&sn=efedc9a18425e12f43b8663a66d54b29#rd)
-
 [Android开发如何进阶？](http://mp.weixin.qq.com/s?__biz=MzA4NTQwNDcyMA==&mid=403072488&idx=1&sn=12a1deee3c00da644ad3844032a2374f#rd)
-
-[30天入门 Android 开发， Google 与你一起圆梦](http://stormzhang.com/android/2016/03/26/google-studyjams/)
-
-[人生的第一辆车](http://mp.weixin.qq.com/s?__biz=MzA4NTQwNDcyMA==&mid=402821022&idx=1&sn=fc82e99f8ab2a02de90b3a8c371eff4f#rd)
 
 [我的自学编程故事](http://mp.weixin.qq.com/s?__biz=MzA4NTQwNDcyMA==&mid=402784322&idx=1&sn=b28ae10f7f30db7918398a85923b65b5#rd)
 
