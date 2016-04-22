@@ -9,11 +9,11 @@ categories: [Android]
 
 ## 每周推荐
 
+[我到底有多么拼命](http://mp.weixin.qq.com/s?__biz=MzA4NTQwNDcyMA==&mid=2650661516&idx=1&sn=a1328ae9bb58a14ba84faa118c421366#rd)
+
 [Swift是Android的未来么？](http://mp.weixin.qq.com/s?__biz=MzA4NTQwNDcyMA==&mid=2650661497&idx=1&sn=9ef2e103eaddfa1247d0b589151c5b72#rd)
 
 [强烈推荐MD](http://mp.weixin.qq.com/s?__biz=MzA4NTQwNDcyMA==&mid=2650661494&idx=1&sn=54e79dd517a0fb107f5b74c943c3b4d6#rd)
-
-[天朝的奇葩网络问题ppt](http://stormzhang.com/slides/china-network/#/)
 
 [天朝的奇葩网络问题ppt](http://stormzhang.com/slides/china-network/#/)
 
