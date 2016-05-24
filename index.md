@@ -9,9 +9,10 @@ categories: [Android]
 
 ## 每周推荐
 
-[公众号历史精品文章汇总](http://mp.weixin.qq.com/s?__biz=MzA4NTQwNDcyMA==&mid=503177922&idx=1&sn=6ef35c039a6564b1cec6343754a6c004&scene=19#wechat_redirect)
+[从0开始学习 GitHub 系列之「初识 GitHub」](http://mp.weixin.qq.com/s?__biz=MzA4NTQwNDcyMA==&mid=2650661735&idx=1&sn=9aceac07d272e9202d1b5294f857a5ff#rd)
 
-[Android开发如何进阶？](http://mp.weixin.qq.com/s?__biz=MzA4NTQwNDcyMA==&mid=403072488&idx=1&sn=12a1deee3c00da644ad3844032a2374f#rd)
+[你若不离不弃，我必拼尽全力！](http://mp.weixin.qq.com/s?__biz=MzA4NTQwNDcyMA==&mid=2650661716&idx=1&sn=9b5f51f8b6e6947608666cfdab219855#rd)
+
 
 [我的自学编程故事](http://mp.weixin.qq.com/s?__biz=MzA4NTQwNDcyMA==&mid=402784322&idx=1&sn=b28ae10f7f30db7918398a85923b65b5#rd)
 
