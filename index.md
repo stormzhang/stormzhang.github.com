@@ -9,7 +9,7 @@ categories: [Android]
 
 ## 每周推荐
 
-[从0开始学习 GitHub 系列之「初识 GitHub」](http://mp.weixin.qq.com/s?__biz=MzA4NTQwNDcyMA==&mid=2650661735&idx=1&sn=9aceac07d272e9202d1b5294f857a5ff#rd)
+[从0开始学习 GitHub 系列之「初识 GitHub」](http://stormzhang.com/github/2016/05/25/learn-github-from-zero1/)
 
 [你若不离不弃，我必拼尽全力！](http://mp.weixin.qq.com/s?__biz=MzA4NTQwNDcyMA==&mid=2650661716&idx=1&sn=9b5f51f8b6e6947608666cfdab219855#rd)
 
