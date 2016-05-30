@@ -8,6 +8,7 @@ tags: [GitHub]
 ---
 {% include codepiano/setup %}
 
+![](/image/github2.jpg)
 
 看完昨天的文章「[从0开始学习 GitHub 系列之「初识 GitHub」](http://stormzhang.com/github/2016/05/25/learn-github-from-zero1/)」估计不少人已经开始期待我继续更新了，这不赶紧马不停蹄，加班加点给你们更新了第二篇。在更新本篇文章之前先回答昨天大家留言的两个问题：
 
