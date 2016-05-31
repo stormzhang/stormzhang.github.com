@@ -9,9 +9,9 @@ categories: [Android]
 
 ## 每周推荐
 
-[公众号历史精品文章汇总](http://mp.weixin.qq.com/s?__biz=MzA4NTQwNDcyMA==&mid=503177922&idx=1&sn=6ef35c039a6564b1cec6343754a6c004&scene=23&srcid=0527Py9mKBRTPAWeo7GkikDO#rd)
+[[从0开始学习 GitHub 系列之「Git 速成]](http://stormzhang.com/github/2016/05/30/learn-github-fromzero3/)
 
-[从0开始学习 GitHub 系列之「初识 GitHub」](http://stormzhang.com/github/2016/05/25/learn-github-from-zero1/)
+[公众号历史精品文章汇总](http://mp.weixin.qq.com/s?__biz=MzA4NTQwNDcyMA==&mid=503177922&idx=1&sn=6ef35c039a6564b1cec6343754a6c004&scene=23&srcid=0527Py9mKBRTPAWeo7GkikDO#rd)
 
 [你若不离不弃，我必拼尽全力！](http://mp.weixin.qq.com/s?__biz=MzA4NTQwNDcyMA==&mid=2650661716&idx=1&sn=9b5f51f8b6e6947608666cfdab219855#rd)
 
