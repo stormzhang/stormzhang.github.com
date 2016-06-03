@@ -51,7 +51,7 @@ Linux/Unix 提供了很多种 Shell ，有sh、bash、csh等，你可以通过�
 
 ![](/image/zsh6.png)
 
-![](/image/zsh7.png)
+![](/image/zsh7.jpg)
 
 
 除此之外，他还支持多的令人发指的插件，默认就支持了上百种，比如 git、bundler、osx、rake、ruby 等，所以这里你几乎不用另行配置。这里也就不做过多介绍，你们自行搜索研究。反正用过之后你就爱不释手！
