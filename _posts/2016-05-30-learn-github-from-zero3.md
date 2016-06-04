@@ -173,3 +173,9 @@ OK，以上全是一些最基本的Git操作，而且全是在本地环境进行
 [从0开始学习 GitHub 系列之「初识 GitHub」](http://stormzhang.com/github/2016/05/25/learn-github-from-zero1/)
 
 [从0开始学习 GitHub 系列之「加入 GitHub」](http://stormzhang.com/github/2016/05/26/learn-github-from-zero2/)
+
+<br />
+
+> 本文原创发布于微信公众号 **AndroidDeveloper「googdev」**，转载请务必注明出处！
+
+![图片描述](/image/weixinpublic.jpg)

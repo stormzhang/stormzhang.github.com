@@ -134,7 +134,9 @@ PS：以前你们生日的时候都在我文章底下评论求祝福，我给你
 
 [从0开始学习 GitHub 系列之「Git 速成](http://stormzhang.com/github/2016/05/30/learn-github-from-zero3/)
 
+<br />
+
 > 本文原创发布于微信公众号 **AndroidDeveloper「googdev」**，转载请务必注明出处！
 
-![图片描述](/image/weixinpublic_200.png)
+![图片描述](/image/weixinpublic.jpg)
 

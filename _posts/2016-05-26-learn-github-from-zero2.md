@@ -134,4 +134,4 @@ tags: [GitHub]
 
 > 本文原创发布于微信公众号 **AndroidDeveloper「googdev」**，转载请务必注明出处！
 
-![图片描述](/image/weixinpublic_200.png)
+![图片描述](/image/weixinpublic.jpg)
