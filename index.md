@@ -9,7 +9,9 @@ categories: [Android]
 
 ## 每周推荐
 
-[[从0开始学习 GitHub 系列之「Git 速成]](http://stormzhang.com/github/2016/05/30/learn-github-fromzero3/)
+[自学编程这几点非常重要](https://zhuanlan.zhihu.com/p/21324679)
+
+[[从0开始学习 GitHub 系列之「向GitHub 提交代码]](http://stormzhang.com/github/2016/06/04/learn-github-from-zero4/)
 
 [公众号历史精品文章汇总](http://mp.weixin.qq.com/s?__biz=MzA4NTQwNDcyMA==&mid=503177922&idx=1&sn=6ef35c039a6564b1cec6343754a6c004&scene=23&srcid=0527Py9mKBRTPAWeo7GkikDO#rd)
 
