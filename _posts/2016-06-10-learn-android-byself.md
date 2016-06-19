@@ -28,3 +28,6 @@ tags: [Android]
 
 [自学Android资料大放送](http://mp.weixin.qq.com/s?__biz=MzA4NTQwNDcyMA==&mid=402468813&idx=1&sn=0e12e4e6e0f92369c0b40b150556b53d&scene=21#wechat_redirect)
 
+> 关注我的微信公众号 **AndroidDeveloper「googdev」**，第一时间获取我的原创Android干货分享以及人生感悟！
+
+![图片描述](/image/weixinpublic_200.png)

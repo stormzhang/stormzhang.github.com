@@ -21,3 +21,7 @@ tags: [GitHub]
 [从0开始学习 GitHub 系列之「Git 进阶」](http://stormzhang.com/github/2016/06/16/learn-github-from-zero5/)
 
 继续更新中...
+
+> 关注我的微信公众号 **AndroidDeveloper「googdev」**，第一时间获取文章更新以及更多原创干货分享！
+
+![图片描述](/image/weixinpublic_200.png)

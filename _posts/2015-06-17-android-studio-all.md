@@ -29,3 +29,8 @@ tags: [AndroidStudio]
 [AS技巧合集「编码技巧篇」](http://mp.weixin.qq.com/s?__biz=MzA4NTQwNDcyMA==&mid=402416974&idx=2&sn=136e2a77c9bdd2cf971143d7f35e57d2&scene=21#wechat_redirect)
 
 [AS技巧合集「调试技巧篇」](http://mp.weixin.qq.com/s?__biz=MzA4NTQwNDcyMA==&mid=402416974&idx=3&sn=3a0f99a753e7e8372cb98b696542d2cb&scene=21#wechat_redirect)
+
+
+> 关注我的微信公众号 **AndroidDeveloper「googdev」**，第一时间获取我的原创Android干货分享以及人生感悟！
+
+![图片描述](/image/weixinpublic_200.png)
