@@ -11,7 +11,7 @@ categories: [Android]
 
 [从0开始学习 GitHub 系列汇总](http://stormzhang.com/github/2016/06/19/learn-github-from-zero-summary/)
 
-[我的自学编程故事](http://mp.weixin.qq.com/s?__biz=MzA4NTQwNDcyMA==&mid=402784322&idx=1&sn=b28ae10f7f30db7918398a85923b65b5#rd)
+[我的知乎专栏 AndroidDeveloper](https://zhuanlan.zhihu.com/stormzhang)
 
 [Android开发入门教程视频](http://e.jikexueyuan.com/android.html?hmsr=stormzhang_index_word_12.07)
 
@@ -23,9 +23,9 @@ categories: [Android]
 
 [从0开始学习 GitHub 系列汇总](http://stormzhang.com/github/2016/06/19/learn-github-from-zero-summary/)
 
-[Android Studio 详细教程汇总](http://stormzhang.com/devtools/2015/06/17/android-studio-all)
+[自学 Android 编程系列](http://stormzhang.com/android/2016/06/10/learn-android-byself/)
 
-[Android学习之路--Android开发者必备教程](http://stormzhang.com/android/2014/07/07/learn-android-from-rookie)
+[Android Studio 详细教程汇总](http://stormzhang.com/devtools/2015/06/17/android-studio-all)
 
 [靠谱VPN推荐--云梯VPN](http://refyt.com/?r=a9b90a505050781a)
 
