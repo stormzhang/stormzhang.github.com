@@ -19,22 +19,15 @@ categories: [Android]
 
 <img src="/image/weixinpublic.jpg" />
 
-## Android开发必备
+## 精品文章系列
 
-* 自学Android&&Android开发必备教程
+[从0开始学习 GitHub 系列汇总](http://stormzhang.com/github/2016/06/19/learn-github-from-zero-summary/)
+
+[Android Studio 详细教程汇总](http://stormzhang.com/devtools/2015/06/17/android-studio-all)
 
 [Android学习之路--Android开发者必备教程](http://stormzhang.com/android/2014/07/07/learn-android-from-rookie)
 
-* 靠谱VPN推荐
-
-俗话说，不会翻墙的程序员不是好程序员，尤其作为Android开发，连SDK的下载都需要翻墙，这里推荐一个靠谱的VPN吧，支持多设备MAC, Windows, Android, iPhone等， 如果和小伙伴们一起合买的话每月只要几块钱，圈内的朋友们都在用，如果你通过下面链接购买的话，你和我的账户都会增加10元钱。
-
-[云梯VPN](http://refyt.com/?r=a9b90a505050781a)
-
-## 精品文章系列
-
-[Android Studio详细教程汇总](http://stormzhang.com/devtools/2015/06/17/android-studio-all)
-
+[靠谱VPN推荐--云梯VPN](http://refyt.com/?r=a9b90a505050781a)
 
 ## 微信公众号近期文章
 
