@@ -9,7 +9,7 @@ categories: [Android]
 
 ## 每周推荐
 
-[公众号历史精品文章汇总](http://mp.weixin.qq.com/s?__biz=MzA4NTQwNDcyMA==&mid=503177922&idx=1&sn=6ef35c039a6564b1cec6343754a6c004&scene=23&srcid=0527Py9mKBRTPAWeo7GkikDO#rd)
+[从0开始学习 GitHub 系列汇总](http://stormzhang.com/github/2016/06/19/learn-github-from-zero-summary/)
 
 [我的自学编程故事](http://mp.weixin.qq.com/s?__biz=MzA4NTQwNDcyMA==&mid=402784322&idx=1&sn=b28ae10f7f30db7918398a85923b65b5#rd)
 
@@ -36,6 +36,8 @@ categories: [Android]
 [我面试到底问什么？](http://mp.weixin.qq.com/s?__biz=MzA4NTQwNDcyMA==&mid=2650661871&idx=1&sn=158c380826bb9138fdb2976152dc279b#rd)
 
 [自学编程这几点非常重要](http://mp.weixin.qq.com/s?__biz=MzA4NTQwNDcyMA==&mid=2650661865&idx=1&sn=085e2be66714763b5550c54e9253883a#rd)
+
+[公众号历史精品文章汇总](http://mp.weixin.qq.com/s?__biz=MzA4NTQwNDcyMA==&mid=503177922&idx=1&sn=6ef35c039a6564b1cec6343754a6c004&scene=23&srcid=0527Py9mKBRTPAWeo7GkikDO#rd)
 
 <!-- <a href="http://m.jianxun.io/event/2?from=stormzhang"><img src="http://www.jianxun.io/ad/20151101/eventno2-stormzhang-banner.png" /></a> -->
 
