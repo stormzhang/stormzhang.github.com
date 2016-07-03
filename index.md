@@ -9,7 +9,7 @@ categories: [Android]
 
 ## 每周推荐
 
-[从0开始学习 GitHub 系列汇总](http://stormzhang.com/github/2016/06/19/learn-github-from-zero-summary/)
+[给 Android 初学者的 Gradle 知识普及](http://stormzhang.com/android/2016/07/02/gradle-for-android-beginners/)
 
 [我的知乎专栏 AndroidDeveloper](https://zhuanlan.zhihu.com/stormzhang)
 
