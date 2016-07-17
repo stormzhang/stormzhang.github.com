@@ -2,11 +2,9 @@
 layout: post
 keywords: blog
 description: blog
-title: "android gradle confid"
-categories: [Archive]
-tags: [Archive]
-group: archive
-icon: file-alt
+title: "Android 开发你需要了解的 Gradle 配置"
+categories: [Android]
+tags: [Gradle]
 ---
 {% include codepiano/setup %}
 
@@ -52,7 +50,7 @@ icon: file-alt
 我们先来看下 dependencies 节点，dependencies 是 denpendency 的复数，意为依赖的意思，所以这里就是用来管理依赖的地方。这里以我的开源项目 9GAG 为例，依赖一般有三种：    
 
    
-
+![图片描述](/image/dependencies.png)
    
 
 我们知道我们可以在 AS 中直接依赖 jar 文件，靠的就是这行代码 compile fileTree(dir: 'libs', include: ['*.jar']) ，意思是编译 libs 目录下的所有 jar 包，当然你可以更改这个目录。    
@@ -69,13 +67,13 @@ icon: file-alt
 以上两个节点都相对简单点，这个节点是跟项目配置紧密相关的，简单有简单的配置方法，复杂也有复杂的配置方法，这里我先列举一些项目常用的配置，并且加上了注释方便大家理解：    
 
    
-
+![图片描述](/image/gradle-android1.png)
 
    
 这部分应该比较简单，没有不理解的吧?就不过多解释了。    
 
    
-
+![图片描述](/image/gradle-android2.png)
    
 
 buildTypes 意为编译类型，这里声明了 debug 和 release 两种类型，当然你也可以声明其他类型，名字随意取，可以看到 debug 和 release 两种类型签名所用的配置不一样，这个配置具体详细也就是在上部分 signingConfigs 节点指定的，那里面的一些密码信息是在你生成 keystore 文件时设置的。    
@@ -95,24 +93,24 @@ buildTypes 意为编译类型，这里声明了 debug 和 release 两种类型�
 还有一个最大的问题是目录结构，我们知道 Eclipse 上的目录结构是:    
  
 demo    
-        |-- app    
-                 |--libs    
-                 |--src    
-                 |--res    
+    |--app    
+         |--libs    
+         |--src    
+         |--res    
 
 而 AS 上的项目结构是：    
 
 demo    
-       |--libs    
-       |--src    
-               |--main    
-                          |--java    
-                          |--res    
+   |--libs    
+   |--src    
+       |--main    
+              |--java    
+              |--res    
 
 所以如果不想对目录结构进行更改的话，直接用上面 gradle 脚本进行构建会失败，而这时候你需要添加如下配置：    
 
    
-
+![图片描述](/image/gradle-android3.png)
    
 
 上面也没啥解释的，就是手动指定编译对应的目录，相信大家看得懂。    
@@ -121,10 +119,11 @@ demo
 
 当然 Gradle 的配置不止以上介绍的，还有其他配置，如忽略 Lint 的检查报错，打包的时候忽略一些文件、指定 Java 版本等：    
 
-   
+![图片描述](/image/gradle-android4.png)   
 
      
 这些问题不必太在意，一般你在编译或者打包出错的时候 gradle 会提示你什么错误的，按照提示进行修改就行了。    
 
    
 最后，实际项目中 Gradle 的配置与使用远不止如此，这篇文章先教给大家一些项目中最通用的一些配置，让大家对基本的配置理解了，后续再介绍一些其他有用的配置以及一些进阶的用法！    
+
