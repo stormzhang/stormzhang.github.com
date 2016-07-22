@@ -119,6 +119,10 @@ Evernote出品，这个强烈推荐！！不管你是用Evernote记笔记也好�
 
 ![LastPass](https://segmentfault.com/img/bVsK8d)
 
+16、[掘金](https://chrome.google.com/webstore/detail/%E6%8E%98%E9%87%91/lecdifefmmfjnjjinhaennhdlmcaeeeb/related)
+
+掘金，一款高质量的技术分享社区。
+
 以上，呕心沥血，良心推荐，不转发和点赞真心说不过去！
 
 请大家继续关注我，关注我的干货分享。
