@@ -12,6 +12,8 @@ tags: [AndroidDeveloper]
 
 - [国内一线互联网公司内部面试题库](https://github.com/JackyAndroid/AndroidInterview-Q-A/blob/master/README-CN.md)
 
+- [Android存储系统之架构篇](http://gityuan.com/2016/07/23/android-io-arch/)
+
 - [贝塞尔曲线开发的艺术](http://blog.csdn.net/eclipsexys/article/details/51956908)
 
 - [Android：学习AIDL，这一篇文章就够了](http://blog.csdn.net/luoyanglizi/article/details/51980630)
