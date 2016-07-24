@@ -16,6 +16,8 @@ tags: [AndroidDeveloper]
 
 - [Android：学习AIDL，这一篇文章就够了](http://blog.csdn.net/luoyanglizi/article/details/51980630)
 
+- [从零开始打造一个Android 3D立体旋转容器](http://blog.csdn.net/Mr_immortalZ/article/details/51918560)
+
 - [属性动画ValueAnimator在自定义View中的使用](http://mafei.site/2016/07/17/android-valueanimator/)
 
 
@@ -27,7 +29,7 @@ tags: [AndroidDeveloper]
 
 ![](https://raw.githubusercontent.com/dinuscxj/LoadingDrawable/master/Preview/ShapeChangeDrawable.gif)
 
-![](https://raw.githubusercontent.com/dinuscxj/LoadingDrawable/master/Preview/CircleRotateDrawable.gif)
+![](https://raw.githubusercontent.com/dinuscxj/LoadingDrawable/master/Preview/GoodsDrawable.gif)
 
 ![](https://raw.githubusercontent.com/dinuscxj/LoadingDrawable/master/Preview/CircleRotateDrawable.gif)
 
@@ -35,7 +37,7 @@ tags: [AndroidDeveloper]
 
 酷炫的碎纸机动画。
 
-![](https://github.com/ldoublem/PaperShredder/blob/master/screenshot/1.gif)
+![](https://github.com/ldoublem/PaperShredder/raw/master/screenshot/1.gif)
 
 - [ScrollNumber](https://github.com/a-voyager/ScrollNumber)
 
@@ -50,11 +52,6 @@ Android水波动画帮助类，一行代码实现View显示/隐藏/startActivity
 
 ![](https://camo.githubusercontent.com/895f0065aa1d9c993569619853c81180c5d2658e/68747470733a2f2f6431337961637572716a676172612e636c6f756466726f6e742e6e65742f75736572732f36323331392f73637265656e73686f74732f313934353539332f73686f742e676966)
 
-- [StereoView](https://github.com/ImmortalZ/StereoView)
-
-Android 3D立体无限旋转滚动容器
-
-![](https://camo.githubusercontent.com/dc86ed6f966895ef1e343efc5cc7fd0469ec33c1/687474703a2f2f696d672e626c6f672e6373646e2e6e65742f3230313630373135313535343532303530)
 
 - [MarqueeLayoutLibrary](https://github.com/oubowu/MarqueeLayoutLibrary)
 
