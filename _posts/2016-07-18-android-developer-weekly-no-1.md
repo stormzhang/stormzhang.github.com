@@ -95,8 +95,11 @@ Material Deisgn 的菜单展示风格，效果相当赞！
 [https://www.zhihu.com/question/48381465](https://www.zhihu.com/question/48381465)
 
 
+<br />
 
+> 本文原创发布于微信公众号 **AndroidDeveloper「googdev」**，转载请务必注明出处！
 
+![图片描述](/image/weixinpublic.jpg)
 
 
 
