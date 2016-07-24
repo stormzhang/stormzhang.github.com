@@ -3,8 +3,8 @@ layout: post
 keywords: blog
 description: blog
 title: "Android 推送到底哪家强"
-categories: [Archive]
-tags: [Archive]
+categories: [Android]
+tags: [Android, Push]
 group: archive
 icon: file-alt
 ---
