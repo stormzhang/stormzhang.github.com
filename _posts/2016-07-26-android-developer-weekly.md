@@ -10,9 +10,9 @@ tags: [AndroidDeveloper]
 
 这是我自己总结的 AndroidDeveloper Weekly 系列，这里做个汇总，方便读者查看。
 
-[AndroidDeveloper Weekly No.2 - 2016/07/25](http://stormzhang.com/weekly/2016/07/25/android-developer-weekly-no-2/)
+- [AndroidDeveloper Weekly No.2 - 2016/07/25](http://stormzhang.com/weekly/2016/07/25/android-developer-weekly-no-2/)
 
-[AndroidDeveloper Weekly No.1 - 2016/07/18](http://stormzhang.com/weekly/2016/07/18/android-developer-weekly-no-1/)
+- [AndroidDeveloper Weekly No.1 - 2016/07/18](http://stormzhang.com/weekly/2016/07/18/android-developer-weekly-no-1/)
 
 <br />
 

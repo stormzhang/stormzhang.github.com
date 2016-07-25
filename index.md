@@ -9,6 +9,8 @@ categories: [Android]
 
 ## 每周推荐
 
+[AndroidDeveloper Weekly No.2](http://stormzhang.com/weekly/2016/07/25/android-developer-weekly-no-2/)
+
 [给 Android 初学者的 Gradle 知识普及](http://stormzhang.com/android/2016/07/02/gradle-for-android-beginners/)
 
 [我的知乎专栏 AndroidDeveloper](https://zhuanlan.zhihu.com/stormzhang)
@@ -18,6 +20,8 @@ categories: [Android]
 <img src="/image/weixinpublic.jpg" />
 
 ## 精品文章系列
+
+[AndroidDeveloper Weekly 系列](http://stormzhang.com/weekly/2016/07/26/android-developer-weekly/)
 
 [从0开始学习 GitHub 系列汇总](http://stormzhang.com/github/2016/06/19/learn-github-from-zero-summary/)
 
