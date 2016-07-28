@@ -3,10 +3,8 @@ layout: post
 keywords: blog
 description: blog
 title: "从0开始学习 GitHub 系列之「团队合作利器 Branch」"
-categories: [Archive]
-tags: [Archive]
-group: archive
-icon: file-alt
+categories: [GitHub]
+tags: [GitHub]
 ---
 {% include codepiano/setup %}
 
