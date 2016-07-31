@@ -9,6 +9,8 @@ categories: [Android]
 
 ## 每周推荐
 
+[如何发现优秀的开源项目？](http://stormzhang.com/github/2016/07/28/learn-github-from-zero7/)
+
 [AndroidDeveloper Weekly No.2](http://stormzhang.com/weekly/2016/07/25/android-developer-weekly-no-2/)
 
 [给 Android 初学者的 Gradle 知识普及](http://stormzhang.com/android/2016/07/02/gradle-for-android-beginners/)
