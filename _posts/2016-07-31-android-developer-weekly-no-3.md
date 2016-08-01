@@ -40,6 +40,12 @@ CNode社区第三方Android客户端，原生App，Material Design风格，支�
 
 ![](https://github.com/TakWolf/CNode-Material-Design/raw/develop/art/banner-1024-500.png)
 
+- [Tinker_imitator](https://github.com/zzz40500/Tinker_imitator)
+
+微信热更新方案实践
+
+![](https://raw.githubusercontent.com/zzz40500/Tinker_imitator/master/screenshot/img.png)
+
 - [SeatTable](https://github.com/qifengdeqingchen/SeatTable)
 
 电影票在线选座
