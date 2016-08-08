@@ -9,11 +9,11 @@ categories: [Android]
 
 ## 每周推荐
 
+[AndroidDeveloper Weekly No.4](http://stormzhang.com/weekly/2016/08/08/android-developer-weekly-no-4/)
+
 [Android开源项目推荐之「网络请求哪家强」](http://stormzhang.com/opensource/2016/08/05/android-open-source-project-recommend2/)
 
 [如何发现优秀的开源项目？](http://stormzhang.com/github/2016/07/28/learn-github-from-zero7/)
-
-[AndroidDeveloper Weekly No.3](http://stormzhang.com/weekly/2016/07/31/android-developer-weekly-no-3/)
 
 [给 Android 初学者的 Gradle 知识普及](http://stormzhang.com/android/2016/07/02/gradle-for-android-beginners/)
 
