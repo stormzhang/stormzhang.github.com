@@ -26,7 +26,7 @@ tags: [AndroidDeveloper]
 
 可能是最接近微信朋友圈的图片压缩算法
 
-![](/image/pic_zip.png)
+<img src="/image/pic_zip.png" />
 
 - [MaterialLogin](https://github.com/fanrunqi/MaterialLogin)
 
