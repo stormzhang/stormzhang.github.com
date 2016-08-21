@@ -12,7 +12,7 @@ tags: [Android]
 
 先举个例子，我们在 Android 开发中输入 Toast ，然后会有如下如下的快速操作：
 
-<img />
+![](/image/live_templates1.gif)
 
 是不是很方便？
 
@@ -22,7 +22,7 @@ tags: [Android]
 
 打开设置->Editor->Live Templates ，可以看到默认已经有很多 Live Templates 了，可以看下我的截图 Android 分类下有如下这些模板：
 
-<img />
+![](/image/live_templates2.png)
 
 你都可以输入那些快捷方式来启用这些模板，比如快速定义一个常量，快速设置 View 为 gone ，快速启动一个 Activity 等，那具体是如何实现的呢？我们不妨点击 starter ，有如下代码：
 
