@@ -2,7 +2,7 @@
 layout: post
 keywords: blog
 description: blog
-title: "让你变懒的 Android Live Template"
+title: "让你变懒的 Android Studio Live Template"
 categories: [Android]
 tags: [Android]
 ---
