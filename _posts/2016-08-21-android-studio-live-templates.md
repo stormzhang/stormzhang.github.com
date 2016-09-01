@@ -74,7 +74,7 @@ public static $CLASS$ getInstance() {
 
 ![](/image/live_templates3.png)
 
-紧接着，我们需要给变量 *$CLASS$* 定义类型，这里的 *CLASS* 名字随意取的，为了可读性而已，你高兴可以取名 *abc* ，真正给这个变量定义类型的是点击 *Edit variables* 按钮，来对该变量进行编辑，我们选择 *calssName()* 选项，可以看到还有其他选项，但是看名字大家大概就猜到什么含义了，这里就不一一解释了。
+紧接着，我们需要给变量 *$CLASS$* 定义类型，这里的 *CLASS* 名字随意取的，为了可读性而已，你高兴可以取名 *abc* ，真正给这个变量定义类型的是点击 *Edit variables* 按钮，来对该变量进行编辑，我们选择 *className()* 选项，可以看到还有其他选项，但是看名字大家大概就猜到什么含义了，这里就不一一解释了。
 
 ![](/image/live_templates4.png)
 
